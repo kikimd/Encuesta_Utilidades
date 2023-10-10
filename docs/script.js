@@ -339,10 +339,8 @@ document.getElementById('hom').addEventListener('change', function() {
         homDiv.forEach(element => {
             element.style.display = 'block';
         });
-    } 
-    else {
-        homDiv.forEach(element => {
-            element.style.display = 'none';
-        });
     }
 });
+
+// ----- Cabello ----- //
+
