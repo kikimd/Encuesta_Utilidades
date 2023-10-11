@@ -344,3 +344,92 @@ document.getElementById('hom').addEventListener('change', function() {
 
 // ----- Cabello ----- //
 
+// ----- Uñas ----- //
+document.getElementById('uñas').addEventListener('change', function() {
+    const uñasDiv = document.querySelector('.uñas');
+
+    if (this.value === 'si') {
+        uñasDiv.style.display = 'block';
+    } 
+    else {
+        uñasDiv.style.display = 'none';  // Asegúrate de ocultar la otra sección
+    }
+});
+
+    document.getElementById('cortauñas').addEventListener('change', function() {
+        const costos1Div = document.getElementById('costos1');
+        const tiempo1Div = document.getElementById('tiempo1');
+
+        if (this.value === 'si') {
+            costos1Div.classList.remove('oculto');
+            tiempo1Div.classList.remove('oculto');
+        } else {
+            costos1Div.classList.add('oculto');
+            tiempo1Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('limapapel').addEventListener('change', function() {
+        const costos2Div = document.getElementById('costos2');
+        const tiempo2Div = document.getElementById('tiempo2');
+
+        if (this.value === 'si') {
+            costos2Div.classList.remove('oculto');
+            tiempo2Div.classList.remove('oculto');
+        } else {
+            costos2Div.classList.add('oculto');
+            tiempo2Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('pulidor').addEventListener('change', function() {
+        const costos4Div = document.getElementById('costos4');
+        const tiempo4Div = document.getElementById('tiempo4');
+
+        if (this.value === 'si') {
+            costos4Div.classList.remove('oculto');
+            tiempo4Div.classList.remove('oculto');
+        } else {
+            costos4Div.classList.add('oculto');
+            tiempo4Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('cepillouñas').addEventListener('change', function() {
+        const costos6Div = document.getElementById('costos6');
+        const tiempo6Div = document.getElementById('tiempo6');
+
+        if (this.value === 'si') {
+            costos6Div.classList.remove('oculto');
+            tiempo6Div.classList.remove('oculto');
+        } else {
+            costos6Div.classList.add('oculto');
+            tiempo6Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('alicate').addEventListener('change', function() {
+        const costos7Div = document.getElementById('costos7');
+        const tiempo7Div = document.getElementById('tiempo7');
+
+        if (this.value === 'si') {
+            costos7Div.classList.remove('oculto');
+            tiempo7Div.classList.remove('oculto');
+        } else {
+            costos7Div.classList.add('oculto');
+            tiempo7Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('palitos').addEventListener('change', function() {
+        const costos8Div = document.getElementById('costos8');
+        const tiempo8Div = document.getElementById('tiempo8');
+
+        if (this.value === 'si') {
+            costos8Div.classList.remove('oculto');
+            tiempo8Div.classList.remove('oculto');
+        } else {
+            costos8Div.classList.add('oculto');
+            tiempo8Div.classList.add('oculto');
+        }
+    });
