@@ -24,9 +24,12 @@ app.post('/guardar_datos', async (req, res) => {
     // Conéctate a la base de datos
     const pool = await sql.connect(dbConfig);
 
+    // Realiza una consulta
+    const result = await sql.query('SELECT * FROM Encuesta_prueba');
+
     // Ejecuta una consulta SQL para insertar datos en la tabla
-    const query = `INSERT INTO Encuesta_prueba (nombre, apellido) VALUES ('${nombre}', '${apellido}')`;
-    await pool.request().query(query);
+    //const query = `INSERT INTO Encuesta_prueba (nombre, apellido) VALUES ('${nombre}', '${apellido}')`;
+    //await pool.request().query(query);
 
     // Cierra la conexión
     await pool.close();
