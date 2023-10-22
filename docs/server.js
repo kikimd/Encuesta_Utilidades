@@ -15,12 +15,15 @@ const dbConfig = {
   database: 'bdanalisiscostos',
 };
 
+
 // Ruta para manejar solicitudes GET en la raíz de la aplicación
 app.get('/', (req, res) => {
-  // Aquí puedes devolver una respuesta o renderizar una página HTML
-  // para la ruta raíz si es necesario.
-  res.send('Bienvenido a la página principal');
+  // Debes enviar la página HTML que contiene el formulario de encuesta aquí.
+  // Por ejemplo:
+  res.sendFile(__dirname + '/encuesta_prueba.html');
 });
+
+
 
 // Ruta para manejar la inserción de datos desde la encuesta
 app.post('/guardar_datos', async (req, res) => {
