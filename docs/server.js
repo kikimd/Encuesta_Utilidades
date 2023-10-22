@@ -15,6 +15,13 @@ const dbConfig = {
   database: 'bdanalisiscostos',
 };
 
+// Ruta para manejar solicitudes GET en la raíz de la aplicación
+app.get('/', (req, res) => {
+  // Aquí puedes devolver una respuesta o renderizar una página HTML
+  // para la ruta raíz si es necesario.
+  res.send('Bienvenido a la página principal');
+});
+
 // Ruta para manejar la inserción de datos desde la encuesta
 app.post('/guardar_datos', async (req, res) => {
   const nombre = req.body.nombre;
@@ -22,17 +29,14 @@ app.post('/guardar_datos', async (req, res) => {
 
   try {
     // Conéctate a la base de datos
-    const pool = await sql.connect(dbConfig);
-
-    // Realiza una consulta
-    const result = await sql.query('SELECT * FROM Encuesta_prueba');
+    const pool = await new sql.ConnectionPool(dbConfig).connect();
 
     // Ejecuta una consulta SQL para insertar datos en la tabla
-    //const query = `INSERT INTO Encuesta_prueba (nombre, apellido) VALUES ('${nombre}', '${apellido}')`;
-    //await pool.request().query(query);
+    const query = `INSERT INTO Encuesta_prueba (nombre, apellido) VALUES ('${nombre}', '${apellido}')`;
+    const result = await pool.request().query(query);
 
     // Cierra la conexión
-    await pool.close();
+    pool.close();
 
     res.status(200).json({ message: 'Datos guardados exitosamente' });
   } catch (error) {
