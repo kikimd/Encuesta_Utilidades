@@ -1,6 +1,13 @@
-const http = require('http');
+const express = require('express');
+const bodyParser = require('body-parser');
 const sql = require('mssql');
 
+const app = express();
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+// Configuración de conexión a la base de datos
 const dbConfig = {
   user: 'dbadmin',
   password: 'SC123456789*',
@@ -8,26 +15,30 @@ const dbConfig = {
   database: 'bdanalisiscostos',
 };
 
-const server = http.createServer(async (req, res) => {
+// Ruta para manejar la inserción de datos desde la encuesta
+app.post('/guardar_datos', async (req, res) => {
+  const nombre = req.body.nombre;
+  const apellido = req.body.apellido;
+
   try {
     // Conéctate a la base de datos
-    await sql.connect(dbConfig);
-    console.log('Conexión a la base de datos exitosa');
+    const pool = await sql.connect(dbConfig);
 
-    // Realiza una consulta
-    const result = await sql.query('SELECT * FROM respuestas');
+    // Ejecuta una consulta SQL para insertar datos en la tabla
+    const query = `INSERT INTO Encuesta_prueba (nombre, apellido) VALUES ('${nombre}', '${apellido}')`;
+    await pool.request().query(query);
 
-    // Maneja las solicitudes aquí
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify(result.recordset)); // Envia la respuesta con los resultados de la consulta
-  } catch (err) {
-    console.error('Error al conectar a la base de datos:', err);
-    res.writeHead(500, { 'Content-Type': 'text/plain' });
-    res.end('Error al conectar a la base de datos MSSQL');
+    // Cierra la conexión
+    await pool.close();
+
+    res.status(200).json({ message: 'Datos guardados exitosamente' });
+  } catch (error) {
+    console.error('Error al insertar datos en la base de datos:', error);
+    res.status(500).json({ error: 'Error al insertar datos en la base de datos' });
   }
 });
 
-const PORT = 3000; // Puerto en el que se ejecutará el servidor
-server.listen(PORT, '0.0.0.0', () => {
+const PORT = 3000;
+app.listen(PORT, () => {
   console.log(`Servidor en ejecución en el puerto ${PORT}`);
 });
