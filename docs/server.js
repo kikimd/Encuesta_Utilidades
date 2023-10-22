@@ -28,6 +28,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 const PORT = 3000; // Puerto en el que se ejecutará el servidor
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`Servidor en ejecución en el puerto ${PORT}`);
 });
