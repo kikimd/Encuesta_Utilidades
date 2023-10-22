@@ -7,38 +7,35 @@ document.addEventListener("DOMContentLoaded", function () {
         const nombre = document.getElementById("nombre").value;
         const apellido = document.getElementById("apellido").value;
 
-        // Aquí puedes enviar los datos al servidor o hacer lo que necesites con ellos
-        console.log("Nombre: " + nombre);
-        console.log("Apellido: " + apellido);
-
-        // Luego de procesar los datos, puedes enviarlos al servidor a través de una solicitud AJAX
+        // Aquí puedes enviar los datos al servidor
         enviarDatosAlServidor(nombre, apellido);
     });
 });
 
 function enviarDatosAlServidor(nombre, apellido) {
-    // En lugar de usar mssql en el navegador, aquí se enviarían los datos al servidor para su procesamiento en el lado del servidor.
-    // Puedes usar una solicitud AJAX para enviar los datos a un servidor que tenga acceso a la base de datos.
+    // Configura la solicitud AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "/guardar_datos");
+    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
-    // Ejemplo de una solicitud AJAX utilizando Fetch API (puede adaptarse a tu backend):
-    fetch('/guardar_datos', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ nombre, apellido }),
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Datos enviados con éxito:', data);
-    })
-    .catch(error => {
-        console.error('Error al enviar datos:', error);
-    });
+    // Crea un objeto con los datos a enviar
+    const datos = {
+        nombre: nombre,
+        apellido: apellido
+    };
+
+    // Convierte los datos a formato JSON
+    const datosJSON = JSON.stringify(datos);
+
+    // Define una función para manejar la respuesta del servidor
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            console.log('Datos enviados con éxito:', xhr.responseText);
+        } else {
+            console.error('Error al enviar datos:', xhr.statusText);
+        }
+    };
+
+    // Envía la solicitud con los datos en formato JSON
+    xhr.send(datosJSON);
 }
-//Este código agrega la función enviarDatosAlServidor que utiliza Fetch API para enviar los datos al servidor. Debes asegurarte de que el servidor esté configurado para manejar esta solicitud POST en la ruta /guardar_datos y que la lógica del servidor inserte los datos en la base de datos.
-
-
-
-
-
