@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const request = new sql.Request();
         
                     // Consulta SQL para insertar los datos en la tabla "Encuesta"
-                    request.query(`INSERT INTO Encuesta (Nombre, Apellido) VALUES ('${nombre}', '${apellido}')`, (err, result) => {
+                    request.query(`INSERT INTO Encuesta_prueba (Nombre, Apellido) VALUES ('${nombre}', '${apellido}')`, (err, result) => {
                         if (err) {
                             console.error('Error al insertar datos:', err);
                         } else {
