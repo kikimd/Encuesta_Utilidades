@@ -15,7 +15,7 @@ const server = http.createServer(async (req, res) => {
     console.log('Conexión a la base de datos exitosa');
 
     // Realiza una consulta
-    const result = await sql.query('SELECT * FROM resultados');
+    const result = await sql.query('SELECT * FROM respuestas');
 
     // Maneja las solicitudes aquí
     res.writeHead(200, { 'Content-Type': 'application/json' });
