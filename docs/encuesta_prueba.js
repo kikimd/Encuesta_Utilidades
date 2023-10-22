@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const sql = require('mssql');
 
         const config = {
-            user: 'tu_usuario',
-            password: 'tu_contraseña',
-            server: 'tu_servidor',
-            database: 'tu_base_de_datos'
+            user: 'dbadmin',
+            password: 'SC123456789*',
+            server: 'sistemascontrolserver.database.windows.net',
+            database: 'bdanalisiscostos',
         };
         
         document.addEventListener("DOMContentLoaded", function () {
