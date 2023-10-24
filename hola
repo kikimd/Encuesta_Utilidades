@@ -1,0 +1,132 @@
+                        <label for="hom1"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom1" name="hom">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre1">Hombre</option>
+                            <option value="mujer1">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre1 seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre2">¿El costo varía?</label>
+                            <select id="hombre2" name="hombre2">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterioh1" class="oculto">
+                                    <label for="criterioh1">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterioh1" name="criterioh1">
+                                </div>
+                                
+                                <div id="rangoh1" class="oculto">
+                                    <label for="rangoh1">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangoh1" name="rangoh1">
+                                </div>
+
+                                <div id="costoh1" class="oculto">
+                                    <label for="costoh1">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh1" name="costoh1">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer1 seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer2">¿El costo varía?</label>
+                            <select id="mujer2" name="mujer2">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom1" class="oculto">
+                                    <label for="criteriom1">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom1" name="criteriom1">
+                                </div>
+                                
+                                <div id="rangom1" class="oculto">
+                                    <label for="rangom1">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom1" name="rangom1">
+                                </div>
+
+                                <div id="costom1" class="oculto">
+                                    <label for="costom1">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom1" name="costom1">
+                                </div>
+                        </fieldset>
+
+
+                    document.getElementById('hom1').addEventListener('change', function() {
+    const hom1Div = document.querySelector('.hombre1');
+
+    if (this.value === 'hombre1') {
+        hom1Div.style.display = 'block';
+    } 
+    else {
+        hom1Div.style.display = 'none';  // Asegúrate de ocultar la otra sección
+    }
+});
+
+document.getElementById('hombre2').addEventListener('change', function() {
+    const criterioh1Div = document.getElementById('criterioh1');
+    const rangoh1Div = document.getElementById('rangoh1');
+    const costoh1Div = document.getElementById('costoh1');
+
+    if (this.value === 'si') {
+        criterioh1Div.classList.remove('oculto');
+        rangoh1Div.classList.remove('oculto');
+        costoh1Div.classList.add('oculto');
+    } else if (this.value === 'no') {
+        criterioh1Div.classList.add('oculto');
+        rangoh1Div.classList.add('oculto');
+        costoh1Div.classList.remove('oculto');
+    } else {
+        criterioh1Div.classList.add('oculto');
+        rangoh1Div.classList.add('oculto');
+        costoh1Div.classList.add('oculto');
+    }
+});
+
+document.getElementById('hom1').addEventListener('change', function() {
+    const hom1Div = document.querySelector('.mujer1');
+
+    if (this.value === 'mujer1') {
+        hom1Div.style.display = 'block';
+    } 
+    else {
+        hom1Div.style.display = 'none';  // Asegúrate de ocultar la otra sección
+    }
+});
+
+document.getElementById('mujer2').addEventListener('change', function() {
+    const criteriomDiv = document.getElementById('criteriom1');
+    const rangomDiv = document.getElementById('rangom1');
+    const costomDiv = document.getElementById('costom1');
+
+    if (this.value === 'si') {
+        criteriomDiv.classList.remove('oculto');
+        rangomDiv.classList.remove('oculto');
+        costomDiv.classList.add('oculto');
+    } else if (this.value === 'no') {
+        criteriomDiv.classList.add('oculto');
+        rangomDiv.classList.add('oculto');
+        costomDiv.classList.remove('oculto');
+    } else {
+        criteriomDiv.classList.add('oculto');
+        rangomDiv.classList.add('oculto');
+        costomDiv.classList.add('oculto');
+    }
+});
+
+document.getElementById('hom1').addEventListener('change', function() {
+    const hom1Div = document.querySelectorAll('.hombre1, .mujer1');
+
+    if (this.value === 'ambos') {
+        hom1Div.forEach(element => {
+            element.style.display = 'block';
+        });
+    }    
+});
