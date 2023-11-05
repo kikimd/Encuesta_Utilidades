@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const estado = document.getElementById('estado').value;
             const ciudad = document.getElementById('ciudad').value;
             const colonia = document.getElementById('colonia').value;
+            const rubro = document.getElementById('rubro').value;
 
-            enviarProductoHojaCalculo(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia);
+            enviarProductoHojaCalculo(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia, rubro);
         } else if (rubroSeleccionado === 'textil') {
             window.location.href = 'Textil/textil.html';
             const nombre = document.getElementById('nombre').value;
@@ -30,14 +31,15 @@ document.addEventListener('DOMContentLoaded', function() {
             const estado = document.getElementById('estado').value;
             const ciudad = document.getElementById('ciudad').value;
             const colonia = document.getElementById('colonia').value;
+            const rubro = document.getElementById('rubro').value;
 
-            enviarProductoHojaCalculo(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia);
+            enviarProductoHojaCalculo(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia, rubro);
         }
         alert("Información enviada con éxito.");
     });
 });
 
-async function enviarProductoHojaCalculo(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia) {
+async function enviarProductoHojaCalculo(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia, rubro) {
     try {
         const respuesta = await fetch('https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893', {
             method: 'POST',
@@ -55,7 +57,8 @@ async function enviarProductoHojaCalculo(nombre, edad, correo, telefono, resulta
                 "Nombre de la Empresa": nombre_empresa,
                 "Estado": estado,
                 "Ciudad": ciudad,
-                "Colonia": colonia             
+                "Colonia": colonia,
+                "Rubro": rubro           
             })
         });
 
