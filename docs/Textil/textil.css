@@ -21,24 +21,20 @@ h2 {
     font-weight: 500; /* Si deseas que sea Thin 100 */
 }
 
-/* Estilo del botón de inicio de sesión */
-.login-button a {
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: #FF975E; /* Cambia este color según tus preferencias */
-    color: #fff;
-    border-radius: 10px;
-    font-size: 15px;
+h3 {
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500; /* Si deseas que sea Thin 100 */
+    color: #FF975E;
 }
 
-.login-button a:hover {
+
+input[type="submit"]:hover {
     background-color: #FF7F55; /* Cambia este color según tus preferencias */
 }
 
+
 form {
     width: 500px;
-    height: 660px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -54,18 +50,17 @@ label, input, select {
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FF975E; /* Cambia este color según tus preferencias */
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #FF7F55; /* Cambia este color según tus preferencias */
 }
 
 .oculto {

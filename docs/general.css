@@ -21,8 +21,15 @@ h2 {
     font-weight: 500; /* Si deseas que sea Thin 100 */
 }
 
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500; /* Si deseas que sea Thin 100 */
+    color: #FF975E;
+}
+
 /* Estilo del botón de inicio de sesión */
-.login-button a {
+#siguiente {
+    margin-top: 30px;
     text-decoration: none;
     padding: 10px 20px;
     background-color: #FF975E; /* Cambia este color según tus preferencias */
@@ -32,13 +39,13 @@ h2 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.login-button a:hover {
+#siguiente:hover {
     background-color: #FF7F55; /* Cambia este color según tus preferencias */
 }
 
 form {
     width: 500px;
-    height: 660px;
+    height: 1070px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;

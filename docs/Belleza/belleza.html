@@ -1,0 +1,3092 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="belleza.css">
+</head>
+<body>
+    <h1>Sección Salud, Belleza y Bienestar</h1>    
+    <form id="encuestaForm">
+            <label for="servicios">Mayormente los servicios que comercializa su empresa son para el cuidado de:</label>
+            <select id="servicios" name="servicios">
+                <option value="elegir">Elija una respuesta</option>
+                <option value="belleza1">Belleza</option>
+                <option value="salud1">Salud</option>
+                <option value="bienestar1">Bienestar</option>
+            </select>
+            
+            <fieldset class="belleza1 seccion">
+                <legend><h4>Subsección Belleza</h4></legend>
+                
+                De los siguientes servicios responda "Sí" a aquellos que su empresa ofrece:
+
+                <label for="cabello">Corte de cabello:</label>
+                <select id="cabello" name="cabello">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+
+                <fieldset class="cabello seccion">
+                    <legend><h4>Cabello</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+
+                    <label for="tijeras1">Tijeras de corte microdentado:</label>
+                    <select id="tijeras1" name="tijeras1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costost1" class="oculto">
+                            <label for="costost1">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costost1" name="costost1">
+                        </div>
+                        
+                        <div id="tiempot1" class="oculto">
+                            <label for="tiempot1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempot1" name="tiempot1">
+                        </div>
+
+                    <label for="tijeras2" >Tijeras de esculpir:</label>
+                    <select id="tijeras2" name="tijeras2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costost2" class="oculto">
+                            <label for="costost2">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costost2" name="costost2">
+                        </div>
+                        
+                        <div id="tiempot2" class="oculto">
+                            <label for="tiempot2">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempot2" name="tiempot2">
+                        </div>
+
+                    <label for="tijeras3" >Tijeras de entresacar:</label>
+                    <select id="tijeras3" name="tijeras3">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costost3" class="oculto">
+                            <label for="costost3">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costost3" name="costost3">
+                        </div>
+                        
+                        <div id="tiempot3" class="oculto">
+                            <label for="tiempot3">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempot3" name="tiempot3">
+                        </div>
+
+                    <label for="tijeras4" >Tijeras para desfilar:</label>
+                    <select id="tijeras4" name="tijeras4">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costost4" class="oculto">
+                            <label for="costost4">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costost4" name="costost4">
+                        </div>
+                        
+                        <div id="tiempot4" class="oculto">
+                            <label for="tiempot4">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempot4" name="tiempot4">
+                        </div>
+
+                    <label for="capa" >Capa de corte y peinado:</label>
+                    <select id="capa" name="capa">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosc" class="oculto">
+                            <label for="costosc">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosc" name="costosc">
+                        </div>
+                        
+                        <div id="tiempoc" class="oculto">
+                            <label for="tiempoc">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempoc" name="tiempoc">
+                        </div>
+
+                    <label for="cepillo1" >Cepillos redondos:</label>
+                    <select id="cepillo1" name="cepillo1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosc1" class="oculto">
+                            <label for="costosc1">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosc1" name="costosc1">
+                        </div>
+                        
+                        <div id="tiempoc1" class="oculto">
+                            <label for="tiempoc1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempoc1" name="tiempoc1">
+                        </div>
+
+                    <label for="cepillo2" >Cepillos térmicos:</label>
+                    <select id="cepillo2" name="cepillo2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosc2" class="oculto">
+                            <label for="costosc2">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosc2" name="costosc2">
+                        </div>
+                        
+                        <div id="tiempoc2" class="oculto">
+                            <label for="tiempoc2">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempoc2" name="tiempoc2">
+                        </div>
+
+                    <label for="cepillo3" >Cepillos con cerdas de nylon:</label>
+                    <select id="cepillo3" name="cepillo3">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosc3" class="oculto">
+                            <label for="costosc3">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosc3" name="costosc3">
+                        </div>
+                        
+                        <div id="tiempoc3" class="oculto">
+                            <label for="tiempoc3">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempoc3" name="tiempoc3">
+                        </div>
+
+                    <label for="cepillo4" >Cepillos con forma ovalada:</label>
+                    <select id="cepillo4" name="cepillo4">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosc4" class="oculto">
+                            <label for="costosc4">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosc4" name="costosc4">
+                        </div>
+                        
+                        <div id="tiempoc4" class="oculto">
+                            <label for="tiempoc4">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempoc4" name="tiempoc4">
+                        </div>
+
+                    <label for="cepillo5" >Cepillos con púas finas y redondeadas:</label>
+                    <select id="cepillo5" name="cepillo5">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosc5" class="oculto">
+                            <label for="costosc5">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosc5" name="costosc5">
+                        </div>
+                        
+                        <div id="tiempoc5" class="oculto">
+                            <label for="tiempoc5">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempoc5" name="tiempoc5">
+                        </div>
+
+                    <label for="pinzas" >Pinzas:</label>
+                    <select id="pinzas" name="pinzas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosp" class="oculto">
+                            <label for="costosp">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosp" name="costosp">
+                        </div>
+                        
+                        <div id="tiempop" class="oculto">
+                            <label for="tiempop">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempop" name="tiempop">
+                        </div>
+
+                    <label for="secadora" >Secadora:</label>
+                    <select id="secadora" name="secadora">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costoss" class="oculto">
+                            <label for="costoss">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costoss" name="costoss">
+                        </div>
+                        
+                        <div id="tiempos" class="oculto">
+                            <label for="tiempos">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempos" name="tiempos">
+                        </div>
+
+                    <label for="plancha" >Plancha:</label>
+                    <select id="plancha" name="plancha">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosp1" class="oculto">
+                            <label for="costosp1">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosp1" name="costosp1">
+                        </div>
+                        
+                        <div id="tiempop1" class="oculto">
+                            <label for="tiempop1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempop1" name="tiempop1">
+                        </div>
+
+                    <label for="shampoo" >Shampoo:</label>
+                    <select id="shampoo" name="shampoo">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costoss1" class="oculto">
+                            <label for="costoss1">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costoss1" name="costoss1">
+                        </div>
+                        
+                        <div id="tiempos1" class="oculto">
+                            <label for="tiempos1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempos1" name="tiempos1">
+                        </div>
+
+                    <label for="acondicionador" >Acondicionador:</label>
+                    <select id="acondicionador" name="acondicionador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosa" class="oculto">
+                            <label for="costosa">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosa" name="costosa">
+                        </div>
+                        
+                        <div id="tiempoa" class="oculto">
+                            <label for="tiempoa">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempoa" name="tiempoa">
+                        </div>
+
+                    <label for="mascarilla" >Mascarilla:</label>
+                    <select id="mascarilla" name="mascarilla">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosm" class="oculto">
+                            <label for="costosm">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosm" name="costosm">
+                        </div>
+                        
+                        <div id="tiempom" class="oculto">
+                            <label for="tiempom">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempom" name="tiempom">
+                        </div>
+
+                    <label for="fijador" >Fijador:</label>
+                    <select id="fijador" name="fijador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosf" class="oculto">
+                            <label for="costosf">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosm" name="costosf">
+                        </div>
+                        
+                        <div id="tiempof" class="oculto">
+                            <label for="tiempof">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempof" name="tiempof">
+                        </div>
+
+                        <label for="hom"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom" name="hom">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre1">¿El costo varía?</label>
+                            <select id="hombre1" name="hombre1">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterio" class="oculto">
+                                    <label for="criterio">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterio" name="criterio">
+                                </div>
+                                
+                                <div id="rango" class="oculto">
+                                    <label for="rango">Coloque el rango de precio:</label>
+                                    <input type="text" id="rango" name="rango">
+                                </div>
+
+                                <div id="costoh" class="oculto">
+                                    <label for="costoh">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh" name="costoh">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer1">¿El costo varía?</label>
+                            <select id="mujer1" name="mujer1">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom" class="oculto">
+                                    <label for="criteriom">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom" name="criteriom">
+                                </div>
+                                
+                                <div id="rangom" class="oculto">
+                                    <label for="rangom">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom" name="rangom">
+                                </div>
+
+                                <div id="costom" class="oculto">
+                                    <label for="costom">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom" name="costom">
+                                </div>
+                        </fieldset>                       
+                </fieldset>
+
+                <label for="uñas">Uñas:</label>
+                <select id="uñas" name="uñas">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+
+                <fieldset class="uñas seccion">
+                    <legend><h4>Uñas</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+
+                    <label for="cortauñas">Cortauñas o tijeras de uñas:</label>
+                    <select id="cortauñas" name="cortauñas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosx1" class="oculto">
+                            <label for="costosx1">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosx1" name="costosx1">
+                        </div>
+                        
+                        <div id="tiempox1" class="oculto">
+                            <label for="tiempox1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempox1" name="tiempox1">
+                        </div>
+                
+                    <label for="limapapel">Lima de papel:</label>
+                    <select id="limapapel" name="limapapel">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx2" class="oculto">
+                                <label for="costosx2">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx2" name="costosx2">
+                            </div>
+                            
+                            <div id="tiempox2" class="oculto">
+                                <label for="tiempox2">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox2" name="tiempox2">
+                            </div>
+                    
+                    <label for="limametal">Lima de metal:</label>
+                    <select id="limametal" name="limametal">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx3" class="oculto">
+                                <label for="costosx3">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx3" name="costosx3">
+                            </div>
+                            
+                            <div id="tiempox3" class="oculto">
+                                <label for="tiempox3">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox3" name="tiempox3">
+                            </div>
+                    
+                    <label for="pulidor">Pulidores:</label>
+                    <select id="pulidor" name="pulidor">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx4" class="oculto">
+                                <label for="costosx4">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx4" name="costosx4">
+                            </div>
+                            
+                            <div id="tiempox4" class="oculto">
+                                <label for="tiempox4">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox4" name="tiempox4">
+                            </div>
+                    
+                    <label for="cuticulas">Empujador de cutículas:</label>
+                    <select id="cuticulas" name="cuticulas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx5" class="oculto">
+                                <label for="costosx5">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx5" name="costosx5">
+                            </div>
+                            
+                            <div id="tiempox5" class="oculto">
+                                <label for="tiempox5">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox5" name="tiempox5">
+                            </div>
+
+                    <label for="cepillouñas">Cepillo de uñas:</label>
+                    <select id="cepillouñas" name="cepillouñas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx6" class="oculto">
+                                <label for="costosx6">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx6" name="costosx6">
+                            </div>
+                            
+                            <div id="tiempox6" class="oculto">
+                                <label for="tiempox6">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox6" name="tiempox6">
+                            </div>
+
+                    <label for="alicate">Alicate o tijeras de cutícula:</label>
+                    <select id="alicate" name="alicate">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx7" class="oculto">
+                                <label for="costosx7">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx7" name="costosx7">
+                            </div>
+                            
+                            <div id="tiempox7" class="oculto">
+                                <label for="tiempox7">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox7" name="tiempox7">
+                            </div>
+
+                    <label for="palitos">Palitos de madera:</label>
+                    <select id="palitos" name="palitos">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx8" class="oculto">
+                                <label for="costosx8">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx8" name="costosx8">
+                            </div>
+                            
+                            <div id="tiempox8" class="oculto">
+                                <label for="tiempox8">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox8" name="tiempox8">
+                            </div>
+
+                    <label for="pinzasuñas">Pinzas de uñas:</label>
+                    <select id="pinzasuñas" name="pinzasuñas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx9" class="oculto">
+                                <label for="costosx9">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx9" name="costosx9">
+                            </div>
+                            
+                            <div id="tiempox9" class="oculto">
+                                <label for="tiempox9">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox9" name="tiempox9">
+                            </div>
+
+                    <label for="pincelesnail">Pinceles de nail art:</label>
+                    <select id="pincelesnail" name="pincelesnail">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx10" class="oculto">
+                                <label for="costosx10">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx10" name="costosx10">
+                            </div>
+                            
+                            <div id="tiempox10" class="oculto">
+                                <label for="tiempox10">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox10" name="tiempox10">
+                            </div>
+
+                    <label for="lamparaLED">Lámpara LED:</label>
+                    <select id="lamparaLED" name="lamparaLED">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx11" class="oculto">
+                                <label for="costosx11">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx11" name="costosx11">
+                            </div>
+                            
+                            <div id="tiempox11" class="oculto">
+                                <label for="tiempox11">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox11" name="tiempox11">
+                            </div>
+
+                    <label for="monomero">Monómero:</label>
+                    <select id="monomero" name="monomero">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx12" class="oculto">
+                                <label for="costosx12">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx12" name="costosx12">
+                            </div>
+                            
+                            <div id="tiempox12" class="oculto">
+                                <label for="tiempox12">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox12" name="tiempox12">
+                            </div>
+
+                    <label for="esmaltes">Esmaltes:</label>
+                    <select id="esmaltes" name="esmaltes">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx13" class="oculto">
+                                <label for="costosx13">¿Qué rango de costos tiene para usted este artículo?</label>
+                                <input type="text" id="costoMinimo" name="costoMinimo">
+                                a
+                                <input type="text" id="costoMaximo" name="costoMaximo">
+                            </div>
+                    
+                            <div id="tiempox13" class="oculto">
+                                <label for="tiempox13">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox13" name="tiempox13">
+                            </div>
+
+                    <label for="topcoat">Top coat:</label>
+                    <select id="topcoat" name="topcoat">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx14" class="oculto">
+                                <label for="costosx14">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx14" name="costosx14">
+                            </div>
+                            
+                            <div id="tiempox14" class="oculto">
+                                <label for="tiempox14">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox14" name="tiempox14">
+                            </div>
+                    
+                    <label for="removedor">Removedor de esmalte de uñas:</label>
+                    <select id="removedor" name="removedor">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx15" class="oculto">
+                                <label for="costosx15">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx15" name="costosx15">
+                            </div>
+                            
+                            <div id="tiempox15" class="oculto">
+                                <label for="tiempox15">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox15" name="tiempox15">
+                            </div>
+
+                    <label for="algodon">Algodón:</label>
+                    <select id="algodon" name="algodon">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx16" class="oculto">
+                                <label for="costosx16">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx16" name="costosx16">
+                            </div>
+                            
+                            <div id="tiempox16" class="oculto">
+                                <label for="tiempox16">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox16" name="tiempox16">
+                            </div>
+
+                    <label for="toallitas2">Toallitas:</label>
+                    <select id="toallitas2" name="removedor">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+    
+                            <div id="costosx17" class="oculto">
+                                <label for="costosx17">¿Qué costo tiene para usted este artículo?</label>
+                                <input type="text" id="costosx17" name="costosx17">
+                            </div>
+                            
+                            <div id="tiempox17" class="oculto">
+                                <label for="tiempox17">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                                <input type="text" id="tiempox17" name="tiempox17">
+                            </div>
+                </fieldset>
+
+                <!-- Rubí -->
+                <!-- Pedicure -->
+
+                <label for="pedicure">Pedicure:</label>
+                <select id="pedicure" name="pedicure">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <fieldset class="pedicure seccion">
+                    <legend><h4>Pedicure</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+                    
+                    <label for="cortauñas">Cortauñas:</label>
+                    <select id="cortauñas" name="cortauñas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb1" class="oculto">
+                            <label for="costosb1">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb1" name="costosb1">
+                        </div>
+                        
+                        <div id="tiempob1" class="oculto">
+                            <label for="tiempob1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob1" name="tiempob1">
+                        </div>
+                    <label for="empujador">Empujador de cutículas:</label>
+                    <select id="empujador" name="empujador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb2" class="oculto">
+                            <label for="costosb2">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb2" name="costosb2">
+                        </div>
+                        
+                        <div id="tiempob2" class="oculto">
+                            <label for="tiempob2">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob2" name="tiempob2">
+                        </div>
+
+                    <label for="alicate">Alicate o crotador de cutículas:</label>
+                    <select id="alicate" name="alicate">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb3" class="oculto">
+                            <label for="costosb3">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb3" name="costosb3">
+                        </div>
+                        
+                        <div id="tiempob3" class="oculto">
+                            <label for="tiempob3">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob3" name="tiempob3">
+                        </div>
+
+                    <label for="limap">Lima pulidora:</label>
+                    <select id="limap" name="limap">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb4" class="oculto">
+                            <label for="costosb4">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb4" name="costosb4">
+                        </div>
+                        
+                        <div id="tiempob4" class="oculto">
+                            <label for="tiempob4">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob4" name="tiempob4">
+                        </div>
+
+                    <label for="piedra">Piedra pómex o lima de pie:</label>
+                    <select id="piedra" name="piedra">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb5" class="oculto">
+                            <label for="costosb5">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb5" name="costosb5">
+                        </div>
+                        
+                        <div id="tiempob5" class="oculto">
+                            <label for="tiempob5">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob5" name="tiempob5">
+                        </div>
+
+                    <label for="limamad">Lima de uñas de madera:</label>
+                    <select id="limamad" name="limamad">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb6" class="oculto">
+                            <label for="costosb6">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb6" name="costosb6">
+                        </div>
+                        
+                        <div id="tiempob6" class="oculto">
+                            <label for="tiempob6">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob6" name="tiempob6">
+                        </div>
+                    
+                    <label for="limavid">Lima de uñas de vidrio:</label>
+                    <select id="limavid" name="limavid">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb7" class="oculto">
+                            <label for="costosb7">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb7" name="costosb7">
+                        </div>
+                        
+                        <div id="tiempob7" class="oculto">
+                            <label for="tiempob7">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob7" name="tiempob7">
+                        </div>
+
+                    <label for="limamet">Lima de uñas de metal:</label>
+                    <select id="limamet" name="limamet">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb8" class="oculto">
+                            <label for="costosb8">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb8" name="costosb8">
+                        </div>
+                        
+                        <div id="tiempob8" class="oculto">
+                            <label for="tiempob8">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob8" name="tiempob8">
+                        </div>
+
+                    <label for="cepillou">Cepillo de uñas:</label>
+                    <select id="cepillou" name="cepillou">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb9" class="oculto">
+                            <label for="costosb9">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb9" name="costosb9">
+                        </div>
+                        
+                        <div id="tiempob9" class="oculto">
+                            <label for="tiempob9">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob9" name="tiempob9">
+                        </div>
+
+                    <label for="separador">Separador de dedos:</label>
+                    <select id="separador" name="separador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb10" class="oculto">
+                            <label for="costosb10">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb10" name="costosb10">
+                        </div>
+                        
+                        <div id="tiempob10" class="oculto">
+                            <label for="tiempob10">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob10" name="tiempob10">
+                        </div>
+
+                    <label for="palomad">Palo de madera:</label>
+                    <select id="palomad" name="palomad">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb11" class="oculto">
+                            <label for="costosb11">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb11" name="costosb11">
+                        </div>
+                        
+                        <div id="tiempob11" class="oculto">
+                            <label for="tiempob11">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob11" name="tiempob11">
+                        </div>
+
+                    <label for="exfoliante">Exfoliante para pies:</label>
+                    <select id="exfoliante" name="exfoliante">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb12" class="oculto">
+                            <label for="costosb12">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb12" name="costosb12">
+                        </div>
+                        
+                        <div id="tiempob12" class="oculto">
+                            <label for="tiempob12">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob12" name="tiempob12">
+                        </div>
+
+                    <label for="cremahid">Crema hidratante para pies:</label>
+                    <select id="cremahid" name="cremahid">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb13" class="oculto">
+                            <label for="costosb13">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb13" name="costosb13">
+                        </div>
+                        
+                        <div id="tiempob13" class="oculto">
+                            <label for="tiempob13">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob13" name="tiempob13">
+                        </div>
+
+                    <label for="esmalte">Esmalte endurecedor:</label>
+                    <select id="esmalte" name="esmalte">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb14" class="oculto">
+                            <label for="costosb14">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb14" name="costosb14">
+                        </div>
+                        
+                        <div id="tiempob14" class="oculto">
+                            <label for="tiempob14">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob14" name="tiempob14">
+                        </div>
+
+                    <label for="suero">Suero de cutícula:</label>
+                    <select id="suero" name="suero">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb15" class="oculto">
+                            <label for="costosb15">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb15" name="costosb15">
+                        </div>
+                        
+                        <div id="tiempob15" class="oculto">
+                            <label for="tiempob15">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob15" name="tiempob15">
+                        </div>
+
+                    <label for="toallas">Toallas limpias para pies:</label>
+                    <select id="toallas" name="toallas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb16" class="oculto">
+                            <label for="costosb16">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb16" name="costosb16">
+                        </div>
+                        
+                        <div id="tiempob16" class="oculto">
+                            <label for="tiempob16">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob16" name="tiempob16">
+                        </div>
+                        
+                    <label for="acetona">Acetona o removedor:</label>
+                    <select id="acetona" name="acetona">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb17" class="oculto">
+                            <label for="costosb17">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb17" name="costosb17">
+                        </div>
+                        
+                        <div id="tiempob17" class="oculto">
+                            <label for="tiempob17">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob17" name="tiempob17">
+                        </div>
+
+                    <label for="locion">Loción para pies:</label>
+                    <select id="locion" name="locion">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb18" class="oculto">
+                            <label for="costosb18">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb18" name="costosb18">
+                        </div>
+                        
+                        <div id="tiempob18" class="oculto">
+                            <label for="tiempob18">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob18" name="tiempob18">
+                        </div>
+
+                    <label for="esmaltes">Esmaltes de colores:</label>
+                    <select id="esmaltes" name="esmaltes">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb19" class="oculto">
+                            <label for="costosb19">Escribe un rango de precios de este artículo</label>                              
+                            <input type="number" id="cantidadDesde" name="cantidadDesde" placeholder="Desde">
+                            <input type="number" id="cantidadHasta" name="cantidadHasta" placeholder="Hasta">                          
+                        </div>    
+
+                        <div id="cantidadb19" class="oculto">
+                            <label for="cantidadb19">¿Qué cantidad tiene en promedio de este artículo?</label>
+                            <input type="text" id="cantidadb19" name="cantidadb19">
+                        </div>
+                        
+                        <div id="tiempob19" class="oculto">
+                            <label for="tiempob19">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob19" name="tiempob19">
+                        </div>
+
+                    <label for="diseño">Diseño de uñas:</label>
+                    <select id="diseño" name="diseño">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb20" class="oculto">
+                            <label for="costosb20">Escribe un rango de precios entre tus dieños</label>                              
+                            <input type="number" id="cantidadDesde" name="cantidadDesde" placeholder="Desde">
+                            <input type="number" id="cantidadHasta" name="cantidadHasta" placeholder="Hasta">                          
+                        </div>                         
+                        
+                        <div id="tiempob20" class="oculto">
+                            <label for="tiempob20">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob20" name="tiempob20">
+                        </div>
+
+                        <label for="hom1"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom1" name="hom1">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre1">Hombre</option>
+                            <option value="mujer1">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre1 seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre2">¿El costo varía?</label>
+                            <select id="hombre2" name="hombre2">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterioh1" class="oculto">
+                                    <label for="criterioh1">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterioh1" name="criterioh1">
+                                </div>
+                                
+                                <div id="rangoh1" class="oculto">
+                                    <label for="rangoh1">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangoh1" name="rangoh1">
+                                </div>
+
+                                <div id="costoh1" class="oculto">
+                                    <label for="costoh1">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh1" name="costoh1">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer1 seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer2">¿El costo varía?</label>
+                            <select id="mujer2" name="mujer2">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom1" class="oculto">
+                                    <label for="criteriom1">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom1" name="criteriom1">
+                                </div>
+                                
+                                <div id="rangom1" class="oculto">
+                                    <label for="rangom1">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom1" name="rangom1">
+                                </div>
+
+                                <div id="costom1" class="oculto">
+                                    <label for="costom1">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom1" name="costom1">
+                                </div>
+                        </fieldset>            
+                    
+                </fieldset>
+
+                <!-- Pedicure -->
+
+                <!-- Tinte -->
+
+
+                <label for="tinte">Tinte:</label>
+                <select id="tinte" name="tinte">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <fieldset class="tinte seccion">
+                    <legend><h4>Tinte</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+                    
+                    <label for="pinzastin">Pinzas para separar el cabello:</label>
+                    <select id="pinzastin" name="pinzastin">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb21" class="oculto">
+                            <label for="costosb21">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb21" name="costosb21">
+                        </div>
+                        
+                        <div id="tiempob21" class="oculto">
+                            <label for="tiempob21">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob21" name="tiempob21">
+                        </div>
+                    
+                    <label for="tazon">Tazón de mezclas:</label>
+                    <select id="tazon" name="tazon">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb22" class="oculto">
+                            <label for="costosb22">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb22" name="costosb22">
+                        </div>
+                        
+                        <div id="tiempob22" class="oculto">
+                            <label for="tiempob22">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob22" name="tiempob22">
+                        </div>
+
+                    <label for="cepilomez">Cepillo de colocación de mezclas:</label>
+                    <select id="cepillomez" name="cepilomez">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb23" class="oculto">
+                            <label for="costosb23">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb23" name="costosb23">
+                        </div>
+                        
+                        <div id="tiempob23" class="oculto">
+                            <label for="tiempob23">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob23" name="tiempob23">
+                        </div>
+
+                    <label for="gorros">Gorro protector de cabello:</label>
+                    <select id="gorros" name="gorros">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb24" class="oculto">
+                            <label for="costosb24">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb24" name="costosb24">
+                        </div>
+                        
+                        <div id="tiempob24" class="oculto">
+                            <label for="tiempob24">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob24" name="tiempob24">
+                        </div>
+
+                    <label for="peine">Peine de púas:</label>
+                    <select id="peine" name="peine">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb25" class="oculto">
+                            <label for="costosb25">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb25" name="costosb25">
+                        </div>
+                        
+                        <div id="tiempob25" class="oculto">
+                            <label for="tiempob25">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob25" name="tiempob25">
+                        </div>
+
+                    <label for="cepillored">Cepillo redondo:</label>
+                    <select id="cepillored" name="cepillored">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb26" class="oculto">
+                            <label for="costosb26">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb26" name="costosb26">
+                        </div>
+                        
+                        <div id="tiempob26" class="oculto">
+                            <label for="tiempob26">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob26" name="tiempob26">
+                        </div>
+
+                    <label for="cepilloter">Cepillo térmico:</label>
+                    <select id="cepilloter" name="cepilloter">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb27" class="oculto">
+                            <label for="costosb27">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb27" name="costosb27">
+                        </div>
+                        
+                        <div id="tiempob27" class="oculto">
+                            <label for="tiempob27">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob27" name="tiempob27">
+                        </div>
+
+                    <label for="cepillonylon">Cepillo con cerdas nylon:</label>
+                    <select id="cepillonylon" name="cepillonylon">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb28" class="oculto">
+                            <label for="costosb28">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb28" name="costosb28">
+                        </div>
+                        
+                        <div id="tiempob28" class="oculto">
+                            <label for="tiempob28">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob28" name="tiempob28">
+                        </div>
+
+                    <label for="cepilloova">Cepillo con forma ovalada:</label>
+                    <select id="cepilloova" name="cepilloova">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb29" class="oculto">
+                            <label for="costosb29">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb29" name="costosb29">
+                        </div>
+                        
+                        <div id="tiempob29" class="oculto">
+                            <label for="tiempob29">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob29" name="tiempob29">
+                        </div>
+
+                    <label for="aluminio">Papel aluminio:</label>
+                    <select id="aluminio" name="aluminio">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb30" class="oculto">
+                            <label for="costosb30">¿Qué costo tiene para usted este artículo (una caja)?</label>
+                            <input type="text" id="costosb30" name="costosb30">
+                        </div>
+                        
+                        <div id="tiempob30" class="oculto">
+                            <label for="tiempob30">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob30" name="tiempo30">
+                        </div>
+
+                    <label for="tintes">Tintes de colores:</label>
+                    <select id="tintes" name="tintes">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb31" class="oculto">
+                            <label for="costosb31">Escribe un rango de precios de este artículo</label>                              
+                            <input type="number" id="cantidadDesde" name="cantidadDesde" placeholder="Desde">
+                            <input type="number" id="cantidadHasta" name="cantidadHasta" placeholder="Hasta">                          
+                        </div>    
+
+                        <div id="cantidadb31" class="oculto">
+                            <label for="cantidadb31">¿Qué cantidad tiene en promedio de este artículo?</label>
+                            <input type="text" id="cantidadb31" name="cantidadb31">
+                        </div>
+                        
+                        <div id="tiempob31" class="oculto">
+                            <label for="tiempob31">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob31" name="tiempob31">
+                        </div>
+
+                    <label for="decolorante">Decolorante para el cabello:</label>
+                    <select id="decolorante" name="decolorante">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb32" class="oculto">
+                            <label for="costosb32">¿Qué costo tiene para usted este artículo (una caja)?</label>
+                            <input type="text" id="costosb32" name="costosb32">
+                        </div>
+                        
+                        <div id="tiempob32" class="oculto">
+                            <label for="tiempob32">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob32" name="tiempo32">
+                        </div>
+
+                    <label for="locionact">Loción activadora de color:</label>
+                    <select id="locionact" name="locionact">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb33" class="oculto">
+                            <label for="costosb33">¿Qué costo tiene para usted este artículo (una caja)?</label>
+                            <input type="text" id="costosb33" name="costosb33">
+                        </div>
+                        
+                        <div id="tiempob33" class="oculto">
+                            <label for="tiempob33">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob33" name="tiempo33">
+                        </div>
+
+                    <label for="mascarillac">Mascarilla para el cabello:</label>
+                    <select id="mascarillac" name="mascarillac">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb34" class="oculto">
+                            <label for="costosb34">¿Qué costo tiene para usted este artículo (una caja)?</label>
+                            <input type="text" id="costosb34" name="costosb34">
+                        </div>
+                        
+                        <div id="tiempob34" class="oculto">
+                            <label for="tiempob34">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob34" name="tiempo34">
+                        </div>
+
+                    <label for="cremaacond">Crema acondcionadora para el cabello:</label>
+                    <select id="cremaacond" name="cremaacond">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb35" class="oculto">
+                            <label for="costosb35">¿Qué costo tiene para usted este artículo (una caja)?</label>
+                            <input type="text" id="costosb35" name="costosb35">
+                        </div>
+                        
+                        <div id="tiempob35" class="oculto">
+                            <label for="tiempob35">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob35" name="tiempo35">
+                        </div>
+
+                        <label for="hom2"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom2" name="hom2">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre2">Hombre</option>
+                            <option value="mujer2">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre2 seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre3">¿El costo varía?</label>
+                            <select id="hombre3" name="hombre3">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterioh2" class="oculto">
+                                    <label for="criterioh2">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterioh2" name="criterioh2">
+                                </div>
+                                
+                                <div id="rangoh2" class="oculto">
+                                    <label for="rangoh2">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangoh2" name="rangoh2">
+                                </div>
+
+                                <div id="costoh2" class="oculto">
+                                    <label for="costoh2">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh2" name="costoh2">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer2 seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer3">¿El costo varía?</label>
+                            <select id="mujer3" name="mujer3">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom2" class="oculto">
+                                    <label for="criteriom2">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom2" name="criteriom2">
+                                </div>
+                                
+                                <div id="rangom2" class="oculto">
+                                    <label for="rangom2">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom2" name="rangom2">
+                                </div>
+
+                                <div id="costom2" class="oculto">
+                                    <label for="costom2">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom2" name="costom2">
+                                </div>
+                        </fieldset>  
+                </fieldset>
+
+                <label for="extensiones">Extensiones:</label>
+                <select id="extensiones" name="extensiones">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <fieldset class="extensiones seccion">
+                    <legend><h4>Extensiones</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+                    
+                    <label for="extensiones1">Extensiones de clip:</label>
+                    <select id="extensiones1" name="extensiones1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb136" class="oculto">
+                            <label for="costosb136">¿Qué costo tiene un set de extensiones de clip?</label>
+                            <input type="text" id="costosb136" name="costosb136">
+                        </div>
+                        
+                        <div id="tiempob136" class="oculto">
+                            <label for="tiempob136">¿Cuál es el tiempo promedio en el que adquiere un set nuevo?</label>
+                            <input type="text" id="tiempob136" name="tiempob136">
+                        </div>
+                        
+                        <div id="costosb36" class="oculto">
+                            <label for="costosb36">¿Qué costo tiene para usted poner este artículo?</label>
+                            <input type="text" id="costosb36" name="costosb36">
+                        </div>
+
+                    <label for="extensiones2">Extensiones adhesivas:</label>
+                    <select id="extensiones2" name="extensiones2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb137" class="oculto">
+                            <label for="costosb137">¿Qué costo tiene para usted un set de extensiones de adhesivas?</label>
+                            <input type="text" id="costosb137" name="costosb137">
+                        </div>
+                        
+                        <div id="tiempob137" class="oculto">
+                            <label for="tiempob137">¿Cuál es el tiempo promedio en el que adquiere un set nuevo?</label>
+                            <input type="text" id="tiempob137" name="tiempob137">
+                        </div>
+
+                        <div id="costosb237" class="oculto">
+                            <label for="costosb237">¿Qué costo tiene para usted una cinta adhesivas?</label>
+                            <input type="text" id="costosb237" name="costosb237">
+                        </div>
+
+                        <div id="tiempob237" class="oculto">
+                            <label for="tiempob237">¿Cuál es el tiempo promedio en el que adquiere una cinta nueva?</label>
+                            <input type="text" id="tiempob237" name="tiempob237">
+                        </div>
+
+                        <div id="costosb37" class="oculto">
+                            <label for="costosb37">¿Qué costo tiene para usted poner este artículo?</label>
+                            <input type="text" id="costosb37" name="costosb37">
+                        </div>
+
+                    <label for="extensiones3">Extensiones de queratina:</label>
+                    <select id="extensiones3" name="extensiones3">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb138" class="oculto">
+                            <label for="costosb138">¿Qué costo tiene para usted un set de extensiones de queratina?</label>
+                            <input type="text" id="costosb138" name="costosb138">
+                        </div>
+                        
+                        <div id="tiempob138" class="oculto">
+                            <label for="tiempob138">¿Cuál es el tiempo promedio en el que adquiere un set nuevo?</label>
+                            <input type="text" id="tiempob138" name="tiempob138">
+                        </div>
+
+                        <div id="costosb238" class="oculto">
+                            <label for="costosb338">¿Qué costo tiene una caja de queratina?</label>
+                            <input type="text" id="costosb338" name="costosb338">
+                        </div>
+
+                        <div id="tiempob238" class="oculto">
+                            <label for="tiempob238">¿Cuál es el tiempo promedio en el que adquiere una caja nueva?</label>
+                            <input type="text" id="tiempob238" name="tiempob238">
+                        </div>
+
+                        <div id="costosb338" class="oculto">
+                            <label for="costosb338">¿Qué costo tiene la pistola que aplica la queratina?</label>
+                            <input type="text" id="costosb338" name="costosb338">
+                        </div>
+
+                        <div id="tiempob338" class="oculto">
+                            <label for="tiempob338">¿Cuál es el tiempo promedio en el que adquiere una pistola nueva?</label>
+                            <input type="text" id="tiempob338" name="tiempob338">
+                        </div>
+
+                        <div id="costosb38" class="oculto">
+                            <label for="costosb38">¿Qué costo tiene para usted poner este artículo?</label>
+                            <input type="text" id="costosb38" name="costosb38">
+                        </div>
+
+                    <label for="extensiones4">Extensiones cosidas:</label>
+                    <select id="extensiones4" name="extensiones4">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb139" class="oculto">
+                            <label for="costosb139">¿Qué costo tiene para usted un set de extensiones cosidas?</label>
+                            <input type="text" id="costosb139" name="costosb139">
+                        </div>
+                        
+                        <div id="tiempob1139" class="oculto">
+                            <label for="tiempob139">¿Cuál es el tiempo promedio en el que adquiere un set nuevo?</label>
+                            <input type="text" id="tiempob139" name="tiempob139">
+                        </div>
+
+                        <div id="costosb239" class="oculto">
+                            <label for="costosb239">¿Qué costo tiene la aguja o el enhebrador para coser?</label>
+                            <input type="text" id="costosb239" name="costosb239">
+                        </div>
+                        
+                        <div id="tiempob239" class="oculto">
+                            <label for="tiempob239">¿Cuál es el tiempo promedio en el que adquiere una aguja nueva?</label>
+                            <input type="text" id="tiempob239" name="tiempob239">
+                        </div>
+
+                        <div id="costosb339" class="oculto">
+                            <label for="costosb339">¿Qué costo tiene el hilo para coser?</label>
+                            <input type="text" id="costosb339" name="costosb339">
+                        </div>
+
+                        <div id="cantidadb339" class="oculto">
+                            <label for="cantidadb339">¿Qué cantidad de hilos de colores tiene para coser?</label>
+                            <input type="text" id="cantidadb339" name="cantidadb339">
+                        </div>
+                        
+                        <div id="tiempob339" class="oculto">
+                            <label for="tiempob339">¿Cuál es el tiempo promedio en el que adquiere una hilo nuevo?</label>
+                            <input type="text" id="tiempob339" name="tiempob339">
+                        </div>
+
+                        <div id="costosb39" class="oculto">
+                            <label for="costosb39">¿Qué costo tiene para usted poner este artículo?</label>
+                            <input type="text" id="costosb39" name="costosb39">
+                        </div> 
+                        
+                    <label for="pinzas2">Pinzas para separar el cabello:</label>
+                    <select id="pinzas2" name="pinzas2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb40" class="oculto">
+                            <label for="costosb40">¿Qué costo tiene para usted este artículo (una caja)?</label>
+                            <input type="text" id="costosb40" name="costosb40">
+                        </div>
+                        
+                        <div id="tiempob40" class="oculto">
+                            <label for="tiempob40">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob40" name="tiempob40">
+                        </div>
+
+                    <label for="peine1">Peine de púas:</label>
+                    <select id="peine1" name="peine1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb41" class="oculto">
+                            <label for="costosb41">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb41" name="costosb41">
+                        </div>
+                        
+                        <div id="tiempob41" class="oculto">
+                            <label for="tiempob41">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob41" name="tiempob41">
+                        </div>
+
+                    <label for="cepillored1">Cepillo redondo:</label>
+                    <select id="cepillored1" name="cepillored1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb42" class="oculto">
+                            <label for="costosb42">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb42" name="costosb42">
+                        </div>
+                        
+                        <div id="tiempob42" class="oculto">
+                            <label for="tiempob42">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob42" name="tiempob42">
+                        </div>
+
+                    <label for="cepilloter1">Cepillo térmico:</label>
+                    <select id="cepilloter1" name="cepilloter1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb43" class="oculto">
+                            <label for="costosb43">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb43" name="costosb43">
+                        </div>
+                        
+                        <div id="tiempob43" class="oculto">
+                            <label for="tiempob43">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob43" name="tiempob43">
+                        </div>
+
+                    <label for="cepillonylon1">Cepillo con cerdas nylon:</label>
+                    <select id="cepillonylon1" name="cepillonylon1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb44" class="oculto">
+                            <label for="costosb44">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb44" name="costosb44">
+                        </div>
+                        
+                        <div id="tiempob44" class="oculto">
+                            <label for="tiempob44">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob44" name="tiempob44">
+                        </div>
+
+                    <label for="cepilloova1">Cepillo con forma ovalada:</label>
+                    <select id="cepilloova1" name="cepilloova1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb45" class="oculto">
+                            <label for="costosb45">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb45" name="costosb45">
+                        </div>
+                        
+                        <div id="tiempob45" class="oculto">
+                            <label for="tiempob45">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob45" name="tiempob45">
+                        </div>
+
+                    <label for="tijeras5">Tijeras para cabello:</label>
+                    <select id="tijeras5" name="tijeras5">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb46" class="oculto">
+                            <label for="costosb46">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb46" name="costosb46">
+                        </div>
+                        
+                        <div id="tiempob46" class="oculto">
+                            <label for="tiempob46">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob46" name="tiempob46">
+                        </div>
+
+                    <label for="removedorext">Removedor de extensiones:</label>
+                    <select id="removedorext" name="removedorext">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb47" class="oculto">
+                            <label for="costosb47">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb47" name="costosb47">
+                        </div>
+                        
+                        <div id="tiempob47" class="oculto">
+                            <label for="tiempob47">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob47" name="tiempob47">
+                        </div>
+
+                    <label for="rizador">Placa caliente o rizador:</label>
+                    <select id="rizador" name="rizador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb48" class="oculto">
+                            <label for="costosb48">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb48" name="costosb48">
+                        </div>
+                        
+                        <div id="tiempob48" class="oculto">
+                            <label for="tiempob48">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob48" name="tiempob48">
+                        </div>
+
+                    <label for="mascarillacab">Mascarilla para el cabello:</label>
+                    <select id="mascarillacab" name="mascarillacab">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb49" class="oculto">
+                            <label for="costosb49">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb49" name="costosb49">
+                        </div>
+                        
+                        <div id="tiempob49" class="oculto">
+                            <label for="tiempob49">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob49" name="tiempob49">
+                        </div>
+
+                    <label for="acondicionador1">Acondicionador para el cabello:</label>
+                    <select id="acondicionador1" name="acondicionador1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb50" class="oculto">
+                            <label for="costosb50">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb50" name="costosb50">
+                        </div>
+                        
+                        <div id="tiempob50" class="oculto">
+                            <label for="tiempob50">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob50" name="tiempob50">
+                        </div>
+
+                    <label for="shampoo1">Shampoo para el cabello:</label>
+                    <select id="shampoo1" name="shampoo1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb51" class="oculto">
+                            <label for="costosb51">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb51" name="costosb51">
+                        </div>
+                        
+                        <div id="tiempob51" class="oculto">
+                            <label for="tiempob51">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob51" name="tiempob51">
+                        </div>
+
+                        <label for="hom3"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom3" name="hom3">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre3">Hombre</option>
+                            <option value="mujer3">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre3 seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre4">¿El costo varía?</label>
+                            <select id="hombre4" name="hombre4">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterioh3" class="oculto">
+                                    <label for="criterioh3">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterioh3" name="criterioh3">
+                                </div>
+                                
+                                <div id="rangoh3" class="oculto">
+                                    <label for="rangoh3">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangoh3" name="rangoh3">
+                                </div>
+
+                                <div id="costoh3" class="oculto">
+                                    <label for="costoh3">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh3" name="costoh3">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer3 seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer4">¿El costo varía?</label>
+                            <select id="mujer4" name="mujer4">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom3" class="oculto">
+                                    <label for="criteriom3">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom3" name="criteriom3">
+                                </div>
+                                
+                                <div id="rangom3" class="oculto">
+                                    <label for="rangom3">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom3" name="rangom3">
+                                </div>
+
+                                <div id="costom3" class="oculto">
+                                    <label for="costom3">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom3" name="costom3">
+                                </div>
+                        </fieldset>
+                </fieldset>
+
+                <label for="depilacion">Depilación láser:</label>
+                <select id="depilacion" name="depilacion">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <fieldset class="depilacion seccion">
+                    <legend><h4>Depilación láser</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+                    
+                    <label for="gafas">Gafas de protección:</label>
+                    <select id="gafas" name="gafas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb52" class="oculto">
+                            <label for="costosb52">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb52" name="costosb52">
+                        </div>
+                        
+                        <div id="tiempob52" class="oculto">
+                            <label for="tiempob52">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob52" name="tiempob52">
+                        </div>
+
+                    <label for="laser">Láser de depilación:</label>
+                    <select id="laser" name="laser">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb53" class="oculto">
+                            <label for="costosb53">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb53" name="costosb53">
+                        </div>
+                        
+                        <div id="tiempob53" class="oculto">
+                            <label for="tiempob53">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob53" name="tiempob53">
+                        </div>
+
+                    <label for="gel">Gel de acoplamiento:</label>
+                    <select id="gel" name="gel">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb54" class="oculto">
+                            <label for="costosb54">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb54" name="costosb54">
+                        </div>
+                        
+                        <div id="tiempob54" class="oculto">
+                            <label for="tiempob54">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob54" name="tiempob54">
+                        </div>
+
+                    <label for="gelanes">Gel o crema anestésica:</label>
+                    <select id="gelanes" name="gelanes">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb55" class="oculto">
+                            <label for="costosb55">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb55" name="costosb55">
+                        </div>
+                        
+                        <div id="tiempob55" class="oculto">
+                            <label for="tiempob55">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob55" name="tiempob55">
+                        </div>
+
+                    <label for="toallaslim">Toallas limpias:</label>
+                    <select id="toallaslim" name="toallaslim">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb56" class="oculto">
+                            <label for="costosb56">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb56" name="costosb56">
+                        </div>
+                        
+                        <div id="tiempob56" class="oculto">
+                            <label for="tiempob56">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob56" name="tiempob56">
+                        </div>
+
+                    <label for="compresas">Compresas frías:</label>
+                    <select id="compresas" name="compresas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb57" class="oculto">
+                            <label for="costosb57">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb57" name="costosb57">
+                        </div>
+                        
+                        <div id="tiempob57" class="oculto">
+                            <label for="tiempob57">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob57" name="tiempob57">
+                        </div>
+
+                    Oferece depilación láser en las zonas:
+
+                    <label for="piernas">Piernas:</label>
+                    <select id="piernas" name="piernas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb58" class="oculto">
+                            <label for="costosb58">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb58" name="costosb58">
+                        </div> 
+                        
+                    <label for="axilas">Axilas:</label>
+                    <select id="axilas" name="axilas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb59" class="oculto">
+                            <label for="costosb59">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb59" name="costosb59">
+                        </div> 
+
+                    <label for="bikini">Bikini:</label>
+                    <select id="bikini" name="bikini">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb60" class="oculto">
+                            <label for="costosb60">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb60" name="costosb60">
+                        </div>
+
+                    <label for="zonai">Zona íntima:</label>
+                    <select id="zonai" name="zonai">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb61" class="oculto">
+                            <label for="costosb61">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb61" name="costosb61">
+                        </div>
+
+                    <label for="espalda">Espalda y hombros:</label>
+                    <select id="espalda" name="espalda">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb62" class="oculto">
+                            <label for="costosb62">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb62" name="costosb62">
+                        </div>
+
+                    <label for="pecho">Pecho y abdomen</label>
+                    <select id="pecho" name="pecho">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb63" class="oculto">
+                            <label for="costosb63">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb63" name="costosb63">
+                        </div>
+
+                    <label for="brazos">Brazos</label>
+                    <select id="brazos" name="brazos">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb64" class="oculto">
+                            <label for="costosb64">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb64" name="costosb64">
+                        </div>
+
+                    <label for="entrecejo">Entrecejo</label>
+                    <select id="entrecejo" name="entrecejo">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb65" class="oculto">
+                            <label for="costosb65">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb65" name="costosb65">
+                        </div>
+
+                    <label for="labio">Labio superior</label>
+                    <select id="labio" name="labio">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb66" class="oculto">
+                            <label for="costosb66">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb66" name="costosb66">
+                        </div>
+
+                    <label for="barbilla">Barbilla</label>
+                    <select id="barbilla" name="barbilla">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb67" class="oculto">
+                            <label for="costosb67">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb67" name="costosb67">
+                        </div>
+
+                    <label for="patilla">Patilla</label>
+                    <select id="patilla" name="patilla">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb68" class="oculto">
+                            <label for="costosb68">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb68" name="costosb68">
+                        </div>
+
+                        <label for="hom4"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom4" name="hom4">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre4">Hombre</option>
+                            <option value="mujer4">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre4 seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre5">¿El costo varía?</label>
+                            <select id="hombre5" name="hombre5">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterioh4" class="oculto">
+                                    <label for="criterioh4">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterioh4" name="criterioh4">
+                                </div>
+                                
+                                <div id="rangoh4" class="oculto">
+                                    <label for="rangoh4">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangoh4" name="rangoh4">
+                                </div>
+
+                                <div id="costoh4" class="oculto">
+                                    <label for="costoh4">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh4" name="costoh4">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer4 seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer5">¿El costo varía?</label>
+                            <select id="mujer5" name="mujer5">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom4" class="oculto">
+                                    <label for="criteriom4">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom4" name="criteriom4">
+                                </div>
+                                
+                                <div id="rangom4" class="oculto">
+                                    <label for="rangom4">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom4" name="rangom4">
+                                </div>
+
+                                <div id="costom4" class="oculto">
+                                    <label for="costom4">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom4" name="costom4">
+                                </div>
+                        </fieldset>
+                        
+                </fieldset>
+
+                <label for="masaje">Masaje reductivo:</label>
+                <select id="masaje" name="masaje">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <fieldset class="masaje seccion">
+                    <legend><h4>Masaje reductivo</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+                    
+                    <label for="aceite">Aceite reductor:</label>
+                    <select id="aceite" name="aceite">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb69" class="oculto">
+                            <label for="costosb69">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb69" name="costosb69">
+                        </div>
+                        
+                        <div id="tiempob69" class="oculto">
+                            <label for="tiempob69">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob69" name="tiempob69">
+                        </div>
+
+                    <label for="guante">Guante de masaje:</label>
+                    <select id="guante" name="guante">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb70" class="oculto">
+                            <label for="costosb70">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb70" name="costosb70">
+                        </div>
+                        
+                        <div id="tiempob70" class="oculto">
+                            <label for="tiempob70">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob70" name="tiempob70">
+                        </div>
+
+                    <label for="rodillo">Rodillo de madera:</label>
+                    <select id="rodillo" name="rodillo">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb71" class="oculto">
+                            <label for="costosb71">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb71" name="costosb71">
+                        </div>
+                        
+                        <div id="tiempob71" class="oculto">
+                            <label for="tiempob71">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob71" name="tiempob71">
+                        </div>
+
+                    <label for="ventosa">Ventosa para masaje:</label>
+                    <select id="ventosa" name="ventosa">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb72" class="oculto">
+                            <label for="costosb72">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb72" name="costosb72">
+                        </div>
+                        
+                        <div id="tiempob72" class="oculto">
+                            <label for="tiempob72">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob72" name="tiempob72">
+                        </div>
+
+                    <label for="cavitador">Cavitador ultrasónico:</label>
+                    <select id="cavitador" name="cavitador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb73" class="oculto">
+                            <label for="costosb73">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb73" name="costosb73">
+                        </div>
+                        
+                        <div id="tiempob73" class="oculto">
+                            <label for="tiempob73">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob73" name="tiempob73">
+                        </div>
+
+                    <label for="gel1">Gel de calor:</label>
+                    <select id="gel1" name="gel1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb74" class="oculto">
+                            <label for="costosb74">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb74" name="costosb74">
+                        </div>
+                        
+                        <div id="tiempob74" class="oculto">
+                            <label for="tiempob74">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob74" name="tiempob74">
+                        </div>
+
+                    <label for="lampara">Lámpara de infrarrojos:</label>
+                    <select id="lampara" name="lampara">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb75" class="oculto">
+                            <label for="costosb75">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb75" name="costosb75">
+                        </div>
+                        
+                        <div id="tiempob75" class="oculto">
+                            <label for="tiempob75">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob75" name="tiempob75">
+                        </div>
+
+                    <label for="termometro">Termómetro de infrarrojos:</label>
+                    <select id="termometro" name="termometro">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb76" class="oculto">
+                            <label for="costosb76">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb76" name="costosb76">
+                        </div>
+                        
+                        <div id="tiempob76" class="oculto">
+                            <label for="tiempob76">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob76" name="tiempob76">
+                        </div>
+
+                    <label for="masajeador1">Masajeador manual:</label>
+                    <select id="masajeador1" name="masajeador1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb77" class="oculto">
+                            <label for="costosb77">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb77" name="costosb77">
+                        </div>
+                        
+                        <div id="tiempob77" class="oculto">
+                            <label for="tiempob77">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob77" name="tiempob77">
+                        </div>
+
+                    <label for="masajeador2">Masajeador eléctrico:</label>
+                    <select id="masajeador2" name="masajeador2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb78" class="oculto">
+                            <label for="costosb78">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb78" name="costosb78">
+                        </div>
+                        
+                        <div id="tiempob78" class="oculto">
+                            <label for="tiempob78">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob78" name="tiempob78">
+                        </div>
+
+                    Ofrece masajes reductivos para las zonas:
+                    
+                    <label for="abdomen">Abdomen:</label>
+                    <select id="abdomen" name="abdomen">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb79" class="oculto">
+                            <label for="costosb79">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb79" name="costosb79">
+                        </div>
+
+                    <label for="gluteos">Glúteos:</label>
+                    <select id="gluteos" name="gluteos">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb80" class="oculto">
+                            <label for="costosb80">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb80" name="costosb80">
+                        </div>
+
+                    <label for="cintura">Cintura:</label>
+                    <select id="cintura" name="cintura">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb81" class="oculto">
+                            <label for="costosb81">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb81" name="costosb81">
+                        </div>
+
+                    <label for="caderas">Caderas:</label>
+                    <select id="caderas" name="caderas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb82" class="oculto">
+                            <label for="costosb82">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb82" name="costosb82">
+                        </div>
+
+                    <label for="muslos">Muslos:</label>
+                    <select id="muslos" name="muslos">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb83" class="oculto">
+                            <label for="costosb83">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb83" name="costosb83">
+                        </div>
+
+                    <label for="brazos1">Brazos:</label>
+                    <select id="brazos1" name="brazos1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb84" class="oculto">
+                            <label for="costosb84">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb84" name="costosb84">
+                        </div>
+
+                    <label for="espalda1">Espalda:</label>
+                    <select id="espalda1" name="espalda1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb85" class="oculto">
+                            <label for="costosb85">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb85" name="costosb85">
+                        </div>
+
+                    <label for="pantorrillas">Pantorrillas:</label>
+                    <select id="pantorrillas" name="pantorrillas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb86" class="oculto">
+                            <label for="costosb86">¿Qué costo tiene para usted este servicio?</label>
+                            <input type="text" id="costosb86" name="costosb86">
+                        </div>
+
+                        <label for="hom5"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom5" name="hom5">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre5">Hombre</option>
+                            <option value="mujer5">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre5 seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre6">¿El costo varía?</label>
+                            <select id="hombre6" name="hombre6">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterioh5" class="oculto">
+                                    <label for="criterioh5">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterioh5" name="criterioh5">
+                                </div>
+                                
+                                <div id="rangoh5" class="oculto">
+                                    <label for="rangoh5">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangoh5" name="rangoh5">
+                                </div>
+
+                                <div id="costoh5" class="oculto">
+                                    <label for="costoh5">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh5" name="costoh5">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer5 seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer6">¿El costo varía?</label>
+                            <select id="mujer6" name="mujer6">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom5" class="oculto">
+                                    <label for="criteriom5">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom5" name="criteriom5">
+                                </div>
+                                
+                                <div id="rangom5" class="oculto">
+                                    <label for="rangom5">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom5" name="rangom5">
+                                </div>
+
+                                <div id="costom5" class="oculto">
+                                    <label for="costom5">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom5" name="costom5">
+                                </div>
+                        </fieldset>                    
+
+                </fieldset> 
+                
+                <label for="pestañas">Pestañas:</label>
+                <select id="pestañas" name="pestañas">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <fieldset class="pestañas seccion">
+                    <legend><h4>Pestañas</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+                    
+                    <label for="pinzasext">Pinzas de extensión de pestañas:</label>
+                    <select id="pinzasext" name="pinzasext">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb87" class="oculto">
+                            <label for="costosb87">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb87" name="costosb87">
+                        </div>
+                        
+                        <div id="tiempob87" class="oculto">
+                            <label for="tiempob87">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob87" name="tiempob87">
+                        </div>
+
+                    <label for="parches">Parches para ojos:</label>
+                    <select id="parches" name="parches">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb88" class="oculto">
+                            <label for="costosb88">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb88" name="costosb88">
+                        </div>
+                        
+                        <div id="tiempob88" class="oculto">
+                            <label for="tiempob88">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob88" name="tiempob88">
+                        </div>
+
+                    <label for="anillos">Anillos adhesivos:</label>
+                    <select id="anillos" name="anillos">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb89" class="oculto">
+                            <label for="costosb89">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb89" name="costosb89">
+                        </div>
+                        
+                        <div id="tiempob89" class="oculto">
+                            <label for="tiempob89">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob89" name="tiempob89">
+                        </div>
+
+                    <label for="pegamento">Pegamento para pestañas:</label>
+                    <select id="pegamento" name="pegamento">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb90" class="oculto">
+                            <label for="costosb90">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb90" name="costosb90">
+                        </div>
+                        
+                        <div id="tiempob90" class="oculto">
+                            <label for="tiempob90">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob90" name="tiempob90">
+                        </div>
+
+                    <label for="extensionespes"> Extensiones de pestañas:</label>
+                    <select id="extensionespes" name="extensionespes">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb91" class="oculto">
+                            <label for="costosb91">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb91" name="costosb91">
+                        </div>
+                        
+                        <div id="tiempob91" class="oculto">
+                            <label for="tiempob91">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob91" name="tiempob91">
+                        </div>
+
+                    <label for="removedorpeg">Removedor de pegamento para pestañas:</label>
+                    <select id="removedorpeg" name="removedorpeg">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb92" class="oculto">
+                            <label for="costosb92">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb92" name="costosb92">
+                        </div>
+                        
+                        <div id="tiempob92" class="oculto">
+                            <label for="tiempob92">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob92" name="tiempob92">
+                        </div>
+
+                    <label for="toallitas">Toallitas limpiadoras:</label>
+                    <select id="toallitas" name="toallitas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb93" class="oculto">
+                            <label for="costosb93">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb93" name="costosb93">
+                        </div>
+                        
+                        <div id="tiempob93" class="oculto">
+                            <label for="tiempob93">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob93" name="tiempob93">
+                        </div>
+
+                    <label for="cepillopes">Cepillo para pestañas:</label>
+                    <select id="cepillopes" name="cepillopes">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb94" class="oculto">
+                            <label for="costosb94">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb94" name="costosb94">
+                        </div>
+                        
+                        <div id="tiempob94" class="oculto">
+                            <label for="tiempob94">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob94" name="tiempob94">
+                        </div>
+
+                    <label for="aplicadores">Aplicadores de rímel:</label>
+                    <select id="aplicadores" name="aplicadores">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb95" class="oculto">
+                            <label for="costosb95">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb95" name="costosb95">
+                        </div>
+                        
+                        <div id="tiempob95" class="oculto">
+                            <label for="tiempob95">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob95" name="tiempob95">
+                        </div>
+
+                    <label for="lamparaluz">Lámpara de luz blanca:</label>
+                    <select id="lamparaluz" name="lamparaluz">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb96" class="oculto">
+                            <label for="costosb96">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb96" name="costosb96">
+                        </div>
+                        
+                        <div id="tiempob96" class="oculto">
+                            <label for="tiempob96">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob96" name="tiempob96">
+                        </div>
+
+                    <label for="espejo">Espejo de aumento:</label>
+                    <select id="espejo" name="espejo">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb97" class="oculto">
+                            <label for="costosb97">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb97" name="costosb97">
+                        </div>
+                        
+                        <div id="tiempob97" class="oculto">
+                            <label for="tiempob97">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob97" name="tiempob97">
+                        </div>
+
+                    <label for="secador">Secador de aire frío:</label>
+                    <select id="secador" name="secador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb98" class="oculto">
+                            <label for="costosb98">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb98" name="costosb98">
+                        </div>
+                        
+                        <div id="tiempob98" class="oculto">
+                            <label for="tiempob98">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob98" name="tiempob98">
+                        </div>
+
+                    <label for="almohadillas">Amohadillas o cojines:</label>
+                    <select id="almohadillas" name="almohadillas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb99" class="oculto">
+                            <label for="costosb99">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb99" name="costosb99">
+                        </div>
+                        
+                        <div id="tiempob99" class="oculto">
+                            <label for="tiempob99">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob99" name="tiempob99">
+                        </div>
+
+                    <label for="cintamicro">Cinta de microporo o de papel:</label>
+                    <select id="cintamicro" name="cintamicro">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb100" class="oculto">
+                            <label for="costosb100">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb100" name="costosb100">
+                        </div>
+                        
+                        <div id="tiempob100" class="oculto">
+                            <label for="tiempob100">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob100" name="tiempob100">
+                        </div>
+
+                    <label for="bastoncillos">Bastoncillos de algodón:</label>
+                    <select id="bastoncillos" name="bastoncillos">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb101" class="oculto">
+                            <label for="costosb101">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb101" name="costosb101">
+                        </div>
+                        
+                        <div id="tiempob101" class="oculto">
+                            <label for="tiempob101">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob101" name="tiempob101">
+                        </div>
+
+                        <label for="hom6"><h4>Ofrece servicios para:</h4></label>
+                        <select id="hom6" name="hom6">
+                            <option value="elegir">Elija una respuesta</option>
+                            <option value="hombre6">Hombre</option>
+                            <option value="mujer6">Mujer</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+
+                        <fieldset class="hombre6 seccion">
+                            <legend><h5>Hombre</h5></legend>
+            
+                            <label for="hombre7">¿El costo varía?</label>
+                            <select id="hombre7" name="hombre7">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criterioh6" class="oculto">
+                                    <label for="criterioh6">¿Bajo que criterios?</label>
+                                    <input type="text" id="criterioh6" name="criterioh6">
+                                </div>
+                                
+                                <div id="rangoh6" class="oculto">
+                                    <label for="rangoh6">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangoh6" name="rangoh6">
+                                </div>
+
+                                <div id="costoh6" class="oculto">
+                                    <label for="costoh6">¿Cuál es el precio?</label>
+                                    <input type="text" id="costoh6" name="costoh6">
+                                </div>
+                        </fieldset>
+
+                        <fieldset class="mujer6 seccion">
+                            <legend><h5>Mujer</h5></legend>
+            
+                            <label for="mujer7">¿El costo varía?</label>
+                            <select id="mujer7" name="mujer7">
+                                <option value="elegir">Elija una respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+        
+                                <div id="criteriom6" class="oculto">
+                                    <label for="criteriom6">¿Bajo que criterios?</label>
+                                    <input type="text" id="criteriom6" name="criteriom6">
+                                </div>
+                                
+                                <div id="rangom6" class="oculto">
+                                    <label for="rangom6">Coloque el rango de precio:</label>
+                                    <input type="text" id="rangom6" name="rangom6">
+                                </div>
+
+                                <div id="costom6" class="oculto">
+                                    <label for="costom6">¿Cuál es el precio?</label>
+                                    <input type="text" id="costom6" name="costom6">
+                                </div>
+                        </fieldset>
+                </fieldset>
+
+                <label for="peinados">Peinados:</label>
+                <select id="peinados" name="peinados">
+                    <option value="elegir">Elija una respuesta</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <fieldset class="peinados seccion">
+                    <legend><h4>Peinados</h4></legend>
+                    Marque las herramientas con las que cuenta para brindar este servicio:
+                    
+                    <label for="secadorpelo">Secador de pelo:</label>
+                    <select id="secadorpelo" name="secadorpelo">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb102" class="oculto">
+                            <label for="costosb102">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb102" name="costosb102">
+                        </div>
+                        
+                        <div id="tiempob102" class="oculto">
+                            <label for="tiempob102">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob102" name="tiempob102">
+                        </div>
+
+                    <label for="plancha1">Plancha para el cabello:</label>
+                    <select id="plancha1" name="plancha1">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb103" class="oculto">
+                            <label for="costosb103">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb103" name="costosb103">
+                        </div>
+                        
+                        <div id="tiempob103" class="oculto">
+                            <label for="tiempob103">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob103" name="tiempob103">
+                        </div>
+
+                    <label for="cepillored2">Cepillo redondo:</label>
+                    <select id="cepillored2" name="cepillored2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb104" class="oculto">
+                            <label for="costosb104">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb104" name="costosb104">
+                        </div>
+                        
+                        <div id="tiempob104" class="oculto">
+                            <label for="tiempob104">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob104" name="tiempob104">
+                        </div>
+
+                    <label for="cepilloter2">Cepillo térmico:</label>
+                    <select id="cepilloter2" name="cepilloter2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb105" class="oculto">
+                            <label for="costosb105">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb105" name="costosb105">
+                        </div>
+                        
+                        <div id="tiempob105" class="oculto">
+                            <label for="tiempob105">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob105" name="tiempob105">
+                        </div>
+
+                    <label for="cepillonylon2">Cepillo con cerdas nylon:</label>
+                    <select id="cepillonylon2" name="cepillonylon2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb106" class="oculto">
+                            <label for="costosb106">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb106" name="costosb106">
+                        </div>
+                        
+                        <div id="tiempob106" class="oculto">
+                            <label for="tiempob106">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob106" name="tiempob106">
+                        </div>
+
+                    <label for="cepilloova2">Cepillo con forma ovalada:</label>
+                    <select id="cepilloova2" name="cepilloova2">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb107" class="oculto">
+                            <label for="costosb107">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb107" name="costosb107">
+                        </div>
+                        
+                        <div id="tiempob107" class="oculto">
+                            <label for="tiempob107">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob107" name="tiempob107">
+                        </div>
+
+                    <label for="peinepuas">Peine con púas finas:</label>
+                    <select id="peinepuas" name="peinepuas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb108" class="oculto">
+                            <label for="costosb108">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb108" name="costosb108">
+                        </div>
+                        
+                        <div id="tiempob108" class="oculto">
+                            <label for="tiempob108">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob108" name="tiempob108">
+                        </div>
+
+                    <label for="tenazas">Tenazas o pinzas de sujección:</label>
+                    <select id="tenazas" name="tenazas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb109" class="oculto">
+                            <label for="costosb109">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb109" name="costosb109">
+                        </div>
+                        
+                        <div id="tiempob109" class="oculto">
+                            <label for="tiempob109">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob109" name="tiempob109">
+                        </div>
+
+                    <label for="horquillas">Horquillas o pasadores:</label>
+                    <select id="horquillas" name="horquillas">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb110" class="oculto">
+                            <label for="costosb110">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb110" name="costosb110">
+                        </div>
+                        
+                        <div id="tiempob110" class="oculto">
+                            <label for="tiempob110">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob110" name="tiempob110">
+                        </div>
+
+                    <label for="rizador">Rizador:</label>
+                    <select id="rizador" name="rizador">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb111" class="oculto">
+                            <label for="costosb111">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb111" name="costosb111">
+                        </div>
+                        
+                        <div id="tiempob111" class="oculto">
+                            <label for="tiempob111">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob111" name="tiempob111">
+                        </div>
+
+                    <label for="spray">Spray:</label>
+                    <select id="spray" name="spray">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb112" class="oculto">
+                            <label for="costosb112">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb112" name="costosb112">
+                        </div>
+                        
+                        <div id="tiempob112" class="oculto">
+                            <label for="tiempob112">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob112" name="tiempob112">
+                        </div>
+
+                    <label for="mousse">Mousse o espuma para el cabello:</label>
+                    <select id="mousse" name="mousse">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb113" class="oculto">
+                            <label for="costosb113">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb113" name="costosb113">
+                        </div>
+                        
+                        <div id="tiempob113" class="oculto">
+                            <label for="tiempob113">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob113" name="tiempob113">
+                        </div>
+                    
+                    <label for="serum">Serum o aceite capilar:</label>
+                    <select id="serum" name="serum">
+                        <option value="elegir">Elija una respuesta</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                        <div id="costosb114" class="oculto">
+                            <label for="costosb114">¿Qué costo tiene para usted este artículo?</label>
+                            <input type="text" id="costosb114" name="costosb114">
+                        </div>
+                        
+                        <div id="tiempob114" class="oculto">
+                            <label for="tiempob114">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
+                            <input type="text" id="tiempob114" name="tiempob114">
+                        </div>
+                    
+
+                </fieldset>
+            </fieldset>
+                
+            <input type="submit" value="Enviar"></input>
+
+    </form>
+
+    <script src="belleza.js"></script>
+</body>
+</html>
