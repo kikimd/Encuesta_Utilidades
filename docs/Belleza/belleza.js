@@ -2616,8 +2616,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('Enviar').addEventListener('submit', function(event) {
         event.preventDefault();
         // Obtén los valores de los campos específicos de belleza
-        const corteCabello = document.getElementById('corteCabello').value;
-        const tijerasMicrodentado = document.getElementById('tijerasMicrodentado').value;
+        const corteCabello = document.getElementById('cabello').value;
+        const tijerasMicrodentado = document.getElementById('tijeras1').value;
         // Agrega más variables según sea necesario
 
         // Llama a la función específica de belleza para enviar estos datos
