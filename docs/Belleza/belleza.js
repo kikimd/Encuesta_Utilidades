@@ -2613,11 +2613,11 @@ document.getElementById('peinados').addEventListener('change', function() {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('formularioBelleza').addEventListener('submit', function(event) {
+    document.getElementById('Enviar').addEventListener('submit', function(event) {
         event.preventDefault();
         // Obtén los valores de los campos específicos de belleza
-        const corteCabello = document.getElementById('corteCabello').checked;
-        const tijerasMicrodentado = document.getElementById('tijerasMicrodentado').checked;
+        const corteCabello = document.getElementById('corteCabello').value;
+        const tijerasMicrodentado = document.getElementById('tijerasMicrodentado').value;
         // Agrega más variables según sea necesario
 
         // Llama a la función específica de belleza para enviar estos datos
