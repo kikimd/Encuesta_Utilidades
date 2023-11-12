@@ -42,8 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 async function enviarProductoHojaCalculo(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia, rubro) {
     try {
 
-        const gidGeneral = '0'; // GID para la hoja de cálculo general 
-        const respuesta = await fetch(`https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893?gid=${gidGeneral}`,{
+        const respuesta = await fetch("https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893",{
         //const respuesta = await fetch('https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893', {
             method: 'POST',
             mode: 'cors',
