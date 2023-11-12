@@ -2613,7 +2613,7 @@ document.getElementById('peinados').addEventListener('change', function() {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('Enviar').addEventListener('submit', function(event) {
+    document.getElementById('enviar').addEventListener('submit', function(event) {
         event.preventDefault();
         // Obtén los valores de los campos específicos de belleza
         const corteCabello = document.getElementById('cabello').value;
