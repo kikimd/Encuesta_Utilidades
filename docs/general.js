@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (rubroSeleccionado === 'belleza') {
             window.location.href = 'Belleza/belleza.html';
-            const nombre = document.getElementById('nombre').value;
-            const edad = document.getElementById('edad').value;
+            //const nombre = document.getElementById('nombre').value;
+            //const edad = document.getElementById('edad').value;
             const correo = document.getElementById('correo').value;
             const telefono = document.getElementById('telefono').value;
             const resultados = document.getElementById('resultados').value;
@@ -50,8 +50,8 @@ async function enviarProductoHojaCalculo(nombre, edad, correo, telefono, resulta
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                "Nombre": nombre,
-                "Edad": edad,
+                //"Nombre": nombre,
+                //"Edad": edad,
                 "Correo": correo,
                 "Teléfono": telefono,
                 "Resultados": resultados,
