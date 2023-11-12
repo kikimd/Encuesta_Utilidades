@@ -2609,3 +2609,96 @@ document.getElementById('peinados').addEventListener('change', function() {
             tiempob114Div.classList.add('oculto');
         }
     });
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('formularioBelleza').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // Obtén los valores de los campos específicos de belleza
+        const corteCabello = document.getElementById('corteCabello').checked;
+        const tijerasMicrodentado = document.getElementById('tijerasMicrodentado').checked;
+        // Agrega más variables según sea necesario
+
+        // Llama a la función específica de belleza para enviar estos datos
+        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado /*, ... y así sucesivamente */);
+
+        // También llama a la función para enviar datos generales
+        //enviarDatosGenerales();
+        
+        alert("Información de belleza enviada con éxito.");
+    });
+});
+
+// Función para enviar datos específicos de belleza a la hoja de cálculo
+async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado /*, ... y así sucesivamente */) {
+    try {
+        // Construye la URL de la hoja de cálculo (puedes añadir la pestaña específica si es necesario)
+        const gidBelleza = '1885976254'; // GID para la hoja de cálculo de Belleza
+        const respuesta = await fetch('https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893?gid=${gidBelleza}', {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                "CorteCabello": corteCabello,
+                "TijerasMicrodentado": tijerasMicrodentado,
+                // Agrega más campos según sea necesario
+            })
+        });
+
+        const contenido = await respuesta.json();
+        console.log(contenido);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+// La función para enviar datos generales puede permanecer la misma
+//async function enviarDatosGenerales() {
+    //const nombre = document.getElementById('nombre').value;
+    //const edad = document.getElementById('edad').value;
+    //const correo = document.getElementById('correo').value;
+    //const telefono = document.getElementById('telefono').value;
+    //const resultados = document.getElementById('resultados').value;
+    //const recomendaciones = document.getElementById('recomendaciones').value;
+    //const nombre_empresa = document.getElementById('nombre_empresa').value;
+    //const estado = document.getElementById('estado').value;
+    //const ciudad = document.getElementById('ciudad').value;
+    //const colonia = document.getElementById('colonia').value;
+    //const rubro = document.getElementById('rubro').value;
+
+    //await enviarProductoHojaCalculoGenerales(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia, rubro);
+//}
+
+// Función para enviar datos generales a la hoja de cálculo
+/*async function enviarProductoHojaCalculoGenerales(nombre, edad, correo, telefono, resultados, recomendaciones, nombre_empresa, estado, ciudad, colonia, rubro) {
+    try {
+        const respuesta = await fetch('https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893', {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                "Nombre": nombre,
+                "Edad": edad,
+                "Correo": correo,
+                "Teléfono": telefono,
+                "Resultados": resultados,
+                "Recomendaciones": recomendaciones,
+                "Nombre de la Empresa": nombre_empresa,
+                "Estado": estado,
+                "Ciudad": ciudad,
+                "Colonia": colonia,
+                "Rubro": rubro           
+            })
+        });
+
+        const contenido = await respuesta.json();
+        console.log(contenido);
+    } catch (error) {
+        console.log(error);
+    }
+}*/
