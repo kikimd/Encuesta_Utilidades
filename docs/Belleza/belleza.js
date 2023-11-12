@@ -2634,8 +2634,8 @@ document.addEventListener('DOMContentLoaded', function() {
 async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado /*, ... y así sucesivamente */) {
     try {
         // Construye la URL de la hoja de cálculo (puedes añadir la pestaña específica si es necesario)
-        const gidBelleza = '1885976254'; // GID para la hoja de cálculo de Belleza
-        const respuesta = await fetch(`https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893?gid=${gidBelleza}`, {
+        //const gidBelleza = '1885976254'; // GID para la hoja de cálculo de Belleza
+        const respuesta = await fetch("https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893?gid=1885976254", {
             method: 'POST',
             mode: 'cors',
             headers: {
