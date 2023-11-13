@@ -2648,7 +2648,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosc5 = document.getElementById('costosc5').value;
         const tiempoc5 = document.getElementById('tiempoc5').value;
         const pinzas = document.getElementById('pinzas').value;
-        /*const costosp = document.getElementById('costosp').value;
+        const costosp = document.getElementById('costosp').value;
         const tiempop = document.getElementById('tiempop').value;
         const secadora = document.getElementById('secadora').value;
         const costoss = document.getElementById('costoss').value;
@@ -2718,11 +2718,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosx13min = document.getElementById('costosMinimo').value;
         const costosx13max = document.getElementById('costosMaximo').value;
         const tiempox13 = document.getElementById('tiempox13').value;
-        const topcoat = document.getElementById('topcoat').value;*/
+        const topcoat = document.getElementById('topcoat').value;
         // Agrega más variables según sea necesario
 
         // Llama a la función específica de belleza para enviar estos datos
-        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas/*, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat*/);
+        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat);
 
         // También llama a la función para enviar datos generales
         //enviarDatosGenerales();
@@ -2732,7 +2732,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Función para enviar datos específicos de belleza a la hoja de cálculo
-async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas /*, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat*/ ) {
+async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat ) {
     try {
         // Construye la URL de la hoja de cálculo (puedes añadir la pestaña específica si es necesario)
         const respuesta = await fetch("https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893/tabs/Belleza", {
@@ -2774,7 +2774,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "costosc5": costosc5,
                 "tiempoc5": tiempoc5,
                 "pinzas": pinzas,
-                /*"costosp": costosp,
+                "costosp": costosp,
                 "tiempop": tiempop,
                 "secadora": secadora,
                 "costoss": costoss,
@@ -2844,7 +2844,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "costosx13min": costosx13min,
                 "costosx13max": costosx13max,
                 "tiempox13": tiempox13,
-                "topcoat": topcoat*/
+                "topcoat": topcoat
                 // Agrega más campos según sea necesario
             })
         });
