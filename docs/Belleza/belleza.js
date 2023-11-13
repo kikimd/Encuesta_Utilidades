@@ -2648,7 +2648,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosc5 = document.getElementById('costosc5').value;
         const tiempoc5 = document.getElementById('tiempoc5').value;
         const pinzas = document.getElementById('pinzas').value;
-        const costosp = document.getElementById('costosp').value;
+        /*const costosp = document.getElementById('costosp').value;
         const tiempop = document.getElementById('tiempop').value;
         const secadora = document.getElementById('secadora').value;
         const costoss = document.getElementById('costoss').value;
@@ -2718,7 +2718,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosx13min = document.getElementById('costosMinimo').value;
         const costosx13max = document.getElementById('costosMaximo').value;
         const tiempox13 = document.getElementById('tiempox13').value;
-        const topcoat = document.getElementById('topcoat').value;
+        const topcoat = document.getElementById('topcoat').value;*/
         // Agrega más variables según sea necesario
 
         // Llama a la función específica de belleza para enviar estos datos
@@ -2774,7 +2774,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "costosc5": costosc5,
                 "tiempoc5": tiempoc5,
                 "pinzas": pinzas,
-                "costosp": costosp,
+                /*"costosp": costosp,
                 "tiempop": tiempop,
                 "secadora": secadora,
                 "costoss": costoss,
@@ -2844,7 +2844,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "costosx13min": costosx13min,
                 "costosx13max": costosx13max,
                 "tiempox13": tiempox13,
-                "topcoat": topcoat
+                "topcoat": topcoat*/
                 // Agrega más campos según sea necesario
             })
         });
