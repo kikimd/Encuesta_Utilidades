@@ -50,8 +50,11 @@ document.getElementById('cabello').addEventListener('change', function() {
 });
 
     document.getElementById('tijeras1').addEventListener('change', function() {
-        const costost1Div = document.getElementById('costost1');
-        const tiempot1Div = document.getElementById('tiempot1');
+        //const costost1Div = document.getElementById('costost1');
+        //const tiempot1Div = document.getElementById('tiempot1');
+
+        const costost1Div = document.getElementById('costost1a');
+        const tiempot1Div = document.getElementById('tiempot1a');
 
         if (this.value === 'si') {
             costost1Div.classList.remove('oculto');
@@ -2618,7 +2621,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Obtén los valores de los campos específicos de belleza
         const corteCabello = document.getElementById('cabello').value;
         const tijerasMicrodentado = document.getElementById('tijeras1').value;
-        const costost1 = parseInt(document.getElementById('costot1').value,10);
+        const costost1 = document.getElementById('costot1').value;
         const tiempot1 = document.getElementById('tiempot1').value;
         const tijeras2 = document.getElementById('tijeras2').value;
         const costost2 = document.getElementById('costost2').value;
