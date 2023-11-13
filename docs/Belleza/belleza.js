@@ -2718,8 +2718,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosx12 = document.getElementById('costosx12').value;
         const tiempox12 = document.getElementById('tiempox12').value;
         const esmaltes = document.getElementById('esmaltes').value;
-        const costosx13min = document.getElementById('costosMinimo').value;
-        const costosx13max = document.getElementById('costosMaximo').value;
+        const costosx13min = document.getElementById('costoMinimo').value;
+        const costosx13max = document.getElementById('costoMaximo').value;
         const tiempox13 = document.getElementById('tiempox13').value;
         const topcoat = document.getElementById('topcoat').value;*/
         // Agrega más variables según sea necesario
