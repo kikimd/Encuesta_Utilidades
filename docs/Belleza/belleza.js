@@ -50,8 +50,8 @@ document.getElementById('cabello').addEventListener('change', function() {
 });
 
     document.getElementById('tijeras1').addEventListener('change', function() {
-        const costost1Div = document.getElementById('costost1');
-        const tiempot1Div = document.getElementById('tiempot1');
+        const costost1Div = document.getElementById('costoTijeras1');
+        const tiempot1Div = document.getElementById('tiempoTijeras1');
 
         if (this.value === 'si') {
             costost1Div.classList.remove('oculto');
