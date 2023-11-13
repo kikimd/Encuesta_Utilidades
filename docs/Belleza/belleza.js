@@ -2618,10 +2618,111 @@ document.addEventListener('DOMContentLoaded', function() {
         // Obtén los valores de los campos específicos de belleza
         const corteCabello = document.getElementById('cabello').value;
         const tijerasMicrodentado = document.getElementById('tijeras1').value;
+        const costost1 = document.getElementById('costost1').value;
+        const tiempot1 = document.getElementById('tiempot1').value;
+        const tijeras2 = document.getElementById('tijeras2').value;
+        const costost2 = document.getElementById('costost2').value;
+        const tiempot2 = document.getElementById('tiempot2').value;
+        const tijeras3 = document.getElementById('tijeras3').value;
+        const costost3 = document.getElementById('costost3').value;
+        const tiempot3 = document.getElementById('tiempot3').value;
+        const tijeras4 = document.getElementById('tijeras4').value;
+        const costost4 = document.getElementById('costost4').value;
+        const tiempot4 = document.getElementById('tiempot4').value;
+        const capa = document.getElementById('capa').value;
+        const costsc = document.getElementById('costosc').value;
+        const tiempoc = document.getElementById('tiempoc').value;
+        const cepillo1 = document.getElementById('cepillo1').value;
+        const costosc1 = document.getElementById('costosc1').value;   
+        const tiempoc1 = document.getElementById('tiempoc1').value;
+        const cepillo2 = document.getElementById('cepillo2').value;
+        const costosc2 = document.getElementById('costosc2').value;
+        const tiempoc2 = document.getElementById('tiempoc2').value;
+        const cepillo3 = document.getElementById('cepillo3').value;
+        const costosc3 = document.getElementById('costosc3').value;
+        const tiempoc3 = document.getElementById('tiempoc3').value;
+        const cepillo4 = document.getElementById('cepillo4').value;
+        const costosc4 = document.getElementById('costosc4').value;
+        const tiempoc4 = document.getElementById('tiempoc4').value;
+        const cepillo5 = document.getElementById('cepillo5').value;
+        const costosc5 = document.getElementById('costosc5').value;
+        const tiempoc5 = document.getElementById('tiempoc5').value;
+        const pinzas = document.getElementById('pinzas').value;
+        const costosp = document.getElementById('costosp').value;
+        const tiempop = document.getElementById('tiempop').value;
+        const secadora = document.getElementById('secadora').value;
+        const costoss = document.getElementById('costoss').value;
+        const tiempos = document.getElementById('tiempos').value;
+        const plancha = document.getElementById('plancha').value;
+        const costosp1 = document.getElementById('costosp1').value; 
+        const tiempop1 = document.getElementById('tiempop1').value;
+        const shampoo = document.getElementById('shampoo').value;
+        const costoss1 = document.getElementById('costoss1').value;
+        const tiempos1 = document.getElementById('tiempos1').value;
+        const acondicionador = document.getElementById('acondicionador').value;
+        const costosa = document.getElementById('costosa').value;
+        const tiempoa = document.getElementById('tiempoa').value;
+        const mascarilla = document.getElementById('mascarilla').value;
+        const costosm = document.getElementById('costosm').value;
+        const tiempom = document.getElementById('tiempom').value;
+        const fijador = document.getElementById('fijador').value;
+        const costosf = document.getElementById('costosf').value;
+        const tiempof = document.getElementById('tiempof').value;
+        const hom = document.getElementById('hom').value;
+        const hombre1 = document.getElementById('hombre1').value;
+        const criterio = document.getElementById('criterio').value;
+        const rango = document.getElementById('rango').value;
+        const costoh = document.getElementById('costoh').value;
+        const mujer1 = document.getElementById('mujer1').value;
+        const criteriom = document.getElementById('criteriom').value;
+        const rangom = document.getElementById('rangom').value;
+        const costom = document.getElementById('costom').value;
+        const uñas = document.getElementById('uñas').value;
+        const cortauñas = document.getElementById('cortauñas').value;
+        const costosx1 = document.getElementById('costosx1').value;
+        const tiempox1 = document.getElementById('tiempox1').value;
+        const limapapel = document.getElementById('limapapel').value;
+        const costosx2 = document.getElementById('costosx2').value;
+        const tiempox2 = document.getElementById('tiempox2').value;
+        const limametal = document.getElementById('limametal').value;
+        const costosx3 = document.getElementById('costosx3').value;
+        const tiempox3 = document.getElementById('tiempox3').value;
+        const pulidor = document.getElementById('pulidor').value;
+        const costosx4 = document.getElementById('costosx4').value;
+        const tiempox4 = document.getElementById('tiempox4').value;
+        const cuticulas = document.getElementById('cuticulas').value;
+        const costosx5 = document.getElementById('costosx5').value;
+        const tiempox5 = document.getElementById('tiempox5').value;
+        const cepillouñas = document.getElementById('cepillouñas').value;
+        const costosx6 = document.getElementById('costosx6').value;
+        const tiempox6 = document.getElementById('tiempox6').value;
+        const alicate = document.getElementById('alicate').value;
+        const costosx7 = document.getElementById('costosx7').value;
+        const tiempox7 = document.getElementById('tiempox7').value;
+        const palitos = document.getElementById('palitos').value;
+        const costosx8 = document.getElementById('costosx8').value;
+        const tiempox8 = document.getElementById('tiempox8').value;
+        const pinzauñas = document.getElementById('pinzauñas').value;
+        const costosx9 = document.getElementById('costosx9').value;
+        const tiempox9 = document.getElementById('tiempox9').value;
+        const pincelesnail = document.getElementById('pincelesnail').value;
+        const costosx10 = document.getElementById('costosx10').value;
+        const tiempox10 = document.getElementById('tiempox10').value;
+        const lamparaLED = document.getElementById('lamparaLED').value;
+        const costosx11 = document.getElementById('costosx11').value;
+        const tiempox11 = document.getElementById('tiempox11').value;
+        const monomero = document.getElementById('monomero').value;
+        const costosx12 = document.getElementById('costosx12').value;
+        const tiempox12 = document.getElementById('tiempox12').value;
+        const esmaltes = document.getElementById('esmaltes').value;
+        const costosx13min = document.getElementById('costosMinimo').value;
+        const costosx13max = document.getElementById('costosMaximo').value;
+        const tiempox13 = document.getElementById('tiempox13').value;
+        const topcoat = document.getElementById('topcoat').value;
         // Agrega más variables según sea necesario
 
         // Llama a la función específica de belleza para enviar estos datos
-        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado /*, ... y así sucesivamente */);
+        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat);
 
         // También llama a la función para enviar datos generales
         //enviarDatosGenerales();
@@ -2631,7 +2732,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Función para enviar datos específicos de belleza a la hoja de cálculo
-async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado /*, ... y así sucesivamente */) {
+async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat ) {
     try {
         // Construye la URL de la hoja de cálculo (puedes añadir la pestaña específica si es necesario)
         const respuesta = await fetch("https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893/tabs/Belleza", {
@@ -2643,6 +2744,107 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
             body: JSON.stringify({
                 "cabello": corteCabello,
                 "tijeras1": tijerasMicrodentado,
+                "costost1": costost1,
+                "tiempot1": tiempot1,
+                "tijeras2": tijeras2,
+                "costost2": costost2,
+                "tiempot2": tiempot2,
+                "tijeras3": tijeras3,
+                "costost3": costost3,
+                "tiempot3": tiempot3,
+                "tijeras4": tijeras4,
+                "costost4": costost4,
+                "tiempot4": tiempot4,
+                "capa": capa,
+                "costosc": costosc,
+                "tiempoc": tiempoc,
+                "cepillo1": cepillo1,
+                "costosc1": costosc1,
+                "tiempoc1": tiempoc1,
+                "cepillo2": cepillo2,
+                "costosc2": costosc2,
+                "tiempoc2": tiempoc2,
+                "cepillo3": cepillo3,
+                "costosc3": costosc3,
+                "tiempoc3": tiempoc3,
+                "cepillo4": cepillo4,
+                "costosc4": costosc4,
+                "tiempoc4": tiempoc4,
+                "cepillo5": cepillo5,
+                "costosc5": costosc5,
+                "tiempoc5": tiempoc5,
+                "pinzas": pinzas,
+                "costosp": costosp,
+                "tiempop": tiempop,
+                "secadora": secadora,
+                "costoss": costoss,
+                "tiempos": tiempos,
+                "plancha": plancha,
+                "costosp1": costosp1,
+                "tiempop1": tiempop1,
+                "shampoo": shampoo,
+                "costoss1": costoss1,
+                "tiempos1": tiempos1,
+                "acondicionador": acondicionador,
+                "costosa": costosa,
+                "tiempoa": tiempoa,
+                "mascarilla": mascarilla,
+                "costosm": costosm,
+                "tiempom": tiempom,
+                "fijador": fijador,
+                "costosf": costosf,
+                "tiempof": tiempof,
+                "hom-selec": hom,
+                "hombre1": hombre1,
+                "criterio": criterio,
+                "rango": rango,
+                "costoh": costoh,
+                "mujer1": mujer1,
+                "criteriom": criteriom,
+                "rangom": rangom,
+                "costom": costom,
+                "uñas": uñas,
+                "cortauñas": cortauñas,
+                "costosx1": costosx1,
+                "tiempox1": tiempox1,
+                "limapapel": limapapel,
+                "costosx2": costosx2,
+                "tiempox2": tiempox2,
+                "limametal": limametal,
+                "costosx3": costosx3,
+                "tiempox3": tiempox3,
+                "pulidor": pulidor,
+                "costosx4": costosx4,
+                "tiempox4": tiempox4,
+                "cuticulas": cuticulas,
+                "costosx5": costosx5,
+                "tiempox5": tiempox5,
+                "cepillouñas": cepillouñas,
+                "costosx6": costosx6,
+                "tiempox6": tiempox6,
+                "alicate": alicate,
+                "costosx7": costosx7,
+                "tiempox7": tiempox7,
+                "palitos": palitos,
+                "costosx8": costosx8,
+                "tiempox8": tiempox8,
+                "pinzauñas": pinzauñas,
+                "costosx9": costosx9,
+                "tiempox9": tiempox9,
+                "pincelesnail": pincelesnail,
+                "costosx10": costosx10,
+                "tiempox10": tiempox10,
+                "lamparaLED": lamparaLED,
+                "costosx11": costosx11,
+                "tiempox11": tiempox11,
+                "monomero": monomero,
+                "costosx12": costosx12,
+                "tiempox12": tiempox12,
+                "esmaltes": esmaltes,
+                "costosx13min": costosx13min,
+                "costosx13max": costosx13max,
+                "tiempox13": tiempox13,
+                "topcoat": topcoat
                 // Agrega más campos según sea necesario
             })
         });
