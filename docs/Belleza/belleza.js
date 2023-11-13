@@ -2618,7 +2618,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Obtén los valores de los campos específicos de belleza
         const corteCabello = document.getElementById('cabello').value;
         const tijerasMicrodentado = document.getElementById('tijeras1').value;
-        const costost1 = parseInt(document.getElementById('costoTijeras1').value,10);
+        const costost1 = parseInt(document.getElementById('costot1').value,10);
         const tiempot1 = document.getElementById('tiempot1').value;
         const tijeras2 = document.getElementById('tijeras2').value;
         const costost2 = document.getElementById('costost2').value;
