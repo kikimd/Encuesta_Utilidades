@@ -92,8 +92,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('tijeras4').addEventListener('change', function() {
-        const costost4Div = document.getElementById('costost4');
-        const tiempot4Div = document.getElementById('tiempot4');
+        const costost4Div = document.getElementById('costost4a');
+        const tiempot4Div = document.getElementById('tiempot4a');
 
         if (this.value === 'si') {
             costost4Div.classList.remove('oculto');
@@ -105,8 +105,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('capa').addEventListener('change', function() {
-        const costoscDiv = document.getElementById('costosc');
-        const tiempocDiv = document.getElementById('tiempoc');
+        const costoscDiv = document.getElementById('costosca');
+        const tiempocDiv = document.getElementById('tiempoca');
 
         if (this.value === 'si') {
             costoscDiv.classList.remove('oculto');
@@ -118,8 +118,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('cepillo1').addEventListener('change', function() {
-        const costosc1Div = document.getElementById('costosc1');
-        const tiempoc1Div = document.getElementById('tiempoc1');
+        const costosc1Div = document.getElementById('costosc1a');
+        const tiempoc1Div = document.getElementById('tiempoc1a');
 
         if (this.value === 'si') {
             costosc1Div.classList.remove('oculto');
@@ -131,8 +131,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('cepillo2').addEventListener('change', function() {
-        const costosc2Div = document.getElementById('costosc2');
-        const tiempoc2Div = document.getElementById('tiempoc2');
+        const costosc2Div = document.getElementById('costosc2a');
+        const tiempoc2Div = document.getElementById('tiempoc2a');
 
         if (this.value === 'si') {
             costosc2Div.classList.remove('oculto');
@@ -144,8 +144,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('cepillo3').addEventListener('change', function() {
-        const costosc3Div = document.getElementById('costosc3');
-        const tiempoc3Div = document.getElementById('tiempoc3');
+        const costosc3Div = document.getElementById('costosc3a');
+        const tiempoc3Div = document.getElementById('tiempoc3a');
 
         if (this.value === 'si') {
             costosc3Div.classList.remove('oculto');
@@ -157,8 +157,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('cepillo4').addEventListener('change', function() {
-        const costosc4Div = document.getElementById('costosc4');
-        const tiempoc4Div = document.getElementById('tiempoc4');
+        const costosc4Div = document.getElementById('costosc4a');
+        const tiempoc4Div = document.getElementById('tiempoc4a');
 
         if (this.value === 'si') {
             costosc4Div.classList.remove('oculto');
@@ -170,8 +170,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('cepillo5').addEventListener('change', function() {
-        const costosc5Div = document.getElementById('costosc5');
-        const tiempoc5Div = document.getElementById('tiempoc5');
+        const costosc5Div = document.getElementById('costosc5a');
+        const tiempoc5Div = document.getElementById('tiempoc5a');
 
         if (this.value === 'si') {
             costosc5Div.classList.remove('oculto');
@@ -183,8 +183,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('pinzas').addEventListener('change', function() {
-        const costospDiv = document.getElementById('costosp');
-        const tiempopDiv = document.getElementById('tiempop');
+        const costospDiv = document.getElementById('costospa');
+        const tiempopDiv = document.getElementById('tiempopa');
 
         if (this.value === 'si') {
             costospDiv.classList.remove('oculto');
@@ -196,8 +196,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('secadora').addEventListener('change', function() {
-        const costossDiv = document.getElementById('costoss');
-        const tiemposDiv = document.getElementById('tiempos');
+        const costossDiv = document.getElementById('costossa');
+        const tiemposDiv = document.getElementById('tiemposa');
 
         if (this.value === 'si') {
             costossDiv.classList.remove('oculto');
@@ -209,8 +209,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('plancha').addEventListener('change', function() {
-        const costosp1Div = document.getElementById('costosp1');
-        const tiempop1Div = document.getElementById('tiempop1');
+        const costosp1Div = document.getElementById('costosp1a');
+        const tiempop1Div = document.getElementById('tiempop1a');
 
         if (this.value === 'si') {
             costosp1Div.classList.remove('oculto');
@@ -222,8 +222,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('shampoo').addEventListener('change', function() {
-        const costoss1Div = document.getElementById('costoss1');
-        const tiempos1Div = document.getElementById('tiempos1');
+        const costoss1Div = document.getElementById('costoss1a');
+        const tiempos1Div = document.getElementById('tiempos1a');
 
         if (this.value === 'si') {
             costoss1Div.classList.remove('oculto');
@@ -235,8 +235,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('acondicionador').addEventListener('change', function() {
-        const costosaDiv = document.getElementById('costosa');
-        const tiempoaDiv = document.getElementById('tiempoa');
+        const costosaDiv = document.getElementById('costosaa');
+        const tiempoaDiv = document.getElementById('tiempoaa');
 
         if (this.value === 'si') {
             costosaDiv.classList.remove('oculto');
@@ -248,8 +248,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('mascarilla').addEventListener('change', function() {
-        const costosmDiv = document.getElementById('costosm');
-        const tiempomDiv = document.getElementById('tiempom');
+        const costosmDiv = document.getElementById('costosma');
+        const tiempomDiv = document.getElementById('tiempoma');
 
         if (this.value === 'si') {
             costosmDiv.classList.remove('oculto');
@@ -261,8 +261,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('fijador').addEventListener('change', function() {
-        const costosfDiv = document.getElementById('costosf');
-        const tiempofDiv = document.getElementById('tiempof');
+        const costosfDiv = document.getElementById('costosfa');
+        const tiempofDiv = document.getElementById('tiempofa');
 
         if (this.value === 'si') {
             costosfDiv.classList.remove('oculto');
@@ -288,7 +288,7 @@ document.getElementById('hom').addEventListener('change', function() {
 document.getElementById('hombre1').addEventListener('change', function() {
     const criterioDiv = document.getElementById('criterio');
     const rangoDiv = document.getElementById('rango');
-    const costohDiv = document.getElementById('costoh');
+    const costohDiv = document.getElementById('costoha');
 
     if (this.value === 'si') {
         criterioDiv.classList.remove('oculto');
@@ -319,7 +319,7 @@ document.getElementById('hom').addEventListener('change', function() {
 document.getElementById('mujer1').addEventListener('change', function() {
     const criteriomDiv = document.getElementById('criteriom');
     const rangomDiv = document.getElementById('rangom');
-    const costomDiv = document.getElementById('costom');
+    const costomDiv = document.getElementById('costoma');
 
     if (this.value === 'si') {
         criteriomDiv.classList.remove('oculto');
@@ -2705,7 +2705,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const palitos = document.getElementById('palitos').value;
         const costosx8 = document.getElementById('costosx8').value;
         const tiempox8 = document.getElementById('tiempox8').value;
-        const pinzauñas = document.getElementById('pinzauñas').value;
+        const pinzauñas = document.getElementById('pinzasuñas').value;
         const costosx9 = document.getElementById('costosx9').value;
         const tiempox9 = document.getElementById('tiempox9').value;
         const pincelesnail = document.getElementById('pincelesnail').value;
@@ -2831,7 +2831,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "palitos": palitos,
                 "costosx8": costosx8,
                 "tiempox8": tiempox8,
-                "pinzauñas": pinzauñas,
+                "pinzasuñas": pinzasuñas,
                 "costosx9": costosx9,
                 "tiempox9": tiempox9,
                 "pincelesnail": pincelesnail,
