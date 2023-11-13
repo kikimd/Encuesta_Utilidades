@@ -286,8 +286,8 @@ document.getElementById('hom').addEventListener('change', function() {
 });
 
 document.getElementById('hombre1').addEventListener('change', function() {
-    const criterioDiv = document.getElementById('criterio');
-    const rangoDiv = document.getElementById('rango');
+    const criterioDiv = document.getElementById('criterioa');
+    const rangoDiv = document.getElementById('rangoa');
     const costohDiv = document.getElementById('costoha');
 
     if (this.value === 'si') {
@@ -317,8 +317,8 @@ document.getElementById('hom').addEventListener('change', function() {
 });
 
 document.getElementById('mujer1').addEventListener('change', function() {
-    const criteriomDiv = document.getElementById('criteriom');
-    const rangomDiv = document.getElementById('rangom');
+    const criteriomDiv = document.getElementById('criterioma');
+    const rangomDiv = document.getElementById('rangoma');
     const costomDiv = document.getElementById('costoma');
 
     if (this.value === 'si') {
