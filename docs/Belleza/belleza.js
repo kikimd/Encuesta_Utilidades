@@ -2641,8 +2641,8 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                "Corte de cabello": corteCabello,
-                "Tijeras microdentado": tijerasMicrodentado,
+                "cabello": corteCabello,
+                "tijeras1": tijerasMicrodentado,
                 // Agrega más campos según sea necesario
             })
         });
