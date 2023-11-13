@@ -66,8 +66,8 @@ document.getElementById('cabello').addEventListener('change', function() {
     });
 
     document.getElementById('tijeras2').addEventListener('change', function() {
-        const costost2Div = document.getElementById('costost2');
-        const tiempot2Div = document.getElementById('tiempot2');
+        const costost2Div = document.getElementById('costost2a');
+        const tiempot2Div = document.getElementById('tiempot2a');
 
         if (this.value === 'si') {
             costost2Div.classList.remove('oculto');
