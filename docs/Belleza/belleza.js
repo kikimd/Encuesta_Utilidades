@@ -50,7 +50,7 @@ document.getElementById('cabello').addEventListener('change', function() {
 });
 
     document.getElementById('tijeras1').addEventListener('change', function() {
-        const costost1Div = document.getElementById('costot1');
+        const costost1Div = document.getElementById('costost1');
         const tiempot1Div = document.getElementById('tiempot1');
 
         if (this.value === 'si') {
