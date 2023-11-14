@@ -361,8 +361,8 @@ document.getElementById('uñas').addEventListener('change', function() {
 });
 
     document.getElementById('cortauñas').addEventListener('change', function() {
-        const costosx1Div = document.getElementById('costosx1');
-        const tiempox1Div = document.getElementById('tiempox1');
+        const costosx1Div = document.getElementById('costosx1a');
+        const tiempox1Div = document.getElementById('tiempox1a');
 
         if (this.value === 'si') {
             costosx1Div.classList.remove('oculto');
@@ -374,8 +374,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('limapapel').addEventListener('change', function() {
-        const costosx2Div = document.getElementById('costosx2');
-        const tiempox2Div = document.getElementById('tiempox2');
+        const costosx2Div = document.getElementById('costosx2a');
+        const tiempox2Div = document.getElementById('tiempox2a');
 
         if (this.value === 'si') {
             costosx2Div.classList.remove('oculto');
@@ -387,8 +387,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('limametal').addEventListener('change', function() {
-        const costosx3Div = document.getElementById('costosx3');
-        const tiempox3Div = document.getElementById('tiempox3');
+        const costosx3Div = document.getElementById('costosx3a');
+        const tiempox3Div = document.getElementById('tiempox3a');
 
         if (this.value === 'si') {
             costosx3Div.classList.remove('oculto');
@@ -400,8 +400,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('pulidor').addEventListener('change', function() {
-        const costosx4Div = document.getElementById('costosx4');
-        const tiempox4Div = document.getElementById('tiempox4');
+        const costosx4Div = document.getElementById('costosx4a');
+        const tiempox4Div = document.getElementById('tiempox4a');
 
         if (this.value === 'si') {
             costosx4Div.classList.remove('oculto');
@@ -413,8 +413,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('cuticulas').addEventListener('change', function() {
-        const costosx5Div = document.getElementById('costosx5');
-        const tiempox5Div = document.getElementById('tiempox5');
+        const costosx5Div = document.getElementById('costosx5a');
+        const tiempox5Div = document.getElementById('tiempox5a');
 
         if (this.value === 'si') {
             costosx5Div.classList.remove('oculto');
@@ -426,8 +426,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
     
     document.getElementById('cepillouñas').addEventListener('change', function() {
-        const costosx6Div = document.getElementById('costosx6');
-        const tiempox6Div = document.getElementById('tiempox6');
+        const costosx6Div = document.getElementById('costosx6a');
+        const tiempox6Div = document.getElementById('tiempox6a');
 
         if (this.value === 'si') {
             costosx6Div.classList.remove('oculto');
@@ -439,8 +439,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('alicate').addEventListener('change', function() {
-        const costosx7Div = document.getElementById('costosx7');
-        const tiempox7Div = document.getElementById('tiempox7');
+        const costosx7Div = document.getElementById('costosx7a');
+        const tiempox7Div = document.getElementById('tiempox7a');
 
         if (this.value === 'si') {
             costosx7Div.classList.remove('oculto');
@@ -452,8 +452,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('palitos').addEventListener('change', function() {
-        const costosx8Div = document.getElementById('costosx8');
-        const tiempox8Div = document.getElementById('tiempox8');
+        const costosx8Div = document.getElementById('costosx8a');
+        const tiempox8Div = document.getElementById('tiempox8a');
 
         if (this.value === 'si') {
             costosx8Div.classList.remove('oculto');
@@ -465,8 +465,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('pinzasuñas').addEventListener('change', function() {
-        const costosx9Div = document.getElementById('costosx9');
-        const tiempox9Div = document.getElementById('tiempox9');
+        const costosx9Div = document.getElementById('costosx9a');
+        const tiempox9Div = document.getElementById('tiempox9a');
 
         if (this.value === 'si') {
             costosx9Div.classList.remove('oculto');
@@ -478,8 +478,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('pincelesnail').addEventListener('change', function() {
-        const costosx10Div = document.getElementById('costosx10');
-        const tiempox10Div = document.getElementById('tiempox10');
+        const costosx10Div = document.getElementById('costosx10a');
+        const tiempox10Div = document.getElementById('tiempox10a');
 
         if (this.value === 'si') {
             costosx10Div.classList.remove('oculto');
@@ -491,8 +491,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('lamparaLED').addEventListener('change', function() {
-        const costosx11Div = document.getElementById('costosx11');
-        const tiempox11Div = document.getElementById('tiempox11');
+        const costosx11Div = document.getElementById('costosx11a');
+        const tiempox11Div = document.getElementById('tiempox11a');
 
         if (this.value === 'si') {
             costosx11Div.classList.remove('oculto');
@@ -504,8 +504,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('monomero').addEventListener('change', function() {
-        const costosx12Div = document.getElementById('costosx12');
-        const tiempox12Div = document.getElementById('tiempox12');
+        const costosx12Div = document.getElementById('costosx12a');
+        const tiempox12Div = document.getElementById('tiempox12a');
 
         if (this.value === 'si') {
             costosx12Div.classList.remove('oculto');
@@ -517,8 +517,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('esmaltes').addEventListener('change', function() {
-        const costosx13Div = document.getElementById('costosx13');
-        const tiempox13Div = document.getElementById('tiempox13');
+        const costosx13Div = document.getElementById('costosx13a');
+        const tiempox13Div = document.getElementById('tiempox13a');
 
         if (this.value === 'si') {
             costosx13Div.classList.remove('oculto');
@@ -530,8 +530,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('topcoat').addEventListener('change', function() {
-        const costosx14Div = document.getElementById('costosx14');
-        const tiempox14Div = document.getElementById('tiempox14');
+        const costosx14Div = document.getElementById('costosx14a');
+        const tiempox14Div = document.getElementById('tiempox14a');
 
         if (this.value === 'si') {
             costosx14Div.classList.remove('oculto');
@@ -543,8 +543,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('removedor').addEventListener('change', function() {
-        const costosx15Div = document.getElementById('costosx15');
-        const tiempox15Div = document.getElementById('tiempox15');
+        const costosx15Div = document.getElementById('costosx15a');
+        const tiempox15Div = document.getElementById('tiempox15a');
 
         if (this.value === 'si') {
             costosx15Div.classList.remove('oculto');
@@ -556,8 +556,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('algodon').addEventListener('change', function() {
-        const costosx16Div = document.getElementById('costosx16');
-        const tiempox16Div = document.getElementById('tiempox16');
+        const costosx16Div = document.getElementById('costosx16a');
+        const tiempox16Div = document.getElementById('tiempox16a');
 
         if (this.value === 'si') {
             costosx16Div.classList.remove('oculto');
@@ -569,8 +569,8 @@ document.getElementById('uñas').addEventListener('change', function() {
     });
 
     document.getElementById('toallitas2').addEventListener('change', function() {
-        const costosx17Div = document.getElementById('costosx17');
-        const tiempox17Div = document.getElementById('tiempox17');
+        const costosx17Div = document.getElementById('costosx17a');
+        const tiempox17Div = document.getElementById('tiempox17a');
 
         if (this.value === 'si') {
             costosx17Div.classList.remove('oculto');
@@ -600,8 +600,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
 
 
     document.getElementById('cortauñas').addEventListener('change', function() {
-        const costosb1Div = document.getElementById('costosb1');
-        const tiempob1Div = document.getElementById('tiempob1');
+        const costosb1Div = document.getElementById('costosb1a');
+        const tiempob1Div = document.getElementById('tiempob1a');
 
         if (this.value === 'si') {
             costosb1Div.classList.remove('oculto');
@@ -613,8 +613,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('empujador').addEventListener('change', function() {
-        const costosb2Div = document.getElementById('costosb2');
-        const tiempob2Div = document.getElementById('tiempob2');
+        const costosb2Div = document.getElementById('costosb2a');
+        const tiempob2Div = document.getElementById('tiempob2a');
 
         if (this.value === 'si') {
             costosb2Div.classList.remove('oculto');
@@ -626,8 +626,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('alicate').addEventListener('change', function() {
-        const costosb3Div = document.getElementById('costosb3');
-        const tiempob3Div = document.getElementById('tiempob3');
+        const costosb3Div = document.getElementById('costosb3a');
+        const tiempob3Div = document.getElementById('tiempob3a');
 
         if (this.value === 'si') {
             costosb3Div.classList.remove('oculto');
@@ -639,8 +639,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('limap').addEventListener('change', function() {
-        const costosb4Div = document.getElementById('costosb4');
-        const tiempob4Div = document.getElementById('tiempob4');
+        const costosb4Div = document.getElementById('costosb4a');
+        const tiempob4Div = document.getElementById('tiempob4a');
 
         if (this.value === 'si') {
             costosb4Div.classList.remove('oculto');
@@ -652,8 +652,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('piedra').addEventListener('change', function() {
-        const costosb5Div = document.getElementById('costosb5');
-        const tiempob5Div = document.getElementById('tiempob5');
+        const costosb5Div = document.getElementById('costosb5a');
+        const tiempob5Div = document.getElementById('tiempob5a');
 
         if (this.value === 'si') {
             costosb5Div.classList.remove('oculto');
@@ -665,8 +665,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('limamad').addEventListener('change', function() {
-        const costosb6Div = document.getElementById('costosb6');
-        const tiempob6Div = document.getElementById('tiempob6');
+        const costosb6Div = document.getElementById('costosb6a');
+        const tiempob6Div = document.getElementById('tiempob6a');
 
         if (this.value === 'si') {
             costosb6Div.classList.remove('oculto');
@@ -678,8 +678,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('limavid').addEventListener('change', function() {
-        const costosb7Div = document.getElementById('costosb7');
-        const tiempob7Div = document.getElementById('tiempob7');
+        const costosb7Div = document.getElementById('costosb7a');
+        const tiempob7Div = document.getElementById('tiempob7a');
 
         if (this.value === 'si') {
             costosb7Div.classList.remove('oculto');
@@ -691,8 +691,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('limamet').addEventListener('change', function() {
-        const costosb8Div = document.getElementById('costosb8');
-        const tiempob8Div = document.getElementById('tiempob8');
+        const costosb8Div = document.getElementById('costosb8a');
+        const tiempob8Div = document.getElementById('tiempob8a');
 
         if (this.value === 'si') {
             costosb8Div.classList.remove('oculto');
@@ -704,8 +704,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('cepillou').addEventListener('change', function() {
-        const costosb9Div = document.getElementById('costosb9');
-        const tiempob9Div = document.getElementById('tiempob9');
+        const costosb9Div = document.getElementById('costosb9a');
+        const tiempob9Div = document.getElementById('tiempob9a');
 
         if (this.value === 'si') {
             costosb9Div.classList.remove('oculto');
@@ -717,8 +717,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('separador').addEventListener('change', function() {
-        const costosb10Div = document.getElementById('costosb10');
-        const tiempob10Div = document.getElementById('tiempob10');
+        const costosb10Div = document.getElementById('costosb10a');
+        const tiempob10Div = document.getElementById('tiempob10a');
 
         if (this.value === 'si') {
             costosb10Div.classList.remove('oculto');
@@ -730,8 +730,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('palomad').addEventListener('change', function() {
-        const costosb11Div = document.getElementById('costosb11');
-        const tiempob11Div = document.getElementById('tiempob11');
+        const costosb11Div = document.getElementById('costosb11a');
+        const tiempob11Div = document.getElementById('tiempob11a');
 
         if (this.value === 'si') {
             costosb11Div.classList.remove('oculto');
@@ -743,8 +743,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('exfoliante').addEventListener('change', function() {
-        const costosb12Div = document.getElementById('costosb12');
-        const tiempob12Div = document.getElementById('tiempob12');
+        const costosb12Div = document.getElementById('costosb12a');
+        const tiempob12Div = document.getElementById('tiempob12a');
 
         if (this.value === 'si') {
             costosb12Div.classList.remove('oculto');
@@ -756,8 +756,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('cremahid').addEventListener('change', function() {
-        const costosb13Div = document.getElementById('costosb13');
-        const tiempob13Div = document.getElementById('tiempob13');
+        const costosb13Div = document.getElementById('costosb13a');
+        const tiempob13Div = document.getElementById('tiempob13a');
 
         if (this.value === 'si') {
             costosb13Div.classList.remove('oculto');
@@ -769,8 +769,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('esmalte').addEventListener('change', function() {
-        const costosb14Div = document.getElementById('costosb14');
-        const tiempob14Div = document.getElementById('tiempob14');
+        const costosb14Div = document.getElementById('costosb14a');
+        const tiempob14Div = document.getElementById('tiempob14a');
 
         if (this.value === 'si') {
             costosb14Div.classList.remove('oculto');
@@ -782,8 +782,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('suero').addEventListener('change', function() {
-        const costosb15Div = document.getElementById('costosb15');
-        const tiempob15Div = document.getElementById('tiempob15');
+        const costosb15Div = document.getElementById('costosb15a');
+        const tiempob15Div = document.getElementById('tiempob15a');
 
         if (this.value === 'si') {
             costosb15Div.classList.remove('oculto');
@@ -795,8 +795,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('toallas').addEventListener('change', function() {
-        const costosb16Div = document.getElementById('costosb16');
-        const tiempob16Div = document.getElementById('tiempob16');
+        const costosb16Div = document.getElementById('costosb16a');
+        const tiempob16Div = document.getElementById('tiempob16a');
 
         if (this.value === 'si') {
             costosb16Div.classList.remove('oculto');
@@ -808,8 +808,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('acetona').addEventListener('change', function() {
-        const costosb17Div = document.getElementById('costosb17');
-        const tiempob17Div = document.getElementById('tiempob17');
+        const costosb17Div = document.getElementById('costosb17a');
+        const tiempob17Div = document.getElementById('tiempob17a');
 
         if (this.value === 'si') {
             costosb17Div.classList.remove('oculto');
@@ -821,8 +821,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('locion').addEventListener('change', function() {
-        const costosb18Div = document.getElementById('costosb18');
-        const tiempob18Div = document.getElementById('tiempob18');
+        const costosb18Div = document.getElementById('costosb18a');
+        const tiempob18Div = document.getElementById('tiempob18a');
 
         if (this.value === 'si') {
             costosb18Div.classList.remove('oculto');
@@ -834,9 +834,9 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('esmaltes').addEventListener('change', function() {
-        const costosb19Div = document.getElementById('costosb19');
-        const cantidadb19Div = document.getElementById('cantidadb19');         
-        const tiempob19Div = document.getElementById('tiempob19');
+        const costosb19Div = document.getElementById('costosb19a');
+        const cantidadb19Div = document.getElementById('cantidadb19a');         
+        const tiempob19Div = document.getElementById('tiempob19a');
 
         if (this.value === 'si') {  
             costosb19Div.classList.remove('oculto');
@@ -850,8 +850,8 @@ document.getElementById('pedicure').addEventListener('change', function() {
     });
 
     document.getElementById('diseño').addEventListener('change', function() {
-        const costosb20Div = document.getElementById('costosb20');        
-        const tiempob20Div = document.getElementById('tiempob20');
+        const costosb20Div = document.getElementById('costosb20a');        
+        const tiempob20Div = document.getElementById('tiempob20a');
 
         if (this.value === 'si') {            
             costosb20Div.classList.remove('oculto');
@@ -876,9 +876,9 @@ document.getElementById('hom1').addEventListener('change', function() {
 });
 
 document.getElementById('hombre2').addEventListener('change', function() {
-    const criterioh1Div = document.getElementById('criterioh1');
-    const rangoh1Div = document.getElementById('rangoh1');
-    const costoh1Div = document.getElementById('costoh1');
+    const criterioh1Div = document.getElementById('criterioh1a');
+    const rangoh1Div = document.getElementById('rangoh1a');
+    const costoh1Div = document.getElementById('costoh1a');
 
     if (this.value === 'si') {
         criterioh1Div.classList.remove('oculto');
@@ -907,9 +907,9 @@ document.getElementById('hom1').addEventListener('change', function() {
 });
 
 document.getElementById('mujer2').addEventListener('change', function() {
-    const criteriomDiv = document.getElementById('criteriom1');
-    const rangomDiv = document.getElementById('rangom1');
-    const costomDiv = document.getElementById('costom1');
+    const criteriomDiv = document.getElementById('criteriom1a');
+    const rangomDiv = document.getElementById('rangom1a');
+    const costomDiv = document.getElementById('costom1a');
 
     if (this.value === 'si') {
         criteriomDiv.classList.remove('oculto');
@@ -952,8 +952,8 @@ document.getElementById('tinte').addEventListener('change', function() {
 
 
     document.getElementById('pinzastin').addEventListener('change', function() {
-        const costosb21Div = document.getElementById('costosb21');
-        const tiempob21Div = document.getElementById('tiempob21');
+        const costosb21Div = document.getElementById('costosb21a');
+        const tiempob21Div = document.getElementById('tiempob21a');
 
         if (this.value === 'si') {
             costosb21Div.classList.remove('oculto');
@@ -965,8 +965,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('tazon').addEventListener('change', function() {
-        const costosb22Div = document.getElementById('costosb22');
-        const tiempob22Div = document.getElementById('tiempob22');
+        const costosb22Div = document.getElementById('costosb22a');
+        const tiempob22Div = document.getElementById('tiempob22a');
 
         if (this.value === 'si') {
             costosb22Div.classList.remove('oculto');
@@ -978,8 +978,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('cepillomez').addEventListener('change', function() {
-        const costosb23Div = document.getElementById('costosb23');
-        const tiempob23Div = document.getElementById('tiempob23');
+        const costosb23Div = document.getElementById('costosb23a');
+        const tiempob23Div = document.getElementById('tiempob23a');
 
         if (this.value === 'si') {
             costosb23Div.classList.remove('oculto');
@@ -991,8 +991,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('gorros').addEventListener('change', function() {
-        const costosb24Div = document.getElementById('costosb24');
-        const tiempob24Div = document.getElementById('tiempob24');
+        const costosb24Div = document.getElementById('costosb24a');
+        const tiempob24Div = document.getElementById('tiempob24a');
 
         if (this.value === 'si') {
             costosb24Div.classList.remove('oculto');
@@ -1004,8 +1004,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('peine').addEventListener('change', function() {
-        const costosb25Div = document.getElementById('costosb25');
-        const tiempob25Div = document.getElementById('tiempob25');
+        const costosb25Div = document.getElementById('costosb25a');
+        const tiempob25Div = document.getElementById('tiempob25a');
 
         if (this.value === 'si') {
             costosb25Div.classList.remove('oculto');
@@ -1017,8 +1017,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('cepillored').addEventListener('change', function() {
-        const costosb26Div = document.getElementById('costosb26');
-        const tiempob26Div = document.getElementById('tiempob26');
+        const costosb26Div = document.getElementById('costosb26a');
+        const tiempob26Div = document.getElementById('tiempob26a');
 
         if (this.value === 'si') {
             costosb26Div.classList.remove('oculto');
@@ -1030,8 +1030,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('cepilloter').addEventListener('change', function() {
-        const costosb27Div = document.getElementById('costosb27');
-        const tiempob27Div = document.getElementById('tiempob27');
+        const costosb27Div = document.getElementById('costosb27a');
+        const tiempob27Div = document.getElementById('tiempob27a');
 
         if (this.value === 'si') {
             costosb27Div.classList.remove('oculto');
@@ -1043,8 +1043,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('cepillonylon').addEventListener('change', function() {
-        const costosb28Div = document.getElementById('costosb28');
-        const tiempob28Div = document.getElementById('tiempob28');
+        const costosb28Div = document.getElementById('costosb28a');
+        const tiempob28Div = document.getElementById('tiempob28a');
 
         if (this.value === 'si') {
             costosb28Div.classList.remove('oculto');
@@ -1056,8 +1056,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('cepilloova').addEventListener('change', function() {
-        const costosb29Div = document.getElementById('costosb29');
-        const tiempob29Div = document.getElementById('tiempob29');
+        const costosb29Div = document.getElementById('costosb29a');
+        const tiempob29Div = document.getElementById('tiempob29a');
 
         if (this.value === 'si') {
             costosb29Div.classList.remove('oculto');
@@ -1069,8 +1069,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('aluminio').addEventListener('change', function() {
-        const costosb30Div = document.getElementById('costosb30');
-        const tiempob30Div = document.getElementById('tiempob30');
+        const costosb30Div = document.getElementById('costosb30a');
+        const tiempob30Div = document.getElementById('tiempob30a');
 
         if (this.value === 'si') {
             costosb30Div.classList.remove('oculto');
@@ -1082,9 +1082,9 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('tintes').addEventListener('change', function() {
-        const costosb31Div = document.getElementById('costosb31');
-        const cantidadb31Div = document.getElementById('cantidadb31');
-        const tiempob31Div = document.getElementById('tiempob31');
+        const costosb31Div = document.getElementById('costosb31a');
+        const cantidadb31Div = document.getElementById('cantidadb31a');
+        const tiempob31Div = document.getElementById('tiempob31a');
 
         if (this.value === 'si') {
             costosb31Div.classList.remove('oculto');
@@ -1098,8 +1098,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('decolorante').addEventListener('change', function() {
-        const costosb32Div = document.getElementById('costosb32');
-        const tiempob32Div = document.getElementById('tiempob32');
+        const costosb32Div = document.getElementById('costosb32a');
+        const tiempob32Div = document.getElementById('tiempob32a');
 
         if (this.value === 'si') {
             costosb32Div.classList.remove('oculto');
@@ -1111,8 +1111,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('locionact').addEventListener('change', function() {
-        const costosb33Div = document.getElementById('costosb33');
-        const tiempob33Div = document.getElementById('tiempob33');
+        const costosb33Div = document.getElementById('costosb33a');
+        const tiempob33Div = document.getElementById('tiempob33a');
 
         if (this.value === 'si') {
             costosb33Div.classList.remove('oculto');
@@ -1124,8 +1124,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('mascarillac').addEventListener('change', function() {
-        const costosb34Div = document.getElementById('costosb34');
-        const tiempob34Div = document.getElementById('tiempob34');
+        const costosb34Div = document.getElementById('costosb34a');
+        const tiempob34Div = document.getElementById('tiempob34a');
 
         if (this.value === 'si') {
             costosb34Div.classList.remove('oculto');
@@ -1137,8 +1137,8 @@ document.getElementById('tinte').addEventListener('change', function() {
     });
 
     document.getElementById('cremaacond').addEventListener('change', function() {
-        const costosb35Div = document.getElementById('costosb35');
-        const tiempob35Div = document.getElementById('tiempob35');
+        const costosb35Div = document.getElementById('costosb35a');
+        const tiempob35Div = document.getElementById('tiempob35a');
 
         if (this.value === 'si') {
             costosb35Div.classList.remove('oculto');
@@ -1164,9 +1164,9 @@ document.getElementById('hom2').addEventListener('change', function() {
 });
 
 document.getElementById('hombre3').addEventListener('change', function() {
-    const criterioh2Div = document.getElementById('criterioh2');
-    const rangoh2Div = document.getElementById('rangoh2');
-    const costoh2Div = document.getElementById('costoh2');
+    const criterioh2Div = document.getElementById('criterioh2a');
+    const rangoh2Div = document.getElementById('rangoh2a');
+    const costoh2Div = document.getElementById('costoh2a');
 
     if (this.value === 'si') {
         criterioh2Div.classList.remove('oculto');
@@ -1195,9 +1195,9 @@ document.getElementById('hom2').addEventListener('change', function() {
 });
 
 document.getElementById('mujer3').addEventListener('change', function() {
-    const criteriom2Div = document.getElementById('criteriom2');
-    const rangom2Div = document.getElementById('rangom2');
-    const costom2Div = document.getElementById('costom2');
+    const criteriom2Div = document.getElementById('criteriom2a');
+    const rangom2Div = document.getElementById('rangom2a');
+    const costom2Div = document.getElementById('costom2a');
 
     if (this.value === 'si') {
         criteriom2Div.classList.remove('oculto');
@@ -1239,9 +1239,9 @@ document.getElementById('extensiones').addEventListener('change', function() {
 
 
     document.getElementById('extensiones1').addEventListener('change', function() {
-        const costosb136Div = document.getElementById('costosb136');
-        const tiempob136Div = document.getElementById('tiempob136');
-        const costosb36Div = document.getElementById('costosb36');
+        const costosb136Div = document.getElementById('costosb136a');
+        const tiempob136Div = document.getElementById('tiempob136a');
+        const costosb36Div = document.getElementById('costosb36a');
 
         if (this.value === 'si') {
             costosb136Div.classList.remove('oculto');
@@ -1255,11 +1255,11 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('extensiones2').addEventListener('change', function() {
-        const costosb137Div = document.getElementById('costosb137');
-        const tiempob137Div = document.getElementById('tiempob137');
-        const costosb237Div = document.getElementById('costosb237');
-        const tiempob237Div = document.getElementById('tiempob237');
-        const costosb37Div = document.getElementById('costosb37');
+        const costosb137Div = document.getElementById('costosb137a');
+        const tiempob137Div = document.getElementById('tiempob137a');
+        const costosb237Div = document.getElementById('costosb237a');
+        const tiempob237Div = document.getElementById('tiempob237a');
+        const costosb37Div = document.getElementById('costosb37a');
 
         if (this.value === 'si') {
             costosb137Div.classList.remove('oculto');
@@ -1277,13 +1277,13 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('extensiones3').addEventListener('change', function() {
-        const costosb138Div = document.getElementById('costosb138');
-        const tiempob138Div = document.getElementById('tiempob138');
-        const costosb238Div = document.getElementById('costosb238');
-        const tiempob238Div = document.getElementById('tiempob238');
-        const costosb338Div = document.getElementById('costosb338');
-        const tiempob338Div = document.getElementById('tiempob338');
-        const costosb38Div = document.getElementById('costosb38');
+        const costosb138Div = document.getElementById('costosb138a');
+        const tiempob138Div = document.getElementById('tiempob138a');
+        const costosb238Div = document.getElementById('costosb238a');
+        const tiempob238Div = document.getElementById('tiempob238a');
+        const costosb338Div = document.getElementById('costosb338a');
+        const tiempob338Div = document.getElementById('tiempob338a');
+        const costosb38Div = document.getElementById('costosb38a');
 
         if (this.value === 'si') {
             costosb138Div.classList.remove('oculto');
@@ -1305,14 +1305,14 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('extensiones4').addEventListener('change', function() {
-        const costosb139Div = document.getElementById('costosb139');
-        const tiempob139Div = document.getElementById('tiempob139');
-        const costosb239Div = document.getElementById('costosb239');
-        const tiempob239Div = document.getElementById('tiempob239');
-        const costosb339Div = document.getElementById('costosb339');
-        const cantidadb339Div = document.getElementById('cantidadb339');
-        const tiempob339Div = document.getElementById('tiempob339');
-        const costosb39Div = document.getElementById('costosb39');
+        const costosb139Div = document.getElementById('costosb139a');
+        const tiempob139Div = document.getElementById('tiempob139a');
+        const costosb239Div = document.getElementById('costosb239a');
+        const tiempob239Div = document.getElementById('tiempob239a');
+        const costosb339Div = document.getElementById('costosb339a');
+        const cantidadb339Div = document.getElementById('cantidadb339a');
+        const tiempob339Div = document.getElementById('tiempob339a');
+        const costosb39Div = document.getElementById('costosb39a');
 
         if (this.value === 'si') {
             costosb139Div.classList.remove('oculto');
@@ -1337,8 +1337,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     
 
     document.getElementById('pinzas2').addEventListener('change', function() {
-        const costosb40Div = document.getElementById('costosb40');
-        const tiempob40Div = document.getElementById('tiempob40');
+        const costosb40Div = document.getElementById('costosb40a');
+        const tiempob40Div = document.getElementById('tiempob40a');
 
         if (this.value === 'si') {
             costosb40Div.classList.remove('oculto');
@@ -1350,8 +1350,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('peine1').addEventListener('change', function() {
-        const costosb41Div = document.getElementById('costosb41');
-        const tiempob41Div = document.getElementById('tiempob41');
+        const costosb41Div = document.getElementById('costosb41a');
+        const tiempob41Div = document.getElementById('tiempob41a');
 
         if (this.value === 'si') {
             costosb41Div.classList.remove('oculto');
@@ -1363,8 +1363,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('cepillored1').addEventListener('change', function() {
-        const costosb42Div = document.getElementById('costosb42');
-        const tiempob42Div = document.getElementById('tiempob42');
+        const costosb42Div = document.getElementById('costosb42a');
+        const tiempob42Div = document.getElementById('tiempob42a');
 
         if (this.value === 'si') {
             costosb42Div.classList.remove('oculto');
@@ -1376,8 +1376,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('cepilloter1').addEventListener('change', function() {
-        const costosb43Div = document.getElementById('costosb43');
-        const tiempob43Div = document.getElementById('tiempob43');
+        const costosb43Div = document.getElementById('costosb43a');
+        const tiempob43Div = document.getElementById('tiempob43a');
 
         if (this.value === 'si') {
             costosb43Div.classList.remove('oculto');
@@ -1389,8 +1389,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('cepillonylon1').addEventListener('change', function() {
-        const costosb44Div = document.getElementById('costosb44');
-        const tiempob44Div = document.getElementById('tiempob44');
+        const costosb44Div = document.getElementById('costosb44a');
+        const tiempob44Div = document.getElementById('tiempob44a');
 
         if (this.value === 'si') {
             costosb44Div.classList.remove('oculto');
@@ -1402,8 +1402,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('cepilloova1').addEventListener('change', function() {
-        const costosb45Div = document.getElementById('costosb45');
-        const tiempob45Div = document.getElementById('tiempob45');
+        const costosb45Div = document.getElementById('costosb45a');
+        const tiempob45Div = document.getElementById('tiempob45a');
 
         if (this.value === 'si') {
             costosb45Div.classList.remove('oculto');
@@ -1415,8 +1415,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('tijeras5').addEventListener('change', function() {
-        const costosb46Div = document.getElementById('costosb46');
-        const tiempob46Div = document.getElementById('tiempob46');
+        const costosb46Div = document.getElementById('costosb46a');
+        const tiempob46Div = document.getElementById('tiempob46a');
 
         if (this.value === 'si') {
             costosb46Div.classList.remove('oculto');
@@ -1428,8 +1428,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('removedorext').addEventListener('change', function() {
-        const costosb47Div = document.getElementById('costosb47');      
-        const tiempob47Div = document.getElementById('tiempob47');
+        const costosb47Div = document.getElementById('costosb47a');      
+        const tiempob47Div = document.getElementById('tiempob47a');
 
         if (this.value === 'si') {
             costosb47Div.classList.remove('oculto');          
@@ -1441,8 +1441,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('rizador').addEventListener('change', function() {
-        const costosb48Div = document.getElementById('costosb48');
-        const tiempob48Div = document.getElementById('tiempob48');
+        const costosb48Div = document.getElementById('costosb48a');
+        const tiempob48Div = document.getElementById('tiempob48a');
 
         if (this.value === 'si') {
             costosb48Div.classList.remove('oculto');
@@ -1454,8 +1454,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('mascarillacab').addEventListener('change', function() {
-        const costosb49Div = document.getElementById('costosb49');
-        const tiempob49Div = document.getElementById('tiempob49');
+        const costosb49Div = document.getElementById('costosb49a');
+        const tiempob49Div = document.getElementById('tiempob49a');
 
         if (this.value === 'si') {
             costosb49Div.classList.remove('oculto');
@@ -1467,8 +1467,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('acondicionador1').addEventListener('change', function() {
-        const costosb50Div = document.getElementById('costosb50');
-        const tiempob50Div = document.getElementById('tiempob50');
+        const costosb50Div = document.getElementById('costosb50a');
+        const tiempob50Div = document.getElementById('tiempob50a');
 
         if (this.value === 'si') {
             costosb50Div.classList.remove('oculto');
@@ -1480,8 +1480,8 @@ document.getElementById('extensiones').addEventListener('change', function() {
     });
 
     document.getElementById('shampoo1').addEventListener('change', function() {
-        const costosb51Div = document.getElementById('costosb51');
-        const tiempob51Div = document.getElementById('tiempob51');
+        const costosb51Div = document.getElementById('costosb51a');
+        const tiempob51Div = document.getElementById('tiempob51a');
 
         if (this.value === 'si') {
             costosb51Div.classList.remove('oculto');
@@ -1507,9 +1507,9 @@ document.getElementById('hom3').addEventListener('change', function() {
 });
 
 document.getElementById('hombre4').addEventListener('change', function() {
-    const criterioh3Div = document.getElementById('criterioh3');
-    const rangoh3Div = document.getElementById('rangoh3');
-    const costoh3Div = document.getElementById('costoh3');
+    const criterioh3Div = document.getElementById('criterioh3a');
+    const rangoh3Div = document.getElementById('rangoh3a');
+    const costoh3Div = document.getElementById('costoh3a');
 
     if (this.value === 'si') {
         criterioh3Div.classList.remove('oculto');
@@ -1538,9 +1538,9 @@ document.getElementById('hom3').addEventListener('change', function() {
 });
 
 document.getElementById('mujer4').addEventListener('change', function() {
-    const criteriom3Div = document.getElementById('criteriom3');
-    const rangom3Div = document.getElementById('rangom3');
-    const costom3Div = document.getElementById('costom3');
+    const criteriom3Div = document.getElementById('criteriom3a');
+    const rangom3Div = document.getElementById('rangom3a');
+    const costom3Div = document.getElementById('costom3a');
 
     if (this.value === 'si') {
         criteriom3Div.classList.remove('oculto');
@@ -1582,8 +1582,8 @@ document.getElementById('depilacion').addEventListener('change', function() {
 
 
     document.getElementById('gafas').addEventListener('change', function() {
-        const costosb52Div = document.getElementById('costosb52');
-        const tiempob52Div = document.getElementById('tiempob52');        
+        const costosb52Div = document.getElementById('costosb52a');
+        const tiempob52Div = document.getElementById('tiempob52a');        
 
         if (this.value === 'si') {
             costosb52Div.classList.remove('oculto');
@@ -1595,8 +1595,8 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('laser').addEventListener('change', function() {
-        const costosb53Div = document.getElementById('costosb53');
-        const tiempob53Div = document.getElementById('tiempob53');        
+        const costosb53Div = document.getElementById('costosb53a');
+        const tiempob53Div = document.getElementById('tiempob53a');        
 
         if (this.value === 'si') {
             costosb53Div.classList.remove('oculto');
@@ -1608,8 +1608,8 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('gel').addEventListener('change', function() {
-        const costosb54Div = document.getElementById('costosb54');
-        const tiempob54Div = document.getElementById('tiempob54');        
+        const costosb54Div = document.getElementById('costosb54a');
+        const tiempob54Div = document.getElementById('tiempob54a');        
 
         if (this.value === 'si') {
             costosb54Div.classList.remove('oculto');
@@ -1621,8 +1621,8 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('gelanes').addEventListener('change', function() {
-        const costosb55Div = document.getElementById('costosb55');
-        const tiempob55Div = document.getElementById('tiempob55');        
+        const costosb55Div = document.getElementById('costosb55a');
+        const tiempob55Div = document.getElementById('tiempob55a');        
 
         if (this.value === 'si') {
             costosb55Div.classList.remove('oculto');
@@ -1635,8 +1635,8 @@ document.getElementById('depilacion').addEventListener('change', function() {
     
 
     document.getElementById('toallaslim').addEventListener('change', function() {
-        const costosb56Div = document.getElementById('costosb56');
-        const tiempob56Div = document.getElementById('tiempob56');        
+        const costosb56Div = document.getElementById('costosb56a');
+        const tiempob56Div = document.getElementById('tiempob56a');        
 
         if (this.value === 'si') {
             costosb56Div.classList.remove('oculto');
@@ -1648,8 +1648,8 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('compresas').addEventListener('change', function() {
-        const costosb57Div = document.getElementById('costosb57');
-        const tiempob57Div = document.getElementById('tiempob57');
+        const costosb57Div = document.getElementById('costosb57a');
+        const tiempob57Div = document.getElementById('tiempob57a');
 
         if (this.value === 'si') {
             costosb57Div.classList.remove('oculto');
@@ -1661,7 +1661,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('piernas').addEventListener('change', function() {
-        const costosb58Div = document.getElementById('costosb58');       
+        const costosb58Div = document.getElementById('costosb58a');       
 
         if (this.value === 'si') {
             costosb58Div.classList.remove('oculto');            
@@ -1671,7 +1671,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('axilas').addEventListener('change', function() {
-        const costosb59Div = document.getElementById('costosb59');       
+        const costosb59Div = document.getElementById('costosb59a');       
 
         if (this.value === 'si') {
             costosb59Div.classList.remove('oculto');            
@@ -1681,7 +1681,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('bikini').addEventListener('change', function() {
-        const costosb60Div = document.getElementById('costosb60');       
+        const costosb60Div = document.getElementById('costosb60a');       
 
         if (this.value === 'si') {
             costosb60Div.classList.remove('oculto');            
@@ -1691,7 +1691,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('zonai').addEventListener('change', function() {
-        const costosb61Div = document.getElementById('costosb61');       
+        const costosb61Div = document.getElementById('costosb61a');       
 
         if (this.value === 'si') {
             costosb61Div.classList.remove('oculto');            
@@ -1701,7 +1701,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('espalda').addEventListener('change', function() {
-        const costosb62Div = document.getElementById('costosb62');       
+        const costosb62Div = document.getElementById('costosb62a');       
 
         if (this.value === 'si') {
             costosb62Div.classList.remove('oculto');            
@@ -1711,7 +1711,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('pecho').addEventListener('change', function() {
-        const costosb63Div = document.getElementById('costosb63');       
+        const costosb63Div = document.getElementById('costosb63a');       
 
         if (this.value === 'si') {
             costosb63Div.classList.remove('oculto');            
@@ -1721,7 +1721,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('brazos').addEventListener('change', function() {
-        const costosb64Div = document.getElementById('costosb64');       
+        const costosb64Div = document.getElementById('costosb64a');       
 
         if (this.value === 'si') {
             costosb64Div.classList.remove('oculto');            
@@ -1731,7 +1731,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('entrecejo').addEventListener('change', function() {
-        const costosb65Div = document.getElementById('costosb65');       
+        const costosb65Div = document.getElementById('costosb65a');       
 
         if (this.value === 'si') {
             costosb65Div.classList.remove('oculto');            
@@ -1741,7 +1741,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('labio').addEventListener('change', function() {
-        const costosb66Div = document.getElementById('costosb66');       
+        const costosb66Div = document.getElementById('costosb66a');       
 
         if (this.value === 'si') {
             costosb66Div.classList.remove('oculto');            
@@ -1751,7 +1751,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('barbilla').addEventListener('change', function() {
-        const costosb67Div = document.getElementById('costosb67');       
+        const costosb67Div = document.getElementById('costosb67a');       
 
         if (this.value === 'si') {
             costosb67Div.classList.remove('oculto');            
@@ -1761,7 +1761,7 @@ document.getElementById('depilacion').addEventListener('change', function() {
     });
 
     document.getElementById('patilla').addEventListener('change', function() {
-        const costosb68Div = document.getElementById('costosb68');       
+        const costosb68Div = document.getElementById('costosb68a');       
 
         if (this.value === 'si') {
             costosb68Div.classList.remove('oculto');            
@@ -1785,9 +1785,9 @@ document.getElementById('hom4').addEventListener('change', function() {
 });
 
 document.getElementById('hombre5').addEventListener('change', function() {
-    const criterioh4Div = document.getElementById('criterioh4');
-    const rangoh4Div = document.getElementById('rangoh4');
-    const costoh4Div = document.getElementById('costoh4');
+    const criterioh4Div = document.getElementById('criterioh4a');
+    const rangoh4Div = document.getElementById('rangoh4a');
+    const costoh4Div = document.getElementById('costoh4a');
 
     if (this.value === 'si') {
         criterioh4Div.classList.remove('oculto');
@@ -1816,9 +1816,9 @@ document.getElementById('hom4').addEventListener('change', function() {
 });
 
 document.getElementById('mujer5').addEventListener('change', function() {
-    const criteriom4Div = document.getElementById('criteriom4');
-    const rangom4Div = document.getElementById('rangom4');
-    const costom4Div = document.getElementById('costom4');
+    const criteriom4Div = document.getElementById('criteriom4a');
+    const rangom4Div = document.getElementById('rangom4a');
+    const costom4Div = document.getElementById('costom4a');
 
     if (this.value === 'si') {
         criteriom4Div.classList.remove('oculto');
@@ -1860,8 +1860,8 @@ document.getElementById('masaje').addEventListener('change', function() {
 
 
     document.getElementById('aceite').addEventListener('change', function() {
-        const costosb69Div = document.getElementById('costosb69');
-        const tiempob69Div = document.getElementById('tiempob69');        
+        const costosb69Div = document.getElementById('costosb69a');
+        const tiempob69Div = document.getElementById('tiempob69a');        
 
         if (this.value === 'si') {
             costosb69Div.classList.remove('oculto');
@@ -1873,8 +1873,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('guante').addEventListener('change', function() {
-        const costosb70Div = document.getElementById('costosb70');
-        const tiempob70Div = document.getElementById('tiempob70');        
+        const costosb70Div = document.getElementById('costosb70a');
+        const tiempob70Div = document.getElementById('tiempob70a');        
 
         if (this.value === 'si') {
             costosb70Div.classList.remove('oculto');
@@ -1886,8 +1886,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('rodillo').addEventListener('change', function() {
-        const costosb71Div = document.getElementById('costosb71');
-        const tiempob71Div = document.getElementById('tiempob71');        
+        const costosb71Div = document.getElementById('costosb71a');
+        const tiempob71Div = document.getElementById('tiempob71a');        
 
         if (this.value === 'si') {
             costosb71Div.classList.remove('oculto');
@@ -1899,8 +1899,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
    document.getElementById('ventosa').addEventListener('change', function() {
-        const costosb72Div = document.getElementById('costosb72');
-        const tiempob72Div = document.getElementById('tiempob72');        
+        const costosb72Div = document.getElementById('costosb72a');
+        const tiempob72Div = document.getElementById('tiempob72a');        
 
         if (this.value === 'si') {
             costosb72Div.classList.remove('oculto');
@@ -1913,8 +1913,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     
 
     document.getElementById('cavitador').addEventListener('change', function() {
-        const costosb73Div = document.getElementById('costosb73');
-        const tiempob73Div = document.getElementById('tiempob73');        
+        const costosb73Div = document.getElementById('costosb73a');
+        const tiempob73Div = document.getElementById('tiempob73a');        
 
         if (this.value === 'si') {
             costosb73Div.classList.remove('oculto');
@@ -1926,8 +1926,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('gel1').addEventListener('change', function() {
-        const costosb74Div = document.getElementById('costosb74');
-        const tiempob74Div = document.getElementById('tiempob74');        
+        const costosb74Div = document.getElementById('costosb74a');
+        const tiempob74Div = document.getElementById('tiempob74a');        
 
         if (this.value === 'si') {
             costosb74Div.classList.remove('oculto');
@@ -1939,8 +1939,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('lampara').addEventListener('change', function() {
-        const costosb75Div = document.getElementById('costosb75');
-        const tiempob75Div = document.getElementById('tiempob75');        
+        const costosb75Div = document.getElementById('costosb75a');
+        const tiempob75Div = document.getElementById('tiempob75a');        
 
         if (this.value === 'si') {
             costosb75Div.classList.remove('oculto');
@@ -1953,8 +1953,8 @@ document.getElementById('masaje').addEventListener('change', function() {
 
 
     document.getElementById('termometro').addEventListener('change', function() {
-        const costosb76Div = document.getElementById('costosb76');
-        const tiempob76Div = document.getElementById('tiempob76');        
+        const costosb76Div = document.getElementById('costosb76a');
+        const tiempob76Div = document.getElementById('tiempob76a');        
 
         if (this.value === 'si') {
             costosb76Div.classList.remove('oculto');
@@ -1966,8 +1966,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('masajeador1').addEventListener('change', function() {
-        const costosb77Div = document.getElementById('costosb77');
-        const tiempob77Div = document.getElementById('tiempob77');        
+        const costosb77Div = document.getElementById('costosb77a');
+        const tiempob77Div = document.getElementById('tiempob77a');        
 
         if (this.value === 'si') {
             costosb77Div.classList.remove('oculto');
@@ -1979,8 +1979,8 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('masajeador2').addEventListener('change', function() {
-        const costosb78Div = document.getElementById('costosb78');
-        const tiempob78Div = document.getElementById('tiempob78');        
+        const costosb78Div = document.getElementById('costosb78a');
+        const tiempob78Div = document.getElementById('tiempob78a');        
 
         if (this.value === 'si') {
             costosb78Div.classList.remove('oculto');
@@ -1992,7 +1992,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('abdomen').addEventListener('change', function() {
-        const costosb79Div = document.getElementById('costosb79');       
+        const costosb79Div = document.getElementById('costosb79a');       
 
         if (this.value === 'si') {
             costosb79Div.classList.remove('oculto');            
@@ -2002,7 +2002,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('gluteos').addEventListener('change', function() {
-        const costosb80Div = document.getElementById('costosb80');       
+        const costosb80Div = document.getElementById('costosb80a');       
 
         if (this.value === 'si') {
             costosb80Div.classList.remove('oculto');            
@@ -2012,7 +2012,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('cintura').addEventListener('change', function() {
-        const costosb81Div = document.getElementById('costosb81');       
+        const costosb81Div = document.getElementById('costosb81a');       
 
         if (this.value === 'si') {
             costosb81Div.classList.remove('oculto');            
@@ -2022,7 +2022,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('caderas').addEventListener('change', function() {
-        const costosb82Div = document.getElementById('costosb82');       
+        const costosb82Div = document.getElementById('costosb82a');       
 
         if (this.value === 'si') {
             costosb82Div.classList.remove('oculto');            
@@ -2032,7 +2032,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('muslos').addEventListener('change', function() {
-        const costosb83Div = document.getElementById('costosb83');       
+        const costosb83Div = document.getElementById('costosb83a');       
 
         if (this.value === 'si') {
             costosb83Div.classList.remove('oculto');            
@@ -2042,7 +2042,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('brazos1').addEventListener('change', function() {
-        const costosb84Div = document.getElementById('costosb84');       
+        const costosb84Div = document.getElementById('costosb84a');       
 
         if (this.value === 'si') {
             costosb84Div.classList.remove('oculto');            
@@ -2052,7 +2052,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('espalda1').addEventListener('change', function() {
-        const costosb85Div = document.getElementById('costosb85');       
+        const costosb85Div = document.getElementById('costosb85a');       
 
         if (this.value === 'si') {
             costosb85Div.classList.remove('oculto');            
@@ -2062,7 +2062,7 @@ document.getElementById('masaje').addEventListener('change', function() {
     });
 
     document.getElementById('pantorrillas').addEventListener('change', function() {
-        const costosb86Div = document.getElementById('costosb86');       
+        const costosb86Div = document.getElementById('costosb86a');       
 
         if (this.value === 'si') {
             costosb86Div.classList.remove('oculto');            
@@ -2086,9 +2086,9 @@ document.getElementById('hom5').addEventListener('change', function() {
 });
 
 document.getElementById('hombre6').addEventListener('change', function() {
-    const criterioh5Div = document.getElementById('criterioh5');
-    const rangoh5Div = document.getElementById('rangoh5');
-    const costoh5Div = document.getElementById('costoh5');
+    const criterioh5Div = document.getElementById('criterioh5a');
+    const rangoh5Div = document.getElementById('rangoh5a');
+    const costoh5Div = document.getElementById('costoh5a');
 
     if (this.value === 'si') {
         criterioh5Div.classList.remove('oculto');
@@ -2117,9 +2117,9 @@ document.getElementById('hom5').addEventListener('change', function() {
 });
 
 document.getElementById('mujer6').addEventListener('change', function() {
-    const criteriom5Div = document.getElementById('criteriom5');
-    const rangom5Div = document.getElementById('rangom5');
-    const costom5Div = document.getElementById('costom5');
+    const criteriom5Div = document.getElementById('criteriom5a');
+    const rangom5Div = document.getElementById('rangom5a');
+    const costom5Div = document.getElementById('costom5a');
 
     if (this.value === 'si') {
         criteriom5Div.classList.remove('oculto');
@@ -2161,8 +2161,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
 
 
     document.getElementById('pinzasext').addEventListener('change', function() {
-        const costosb87Div = document.getElementById('costosb87');
-        const tiempob87Div = document.getElementById('tiempob87');
+        const costosb87Div = document.getElementById('costosb87a');
+        const tiempob87Div = document.getElementById('tiempob87a');
 
         if (this.value === 'si') {
             costosb87Div.classList.remove('oculto');
@@ -2174,8 +2174,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('parches').addEventListener('change', function() {
-        const costosb88Div = document.getElementById('costosb88');
-        const tiempob88Div = document.getElementById('tiempob88');
+        const costosb88Div = document.getElementById('costosb88a');
+        const tiempob88Div = document.getElementById('tiempob88a');
 
         if (this.value === 'si') {
             costosb88Div.classList.remove('oculto');
@@ -2187,8 +2187,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('anillos').addEventListener('change', function() {
-        const costosb89Div = document.getElementById('costosb89');
-        const tiempob89Div = document.getElementById('tiempob89');
+        const costosb89Div = document.getElementById('costosb89a');
+        const tiempob89Div = document.getElementById('tiempob89a');
 
         if (this.value === 'si') {
             costosb89Div.classList.remove('oculto');
@@ -2200,8 +2200,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('pegamento').addEventListener('change', function() {
-        const costosb90Div = document.getElementById('costosb90');
-        const tiempob90Div = document.getElementById('tiempob90');
+        const costosb90Div = document.getElementById('costosb90a');
+        const tiempob90Div = document.getElementById('tiempob90a');
 
         if (this.value === 'si') {
             costosb90Div.classList.remove('oculto');
@@ -2213,8 +2213,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('extensionespes').addEventListener('change', function() {
-        const costosb91Div = document.getElementById('costosb91');
-        const tiempob91Div = document.getElementById('tiempob91');
+        const costosb91Div = document.getElementById('costosb91a');
+        const tiempob91Div = document.getElementById('tiempob91a');
 
         if (this.value === 'si') {
             costosb91Div.classList.remove('oculto');
@@ -2226,8 +2226,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('removedorpeg').addEventListener('change', function() {
-        const costosb92Div = document.getElementById('costosb92');
-        const tiempob92Div = document.getElementById('tiempob92');
+        const costosb92Div = document.getElementById('costosb92a');
+        const tiempob92Div = document.getElementById('tiempob92a');
 
         if (this.value === 'si') {
             costosb92Div.classList.remove('oculto');
@@ -2239,8 +2239,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('toallitas').addEventListener('change', function() {
-        const costosb93Div = document.getElementById('costosb93');
-        const tiempob93Div = document.getElementById('tiempob93');
+        const costosb93Div = document.getElementById('costosb93a');
+        const tiempob93Div = document.getElementById('tiempob93a');
 
         if (this.value === 'si') {
             costosb93Div.classList.remove('oculto');
@@ -2252,8 +2252,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('cepillopes').addEventListener('change', function() {
-        const costosb94Div = document.getElementById('costosb94');
-        const tiempob94Div = document.getElementById('tiempob94');
+        const costosb94Div = document.getElementById('costosb94a');
+        const tiempob94Div = document.getElementById('tiempob94a');
 
         if (this.value === 'si') {
             costosb94Div.classList.remove('oculto');
@@ -2265,8 +2265,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('aplicadores').addEventListener('change', function() {
-        const costosb95Div = document.getElementById('costosb95');
-        const tiempob95Div = document.getElementById('tiempob95');
+        const costosb95Div = document.getElementById('costosb95a');
+        const tiempob95Div = document.getElementById('tiempob95a');
 
         if (this.value === 'si') {
             costosb95Div.classList.remove('oculto');
@@ -2278,8 +2278,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('lamparaluz').addEventListener('change', function() {
-        const costosb96Div = document.getElementById('costosb96');
-        const tiempob96Div = document.getElementById('tiempob96');
+        const costosb96Div = document.getElementById('costosb96a');
+        const tiempob96Div = document.getElementById('tiempob96a');
 
         if (this.value === 'si') {
             costosb96Div.classList.remove('oculto');
@@ -2291,8 +2291,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('espejo').addEventListener('change', function() {
-        const costosb97Div = document.getElementById('costosb97');
-        const tiempob97Div = document.getElementById('tiempob97');
+        const costosb97Div = document.getElementById('costosb97a');
+        const tiempob97Div = document.getElementById('tiempob97a');
 
         if (this.value === 'si') {
             costosb97Div.classList.remove('oculto');
@@ -2304,8 +2304,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('secador').addEventListener('change', function() {
-        const costosb98Div = document.getElementById('costosb98');
-        const tiempob98Div = document.getElementById('tiempob98');
+        const costosb98Div = document.getElementById('costosb98a');
+        const tiempob98Div = document.getElementById('tiempob98a');
 
         if (this.value === 'si') {
             costosb98Div.classList.remove('oculto');
@@ -2317,8 +2317,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('almohadillas').addEventListener('change', function() {
-        const costosb99Div = document.getElementById('costosb99');
-        const tiempob99Div = document.getElementById('tiempob99');
+        const costosb99Div = document.getElementById('costosb99a');
+        const tiempob99Div = document.getElementById('tiempob99a');
 
         if (this.value === 'si') {
             costosb99Div.classList.remove('oculto');
@@ -2330,8 +2330,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('cintamicro').addEventListener('change', function() {
-        const costosb100Div = document.getElementById('costosb100');
-        const tiempob100Div = document.getElementById('tiempob100');
+        const costosb100Div = document.getElementById('costosb100a');
+        const tiempob100Div = document.getElementById('tiempob100a');
 
         if (this.value === 'si') {
             costosb100Div.classList.remove('oculto');
@@ -2343,8 +2343,8 @@ document.getElementById('pestañas').addEventListener('change', function() {
     });
 
     document.getElementById('bastoncillos').addEventListener('change', function() {
-        const costosb101Div = document.getElementById('costosb101');
-        const tiempob101Div = document.getElementById('tiempob101');
+        const costosb101Div = document.getElementById('costosb101a');
+        const tiempob101Div = document.getElementById('tiempob101a');
 
         if (this.value === 'si') {
             costosb101Div.classList.remove('oculto');
@@ -2370,9 +2370,9 @@ document.getElementById('hom6').addEventListener('change', function() {
 });
 
 document.getElementById('hombre7').addEventListener('change', function() {
-    const criterioh6Div = document.getElementById('criterioh6');
-    const rangoh6Div = document.getElementById('rangoh6');
-    const costoh6Div = document.getElementById('costoh6');
+    const criterioh6Div = document.getElementById('criterioh6a');
+    const rangoh6Div = document.getElementById('rangoh6a');
+    const costoh6Div = document.getElementById('costoh6a');
 
     if (this.value === 'si') {
         criterioh6Div.classList.remove('oculto');
@@ -2401,9 +2401,9 @@ document.getElementById('hom6').addEventListener('change', function() {
 });
 
 document.getElementById('mujer7').addEventListener('change', function() {
-    const criteriom6Div = document.getElementById('criteriom6');
-    const rangom6Div = document.getElementById('rangom6');
-    const costom6Div = document.getElementById('costom6');
+    const criteriom6Div = document.getElementById('criteriom6a');
+    const rangom6Div = document.getElementById('rangom6a');
+    const costom6Div = document.getElementById('costom6a');
 
     if (this.value === 'si') {
         criteriom6Div.classList.remove('oculto');
@@ -2445,8 +2445,8 @@ document.getElementById('peinados').addEventListener('change', function() {
 
 
     document.getElementById('secadorpelo').addEventListener('change', function() {
-        const costosb102Div = document.getElementById('costosb102');
-        const tiempob102Div = document.getElementById('tiempob102');
+        const costosb102Div = document.getElementById('costosb102a');
+        const tiempob102Div = document.getElementById('tiempob102a');
 
         if (this.value === 'si') {
             costosb102Div.classList.remove('oculto');
@@ -2458,8 +2458,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('plancha1').addEventListener('change', function() {
-        const costosb103Div = document.getElementById('costosb103');
-        const tiempob103Div = document.getElementById('tiempob103');
+        const costosb103Div = document.getElementById('costosb103a');
+        const tiempob103Div = document.getElementById('tiempob103a');
 
         if (this.value === 'si') {
             costosb103Div.classList.remove('oculto');
@@ -2471,8 +2471,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('cepillored2').addEventListener('change', function() {
-        const costosb104Div = document.getElementById('costosb104');
-        const tiempob104Div = document.getElementById('tiempob104');
+        const costosb104Div = document.getElementById('costosb104a');
+        const tiempob104Div = document.getElementById('tiempob104a');
 
         if (this.value === 'si') {
             costosb104Div.classList.remove('oculto');
@@ -2484,8 +2484,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('cepilloter2').addEventListener('change', function() {
-        const costosb105Div = document.getElementById('costosb105');
-        const tiempob105Div = document.getElementById('tiempob105');
+        const costosb105Div = document.getElementById('costosb105a');
+        const tiempob105Div = document.getElementById('tiempob105a');
 
         if (this.value === 'si') {
             costosb105Div.classList.remove('oculto');
@@ -2497,8 +2497,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('cepillonylon2').addEventListener('change', function() {
-        const costosb106Div = document.getElementById('costosb106');
-        const tiempob106Div = document.getElementById('tiempob106');
+        const costosb106Div = document.getElementById('costosb106a');
+        const tiempob106Div = document.getElementById('tiempob106a');
 
         if (this.value === 'si') {
             costosb106Div.classList.remove('oculto');
@@ -2510,8 +2510,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('cepilloova2').addEventListener('change', function() {
-        const costosb107Div = document.getElementById('costosb107');
-        const tiempob107Div = document.getElementById('tiempob107');
+        const costosb107Div = document.getElementById('costosb107a');
+        const tiempob107Div = document.getElementById('tiempob107a');
 
         if (this.value === 'si') {
             costosb107Div.classList.remove('oculto');
@@ -2523,8 +2523,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('peinepuas').addEventListener('change', function() {
-        const costosb108Div = document.getElementById('costosb108');
-        const tiempob108Div = document.getElementById('tiempob108');
+        const costosb108Div = document.getElementById('costosb108a');
+        const tiempob108Div = document.getElementById('tiempob108a');
 
         if (this.value === 'si') {
             costosb108Div.classList.remove('oculto');
@@ -2536,8 +2536,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });  
     
     document.getElementById('tenazas').addEventListener('change', function() {
-        const costosb109Div = document.getElementById('costosb109');
-        const tiempob109Div = document.getElementById('tiempob109');
+        const costosb109Div = document.getElementById('costosb109a');
+        const tiempob109Div = document.getElementById('tiempob109a');
 
         if (this.value === 'si') {
             costosb109Div.classList.remove('oculto');
@@ -2549,8 +2549,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });  
 
     document.getElementById('horquillas').addEventListener('change', function() {
-        const costosb110Div = document.getElementById('costosb110');
-        const tiempob110Div = document.getElementById('tiempob110');
+        const costosb110Div = document.getElementById('costosb110a');
+        const tiempob110Div = document.getElementById('tiempob110a');
 
         if (this.value === 'si') {
             costosb110Div.classList.remove('oculto');
@@ -2562,8 +2562,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('rizador').addEventListener('change', function() {
-        const costosb111Div = document.getElementById('costosb111');
-        const tiempob111Div = document.getElementById('tiempob111');
+        const costosb111Div = document.getElementById('costosb111a');
+        const tiempob111Div = document.getElementById('tiempob111a');
 
         if (this.value === 'si') {
             costosb111Div.classList.remove('oculto');
@@ -2575,8 +2575,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('spray').addEventListener('change', function() {
-        const costosb112Div = document.getElementById('costosb112');
-        const tiempob112Div = document.getElementById('tiempob112');
+        const costosb112Div = document.getElementById('costosb112a');
+        const tiempob112Div = document.getElementById('tiempob112a');
 
         if (this.value === 'si') {
             costosb112Div.classList.remove('oculto');
@@ -2588,8 +2588,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('mousse').addEventListener('change', function() {
-        const costosb113Div = document.getElementById('costosb113');
-        const tiempob113Div = document.getElementById('tiempob113');
+        const costosb113Div = document.getElementById('costosb113a');
+        const tiempob113Div = document.getElementById('tiempob113a');
 
         if (this.value === 'si') {
             costosb113Div.classList.remove('oculto');
@@ -2601,8 +2601,8 @@ document.getElementById('peinados').addEventListener('change', function() {
     });
 
     document.getElementById('serum').addEventListener('change', function() {
-        const costosb114Div = document.getElementById('costosb114');
-        const tiempob114Div = document.getElementById('tiempob114');
+        const costosb114Div = document.getElementById('costosb114a');
+        const tiempob114Div = document.getElementById('tiempob114a');
 
         if (this.value === 'si') {
             costosb114Div.classList.remove('oculto');
@@ -2680,7 +2680,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const criteriom = document.getElementById('criteriom').value;
         const rangom = document.getElementById('rangom').value;
         const costom = document.getElementById('costom').value;
-        /*const uñas = document.getElementById('uñas').value;
+        const uñas = document.getElementById('uñas').value;
         const cortauñas = document.getElementById('cortauñas').value;
         const costosx1 = document.getElementById('costosx1').value;
         const tiempox1 = document.getElementById('tiempox1').value;
@@ -2721,11 +2721,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosx13min = document.getElementById('costoMinimo').value;
         const costosx13max = document.getElementById('costoMaximo').value;
         const tiempox13 = document.getElementById('tiempox13').value;
-        const topcoat = document.getElementById('topcoat').value;*/
+        const topcoat = document.getElementById('topcoat').value;
+        
         // Agrega más variables según sea necesario
 
         // Llama a la función específica de belleza para enviar estos datos
-        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom/*, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat*/);
+        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat);
 
         // También llama a la función para enviar datos generales
         //enviarDatosGenerales();
@@ -2735,7 +2736,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Función para enviar datos específicos de belleza a la hoja de cálculo
-async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom/*, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat*/ ) {
+async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costosx13min, costosx13max, tiempox13, topcoat) {
     try {
         // Construye la URL de la hoja de cálculo (puedes añadir la pestaña específica si es necesario)
         const respuesta = await fetch("https://sheet.best/api/sheets/d3f7e817-4130-4931-a597-c7638d7e0893/tabs/Belleza", {
@@ -2806,7 +2807,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "criteriom": criteriom,
                 "rangom": rangom,
                 "costom": costom,
-                /*"uñas": uñas,
+                "uñas": uñas,
                 "cortauñas": cortauñas,
                 "costosx1": costosx1,
                 "tiempox1": tiempox1,
@@ -2847,7 +2848,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "costosx13min": costosx13min,
                 "costosx13max": costosx13max,
                 "tiempox13": tiempox13,
-                "topcoat": */
+                "topcoat": topcoat,
                 // Agrega más campos según sea necesario
             })
         });
