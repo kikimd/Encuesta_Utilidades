@@ -3250,7 +3250,7 @@ async function enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentad
                 "palitos": palitos,
                 "costosx8": costosx8,
                 "tiempox8": tiempox8,
-                "pinzasuñas": pinzasuñas,
+                "pinzasuñas": pinzauñas,
                 "costosx9": costosx9,
                 "tiempox9": tiempox9,
                 "pincelesnail": pincelesnail,
