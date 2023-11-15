@@ -2718,8 +2718,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosx12 = document.getElementById('costosx12').value;
         const tiempox12 = document.getElementById('tiempox12').value;
         const esmaltes = document.getElementById('esmaltes').value;
-        const costosx13min = document.getElementById('costoMinimo').value;
-        const costosx13max = document.getElementById('costoMaximo').value;
+        const costoMinimo = document.getElementById('costoMinimo').value;
+        const costoMaximo = document.getElementById('costoMaximo').value;
         const tiempox13 = document.getElementById('tiempox13').value;
         const topcoat = document.getElementById('topcoat').value;
         const costosx14 = document.getElementById('costosx14').value;
@@ -2788,11 +2788,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosb18 = document.getElementById('costosb18').value;
         const tiempob18 = document.getElementById('tiempob18').value;
         const esmaltes2 = document.getElementById('esmaltes2').value;
-        const costosb19 = document.getElementById('costosb19').value;
+        const cantidadDesde = document.getElementById('cantidadDesde').value;
+        const cantidadHasta = document.getElementById('cantidadHasta').value;
+        //const costosb19 = document.getElementById('costosb19').value;
         const cantidadb19 = document.getElementById('cantidadb19').value;
         const tiempob19 = document.getElementById('tiempob19').value;
         const diseño = document.getElementById('diseño').value;
-        const costosb20 = document.getElementById('costosb20').value;
+        const cantidadDesde1 = document.getElementById('cantidadDesde1').value;
+        const cantidadHasta1 = document.getElementById('cantidadHasta1').value;
+        //const costosb20 = document.getElementById('costosb20').value;
         const tiempob20 = document.getElementById('tiempob20').value;
         const hom1 = document.getElementById('hom1').value;
         const hombre2 = document.getElementById('hombre2').value;
@@ -2835,7 +2839,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const costosb30 = document.getElementById('costosb30').value;
         const tiempob30 = document.getElementById('tiempob30').value;
         const tintes = document.getElementById('tintes').value;
-        const costosb31 = document.getElementById('costosb31').value;
+        const cantidadDesde2 = document.getElementById('cantidadDesde2').value;
+        const cantidadHasta2 = document.getElementById('cantidadHasta2').value;
+        //const costosb31 = document.getElementById('costosb31').value;
         const cantidadb31 = document.getElementById('cantidadb31').value;
         const tiempob31 = document.getElementById('tiempob31').value;
         const decolorante = document.getElementById('decolorante').value;
@@ -3134,7 +3140,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Agrega más variables según sea necesario
 
         // Llama a la función específica de belleza para enviar estos datos
-        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costoMinimo, costoMaximo, tiempox13, topcoat, costosx14, tiempox14, removedor, costosx15, tiempox15, algodon, costosx16, tiempox16, toallitas2, costosx17,  tiempox17, pedicure, cortauñas2, costosb1, tiempob1,  empujador, costosb2, tiempob2, alicate2,  costosb3, tiempob3, limap, costosb4, tiempob4, piedra, costosb5, tiempob5, limamad, costosb6, tiempob6, limavid, costosb7, tiempob7, limamet, costosb8, tiempob8, cepillou, costosb9, tiempob9, separador, costosb10, tiempob10, palomad, costosb11, tiempob11, exfoliante, costosb12, tiempob12, cremahid, costosb13, tiempob13, esmalte, costosb14, tiempob14, suero, costosb15, tiempob15, toallas, costosb16, tiempob16, acetona, costosb17, tiempob17, locion, costosb18, tiempob18, esmaltes2, costosb19, cantidadb19, tiempob19, diseño, costosb20, tiempob20, hom1, hombre2, criterioh1, rangoh1, costoh1, mujer2, criteriom1, rangom1, costom1, tinte,    );
+        enviarProductoHojaCalculoBelleza(corteCabello, tijerasMicrodentado, costost1, tiempot1, tijeras2, costost2, tiempot2, tijeras3, costost3, tiempot3, tijeras4, costost4, tiempot4, capa, costosc, tiempoc, cepillo1, costosc1, tiempoc1, cepillo2, costosc2, tiempoc2, cepillo3, costosc3, tiempoc3, cepillo4, costosc4, tiempoc4, cepillo5, costosc5, tiempoc5, pinzas, costosp, tiempop, secadora, costoss, tiempos, plancha, costosp1, tiempop1, shampoo, costoss1, tiempos1, acondicionador, costosa, tiempoa, mascarilla, costosm, tiempom, fijador, costosf, tiempof, hom, hombre1, criterio, rango, costoh, mujer1, criteriom, rangom, costom, uñas, cortauñas, costosx1, tiempox1, limapapel, costosx2, tiempox2, limametal, costosx3, tiempox3, pulidor, costosx4, tiempox4, cuticulas, costosx5, tiempox5, cepillouñas, costosx6, tiempox6, alicate, costosx7, tiempox7, palitos, costosx8, tiempox8, pinzauñas, costosx9, tiempox9, pincelesnail, costosx10, tiempox10, lamparaLED, costosx11, tiempox11, monomero, costosx12, tiempox12, esmaltes, costoMinimo, costoMaximo, tiempox13, topcoat, costosx14, tiempox14, removedor, costosx15, tiempox15, algodon, costosx16, tiempox16, toallitas2, costosx17,  tiempox17, pedicure, cortauñas2, costosb1, tiempob1,  empujador, costosb2, tiempob2, alicate2,  costosb3, tiempob3, limap, costosb4, tiempob4, piedra, costosb5, tiempob5, limamad, costosb6, tiempob6, limavid, costosb7, tiempob7, limamet, costosb8, tiempob8, cepillou, costosb9, tiempob9, separador, costosb10, tiempob10, palomad, costosb11, tiempob11, exfoliante, costosb12, tiempob12, cremahid, costosb13, tiempob13, esmalte, costosb14, tiempob14, suero, costosb15, tiempob15, toallas, costosb16, tiempob16, acetona, costosb17, tiempob17, locion, costosb18, tiempob18, esmaltes2, cantidadDesde, cantidadHasta, cantidadb19, tiempob19, diseño, cantidadDesde1, cantidadHasta1, tiempob20, hom1, hombre2, criterioh1, rangoh1, costoh1, mujer2, criteriom1, rangom1, costom1, tinte, pinzastin, costosb21, tiempob21, tazon, costosb22, tiempob22, cepillomez, costosb23, tiempob23, gorros, costosb24, tiempob24, peine, costosb25, tiempob25, cepillored, costosb26, tiempob26, cepilloter, costosb27, tiempob27, cepillonylon, costosb28, tiempob28, cepilloova, costosb29, tiempob29, aluminio, costosb30, tiempob30, tintes, cantidadDesde2, cantidadHasta2, cantidadb31, tiempob31, decolorante, costosb32, tiempob32, locionact, costosb33, tiempob33, mascarillac, costosb34, tiempob34, cremaacond, costosb35, tiempob35, hom2, hombre3, criterioh2, rangoh2, costoh2, mujer3, criteriom2, rangom2, costom2,     );
 
         // También llama a la función para enviar datos generales
         //enviarDatosGenerales();
