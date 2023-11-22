@@ -4,16 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lato:wght@300&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="textil.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body> 
+<body>
+    <h1>Análisis de Costos para Microempresas</h1>    
     <form id="encuestaForm">
-        <h1>Téxtil (Ropa, Zapatos y Accesorios)</h1>   
+
+        <h2>Aviso de Privacidad</h2>
+        <div class="justificarTexto">
+            <p>Hola somos estudiantes de último semestre de Ingeniería en Matemáticas en la Universidad Autónoma de Chihuahua, motivadas en hacer crecer las pequeñas empresas, actualmente nos encontramos desarrollando una herramienta con el objetivo de apoyarles en la toma de decisiones financieras informadas.
+                Debido a que creemos en el potencial de su empresa queremos invitarle a formar parte de nuestra muestra de estudio, destacando que sus datos serán tratados de forma totalmente confidencial y bajo el compromiso de ser eliminados por completo al concluir el análisis.
+                Como beneficio usted obtendrá los resultados del estudio, así como una capacitación del total de las recomendaciones estudiadas al rededor de estos.
+                Le recordamos que su participación no solo beneficiará su empresa, sino también contribuirá al crecimiento de otras microempresas en situaciones similares. Agradecemos su consideración y esperamos la posibilidad de colaborar juntos en este emocionante proyecto.
+                        </p>
+        </div>
+
+        <fieldset>
+            <legend><h3>Información de Contacto</h3></legend>
+        
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="text" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono" required>
+
+            <label for="resultados">¿Desea usted recibir los resultados del estudio?</label>
+            <select id="resultados" name="resultados">
+                <option value="elegir">Elija una respuesta</option>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="recomendaciones">¿Desea usted recibir recomendaciones para su empresa en base a los resultados de este estudio?</label>
+            <select id="recomendaciones" name="recomendaciones">
+                <option value="elegir">Elija una respuesta</option>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>Información General del Establecimiento</h3></legend>
+
+            <label for="nombre_empresa">Nombre de la Empresa:</label>
+            <input type="text" id="nombre_empresa" name="nombre_empresa" required>
+            
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="colonia">Colonia:</label>
+            <input type="text" id="colonia" name="colonia" required>
+        
+            <label for="rubro">Rubro:</label>
+            <select id="rubro" name="rubro">
+                <option value="elegir">Elija una respuesta</option>
+                <option value="belleza">Salud, Belleza y Bienestar</option>
+                <option value="textil">Téxtil (Ropa, Zapatos y Accesorios)</option>
+            </select>
+        </fieldset>
+        
+        <fieldset class="salud-belleza-bienestar seccion">
+            <legend><h3>Sección Salud, Belleza y Bienestar</h3></legend>
+            
+            <label for="servicios">Mayormente los servicios que comercializa su empresa son para el cuidado de:</label>
+            <select id="servicios" name="servicios">
+                <option value="elegir">Elija una respuesta</option>
+                <option value="belleza1">Belleza</option>
+                <option value="salud1">Salud</option>
+                <option value="bienestar1">Bienestar</option>
+            </select>
+            
+        </fieldset>
+
+        <!-- Andy -->
+
+        <fieldset class="ropa-zapatos-accesorios seccion">
+            <legend><h3>Téxtil (Ropa, Zapatos y Accesorios)</h3></legend>
+
             <label for="genero">Los productos que comercializa su empresa son para:</label>
             <select id="genero" name="genero">
                 <option value="elegir">Elija una respuesta</option>
@@ -50,14 +126,19 @@
                                     <legend><h4>Subsección Camisas y playeras</h4></legend>
                                     
                                     <label for="categoriaa4"></label>Marque los tipos que ofrece:
-                                <select id="categoriaa4" name="categoriaa4">
-                                    <option value="elegir">Elija una respuesta</option>
-                                    <option value="camisasa1">Camisas</option>
-                                    <option value="playerasa1">Playeras</option>
-                                    <option value="otrosa2">Otros</option>
-                                </select>
-                                </fieldset>
+                                    <select id="categoriaa4" name="categoriaa4">
+                                        <option value="elegir">Elija una respuesta</option>
+                                        <option value="camisasa1">Camisas</option>
+                                        <option value="playerasa1">Playeras</option>
+                                        <option value="otrosa2">Otros</option>
+                                    </select>
+                                        <div id="costosa1" class="oculto">
+                                            <label for="costosa1">¿Qué costo tiene en promedio este artículo?</label>
+                                            <input type="text" id="costosa1" name="costosa1">
+                                        </div>
 
+                                </fieldset>
+                                       
                                 <fieldset class="bottomsa1 seccion">
                                     <legend><h4>Subsección  Bottoms</h4></legend>
                                     
@@ -68,6 +149,10 @@
                                     <option value="bermudasa1">Bermudas</option>
                                     <option value="otrosa3">Otros</option>
                                 </select>
+                                    <div id="costosa2" class="oculto">
+                                        <label for="costosa2">¿Qué costo tiene en promedio este artículo?</label>
+                                        <input type="text" id="costosa2" name="costosa2">
+                                    </div>
                                 </fieldset>
 
                                 <fieldset class="pijamasa1 seccion">
@@ -81,6 +166,10 @@
                                     <option value="conjuntosa2">Conjuntos</option>
                                     <option value="otrosa4">Otros</option>
                                 </select>
+                                    <div id="costosa3" class="oculto">
+                                        <label for="costosa3">¿Qué costo tiene en promedio este artículo?</label>
+                                        <input type="text" id="costosa3" name="costosa3">
+                                    </div>
                                 </fieldset>
 
                                 <fieldset class="ropadeportea1 seccion">
@@ -96,6 +185,10 @@
                                     <option value="conjuntosa3">Conjuntos</option>
                                     <option value="otrosa5">Otros</option>
                                 </select>
+                                    <div id="costosa4" class="oculto">
+                                        <label for="costosa4">¿Qué costo tiene en promedio este artículo?</label>
+                                        <input type="text" id="costosa4" name="costosa7">
+                                    </div>
                                 </fieldset>
 
                                 <fieldset class="otrosa1 seccion">
@@ -108,6 +201,10 @@
                                     <option value="calcetinesa1">Calcetines</option>
                                     <option value="trajesdebañoa1">Trajes de baño</option>
                                 </select>
+                                    <div id="costosa5" class="oculto">
+                                        <label for="costosa5">¿Qué costo tiene en promedio este artículo?</label>
+                                        <input type="text" id="costosa5" name="costosa7">
+                                    </div>
                                 </fieldset>
                     </fieldset>
 
@@ -123,6 +220,10 @@
                                 <option value="sandaliasa1">Sandalias</option>
                                 <option value="otrosa6">Otros</option>
                             </select>
+                                <div id="costosa6" class="oculto">
+                                    <label for="costosa6">¿Qué costo tiene en promedio este artículo?</label>
+                                    <input type="text" id="costosa6" name="costosa7">
+                                </div>
                     </fieldset>
 
                     <fieldset class="accesoriosa1 seccion">
@@ -137,6 +238,11 @@
                                 <option value="pulcerascollaresa1">Pulceras y collares</option>
                                 <option value="otrosa7">Otros</option>
                             </select>
+                            <div id="costosa7" class="oculto">
+                                <label for="costosa7">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa7" name="costosa7">
+                            </div>
+                </fieldset>
                     </fieldset>
                 </fieldset>
 
@@ -181,6 +287,10 @@
                                 <option value="blusasa2">Blusas</option>
                                 <option value="otrosa9">Otros</option>
                             </select>
+                                <div id="costosa8" class="oculto">
+                                    <label for="costosa8">¿Qué costo tiene en promedio este artículo?</label>
+                                    <input type="text" id="costosa8" name="costosa7">
+                                </div>
                         </fieldset>
 
                         <fieldset class="bottomsa2 seccion">
@@ -196,6 +306,10 @@
                                 <option value="leggina1">Leggin</option>
                                 <option value="otrosa10">Otros</option>
                             </select>
+                            <div id="costosa9" class="oculto">
+                                <label for="costosa9">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa9" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="vestidosa1 seccion">
@@ -209,6 +323,10 @@
                                 <option value="casuala1">Casuales</option>
                                 <option value="otrosa11">Otros</option>
                             </select>
+                            <div id="costosa10" class="oculto">
+                                <label for="costosa10">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa10" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="abrigosa1 seccion">
@@ -225,6 +343,10 @@
                                 <option value="suetera1">Sueter</option>
                                 <option value="otrosa12">Otros</option>
                             </select>
+                            <div id="costosa11" class="oculto">
+                                <label for="costosa11">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa11" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="pijamasa2 seccion">
@@ -240,6 +362,10 @@
                                 <option value="shorta4">Shorts</option>
                                 <option value="otrosa13">Otros</option>
                             </select>
+                            <div id="costosa12" class="oculto">
+                                <label for="costosa12">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa12" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="trajesdebañoa2 seccion">
@@ -254,6 +380,10 @@
                                 <option value="pareoa1">Pareos</option>
                                 <option value="otrosa14">Otros</option>
                             </select>
+                            <div id="costosa13" class="oculto">
+                                <label for="costosa13">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa13" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="palazosa1 seccion">
@@ -266,6 +396,10 @@
                                 <option value="pantalona1">De Pantalon</option>
                                 <option value="otrosa15">Otros</option>
                             </select>
+                            <div id="costosa15" class="oculto">
+                                <label for="costosa15">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa15" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="conjuntosa4 seccion">
@@ -279,6 +413,10 @@
                                 <option value="pantalona2">De pantalon</option>
                                 <option value="otrosa16">Otros</option>
                             </select>
+                            <div id="costosa16" class="oculto">
+                                <label for="costosa16">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa16" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="ropadeportea2 seccion">
@@ -295,6 +433,10 @@
                                 <option value="conjuntosa6">Conjuntos</option>
                                 <option value="otrosa17">Otros</option>
                             </select>
+                            <div id="costosa17" class="oculto">
+                                <label for="costosa17">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa17" name="costosa7">
+                            </div>
                         </fieldset>
 
                         <fieldset class="otrosa8 seccion">
@@ -307,6 +449,10 @@
                                 <option value="calcetinesa2">Calcetines</option>
                                 <option value="otrosa18">Otros</option>
                             </select>
+                            <div id="costosa18" class="oculto">
+                                <label for="costosa18">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa18" name="costosa7">
+                            </div>
                         </fieldset>
                     </fieldset>
 
@@ -316,15 +462,19 @@
                         <label for="categoriaa22"></label>Los productos que comercializa su empresa en que categoría entran:
                         <select id="categoriaa22" name="categoriaa22">
                             <option value="elegir">Elija una respuesta</option>
-                            <option value="botasa2">Blusas</option>
-                            <option value="zapatillaa1">Bottoms</option>
-                            <option value="plataformaa1">Vestidos</option>
-                            <option value="sandaliasa2">Abrigos</option>
-                            <option value="pantunflasa1">Pijamas</option>
-                            <option value="botina1">Trajes de baño</option>
-                            <option value="tenisa2">Palazos</option>
+                            <option value="botasa2">Botas</option>
+                            <option value="zapatillaa1">Zapatillas</option>
+                            <option value="plataformaa1">Plataformas</option>
+                            <option value="sandaliasa2">Sandalias</option>
+                            <option value="pantunflasa1">Pantunflas</option>
+                            <option value="botina2">Botin</option>
+                            <option value="tenisa2">Tenis</option>
                             <option value="otrosa19">Otros</option>
                         </select>  
+                        <div id="costosa19" class="oculto">
+                            <label for="costosa19">¿Qué costo tiene en promedio este artículo?</label>
+                            <input type="text" id="costosa19" name="costosa7">
+                        </div>
 
                     </fieldset>
                     
@@ -345,7 +495,7 @@
                         </select>
 
                         <fieldset class="joyeriaa1 seccion">
-                            <legend><h4>Subsección Ropa deportiva</h4></legend>
+                            <legend><h4>Subsección Joyeria</h4></legend>
                             
                             <label for="categoriaa24"></label>Los productos que comercializa su empresa en que categoría entran:
                             <select id="categoriaa24" name="categoriaa24">
@@ -356,11 +506,16 @@
                                 <option value="anillosa1">Anillos</option>
                                 <option value="otrosa21">Otros</option>
                             </select>
+                            <div id="costosa20" class="oculto">
+                                <label for="costosa20">¿Qué costo tiene en promedio este artículo?</label>
+                                <input type="text" id="costosa20" name="costosa7">
+                            </div>
                         </fieldset>
                     </fieldset>
                 </fieldset> 
+         </fieldset> 
 
-                <input type="submit" value="Enviar"></input>
+    <fieldset><input type="submit" value="Enviar"></fieldset>
     
     </form>
     
