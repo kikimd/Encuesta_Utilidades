@@ -156,6 +156,20 @@ document.getElementById('categoriaa4').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa4').addEventListener('change', function() {
+        const costosa1Div = document.getElementById('costosa1');
+
+        if (this.value === 'camisasa1') {
+            costosa1Div.classList.remove('oculto');
+        }if(this.value === 'playerasa1'){
+            costosa1Div.classList.remove('oculto');
+        }if(this.value === 'otrosa1'){
+            costosa1Div.classList.remove('oculto');    
+        }else {
+            costosa1Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa5').addEventListener('change', function() {
     const pantalonesa1Div = document.querySelector('.pantalonesa1');
     const bermudasa1Div= document.querySelector('.bermudasa1');
@@ -182,6 +196,20 @@ document.getElementById('categoriaa5').addEventListener('change', function() {
         otrosa3Div.style.display = 'none';  
     }
 });
+
+    document.getElementById('categoriaa5').addEventListener('change', function() {
+        const costosa2Div = document.getElementById('costosa2');
+
+        if (this.value === 'pantalonesa1') {
+            costosa2Div.classList.remove('oculto');
+        }if(this.value === 'bermudasa1'){
+            costosa2Div.classList.remove('oculto');
+        }if(this.value === 'otrosa3'){
+            costosa2Div.classList.remove('oculto');    
+        }else {
+            costosa2Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('categoriaa6').addEventListener('change', function() {
     const playerasa2Div = document.querySelector('.playerasa2');
@@ -220,6 +248,22 @@ document.getElementById('categoriaa6').addEventListener('change', function() {
         otrosa4Div.style.display = 'none';  
     }
 });
+
+    document.getElementById('categoriaa6').addEventListener('change', function() {
+        const costosa3Div = document.getElementById('costosa3');
+
+        if (this.value === 'playerasa2') {
+            costosa3Div.classList.remove('oculto');
+        }if(this.value === 'pantalonesa2'){
+            costosa3Div.classList.remove('oculto');
+        }if(this.value === 'conjuntosa2'){
+            costosa3Div.classList.remove('oculto');
+        }if(this.value === 'otrosa4'){
+            costosa3Div.classList.remove('oculto');    
+        }else {
+            costosa3Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('categoriaa7').addEventListener('change', function() {
     const sudaderaa1Div = document.querySelector('.sudaderaa1');
@@ -287,6 +331,26 @@ document.getElementById('categoriaa7').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa7').addEventListener('change', function() {
+        const costosa4Div = document.getElementById('costosa4');
+
+        if (this.value === 'sudaderaa1') {
+            costosa4Div.classList.remove('oculto');
+        }if(this.value === 'pantalonerasa1'){
+            costosa4Div.classList.remove('oculto');
+        }if(this.value === 'shortsa2'){
+            costosa4Div.classList.remove('oculto');
+        }if(this.value === 'playerasa3'){
+            costosa4Div.classList.remove('oculto');
+        }if(this.value === 'conjuntosa3'){
+            costosa4Div.classList.remove('oculto');
+        }if(this.value === 'otrosa5'){
+            costosa4Div.classList.remove('oculto');    
+        }else {
+            costosa4Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa8').addEventListener('change', function() {
     const interiora1Div = document.querySelector('.interiora1');
     const calcetinesa1Div= document.querySelector('.calcetinesa1');
@@ -313,6 +377,20 @@ document.getElementById('categoriaa8').addEventListener('change', function() {
         trajesdebañoa1Div.style.display = 'none';
     }
 });
+
+    document.getElementById('categoriaa8').addEventListener('change', function() {
+        const costosa5Div = document.getElementById('costosa5');
+
+        if (this.value === 'interiora1') {
+            costosa5Div.classList.remove('oculto');
+        }if(this.value === 'calcetinesa1'){
+            costosa5Div.classList.remove('oculto');
+        }if(this.value === 'trajesdebañoa1'){
+            costosa5Div.classList.remove('oculto'); 
+        }else {
+            costosa5Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('categoriaa9').addEventListener('change', function() {
     const tenisa1Div = document.querySelector('.tenisa1');
@@ -365,6 +443,24 @@ document.getElementById('categoriaa9').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa9').addEventListener('change', function() {
+        const costosa6Div = document.getElementById('costosa6');
+
+        if (this.value === 'tenisa1') {
+            costosa6Div.classList.remove('oculto');
+        }if(this.value === 'botasa1'){
+            costosa6Div.classList.remove('oculto');
+        }if(this.value === 'zapatosa1'){
+            costosa6Div.classList.remove('oculto'); 
+        }if(this.value === 'sandaliasa1'){
+            costosa6Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa6'){
+            costosa6Div.classList.remove('oculto'); 
+        }else {
+            costosa6Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa10').addEventListener('change', function() {
     const gorrasa1Div = document.querySelector('.gorrasa1');
     const cintosa1Div= document.querySelector('.cintosa1');
@@ -415,6 +511,24 @@ document.getElementById('categoriaa10').addEventListener('change', function() {
         otrosa7Div.style.display = 'none'; 
     }
 });
+
+    document.getElementById('categoriaa10').addEventListener('change', function() {
+        const costosa7Div = document.getElementById('costosa7');
+
+        if (this.value === 'gorrasa1') {
+            costosa7Div.classList.remove('oculto');
+        }if(this.value === 'cintosa1'){
+            costosa7Div.classList.remove('oculto');
+        }if(this.value === 'bandasa1'){
+            costosa7Div.classList.remove('oculto'); 
+        }if(this.value === 'pulcerascollaresa1'){
+            costosa7Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa7'){
+            costosa7Div.classList.remove('oculto'); 
+        }else {
+            costosa7Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('productosa2').addEventListener('change', function() {
     const ropaa2Div = document.querySelector('.ropaa2');
@@ -630,6 +744,22 @@ document.getElementById('categoriaa12').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa12').addEventListener('change', function() {
+        const costosa8Div = document.getElementById('costosa8');
+
+        if (this.value === 'playerasa4') {
+            costosa8Div.classList.remove('oculto');
+        }if(this.value === 'topa1'){
+            costosa8Div.classList.remove('oculto');
+        }if(this.value === 'blusasa2'){
+            costosa8Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa9'){
+            costosa8Div.classList.remove('oculto'); 
+        }else {
+            costosa8Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa13').addEventListener('change', function() {
     const pantalonvestira1Div = document.querySelector('.pantalonvestia1');
     const pantalonmezclillaa1Div= document.querySelector('.pantalonmezclillaa1');
@@ -697,6 +827,26 @@ document.getElementById('categoriaa13').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa13').addEventListener('change', function() {
+        const costosa9Div = document.getElementById('costosa9');
+
+        if (this.value === 'pantalonvestira1') {
+            costosa9Div.classList.remove('oculto');
+        }if(this.value === 'pantalonmezclillaa1'){
+            costosa9Div.classList.remove('oculto');
+        }if(this.value === 'shorta3'){
+            costosa9Div.classList.remove('oculto'); 
+        }if(this.value === 'faldaa1'){
+            costosa9Div.classList.remove('oculto'); 
+        }if(this.value === 'leggina1'){
+            costosa9Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa10'){
+            costosa9Div.classList.remove('oculto'); 
+        }else {
+            costosa9Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa14').addEventListener('change', function() {
     const nochea1Div = document.querySelector('.nochea1');
     const coctela1Div= document.querySelector('.coctela1');
@@ -735,6 +885,22 @@ document.getElementById('categoriaa14').addEventListener('change', function() {
         otrosa11Div.style.display = 'none'; 
     }
 });
+
+    document.getElementById('categoriaa14').addEventListener('change', function() {
+        const costosa10Div = document.getElementById('costosa10');
+
+        if (this.value === 'nochea1') {
+            costosa10Div.classList.remove('oculto');
+        }if(this.value === 'coctela1'){
+            costosa10Div.classList.remove('oculto');
+        }if(this.value === 'casuala1'){
+            costosa10Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa11'){
+            costosa10Div.classList.remove('oculto'); 
+        }else {
+            costosa10Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('categoriaa15').addEventListener('change', function() {
     const chamarraa1Div = document.querySelector('.chamarraa1');
@@ -820,6 +986,28 @@ document.getElementById('categoriaa15').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa15').addEventListener('change', function() {
+        const costosa11Div = document.getElementById('costosa11');
+
+        if (this.value === 'chamarraa1') {
+            costosa11Div.classList.remove('oculto');
+        }if(this.value === 'sudaderaa1'){
+            costosa11Div.classList.remove('oculto');
+        }if(this.value === 'blazera1'){
+            costosa11Div.classList.remove('oculto'); 
+        }if(this.value === 'sacoa1'){
+            costosa11Div.classList.remove('oculto'); 
+        }if(this.value === 'chalecoa1'){
+            costosa11Div.classList.remove('oculto'); 
+        }if(this.value === 'suetera1'){
+            costosa11Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa12'){
+            costosa11Div.classList.remove('oculto'); 
+        }else {
+            costosa11Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa16').addEventListener('change', function() {
     const bataa1Div = document.querySelector('.bataa1');
     const conjuntosa5Div= document.querySelector('.conjuntosa5');
@@ -887,6 +1075,26 @@ document.getElementById('categoriaa16').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa16').addEventListener('change', function() {
+        const costosa12Div = document.getElementById('costosa12');
+
+        if (this.value === 'bataa1') {
+            costosa12Div.classList.remove('oculto');
+        }if(this.value === 'conjuntosa5'){
+            costosa12Div.classList.remove('oculto');
+        }if(this.value === 'blusasa3'){
+            costosa12Div.classList.remove('oculto'); 
+        }if(this.value === 'pantalonesa3'){
+            costosa12Div.classList.remove('oculto'); 
+        }if(this.value === 'shorta4'){
+            costosa12Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa13'){
+            costosa12Div.classList.remove('oculto'); 
+        }else {
+            costosa12Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa17').addEventListener('change', function() {
     const bikinia1Div = document.querySelector('.bikinia1');
     const completoa1Div= document.querySelector('.completoa1');
@@ -939,6 +1147,24 @@ document.getElementById('categoriaa17').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa17').addEventListener('change', function() {
+        const costosa13Div = document.getElementById('costosa13');
+
+        if (this.value === 'bikinia1') {
+            costosa13Div.classList.remove('oculto');
+        }if(this.value === 'completoa1'){
+            costosa13Div.classList.remove('oculto');
+        }if(this.value === 'shorta5'){
+            costosa13Div.classList.remove('oculto'); 
+        }if(this.value === 'pareoa1'){
+            costosa13Div.classList.remove('oculto'); 
+        }if(this.value === 'otrosa14'){
+            costosa13Div.classList.remove('oculto'); 
+        }else {
+            costosa13Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa18').addEventListener('change', function() {
     const shorta6Div = document.querySelector('.shorta6');
     const pantalona1Div= document.querySelector('.pantalona1');
@@ -967,6 +1193,22 @@ document.getElementById('categoriaa18').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa18').addEventListener('change', function() {
+        const costosa15Div = document.getElementById('costosa15');
+
+        if (this.value === 'shorta6') {
+            costosa15Div.classList.remove('oculto');
+        }if(this.value === 'pantalona1'){
+            costosa15Div.classList.remove('oculto');
+        }if(this.value === 'otrosa15'){
+            costosa15Div.classList.remove('oculto'); 
+        }else {
+            costosa15Div.classList.add('oculto');
+        }
+    });
+
+
+
 document.getElementById('categoriaa19').addEventListener('change', function() {
     const faldaa2Div = document.querySelector('.faldaa2');
     const shorta7Div= document.querySelector('.shorta7');
@@ -994,6 +1236,22 @@ document.getElementById('categoriaa19').addEventListener('change', function() {
         otrosa16Div.style.display = 'none'; 
     }
 });
+
+    document.getElementById('categoriaa19').addEventListener('change', function() {
+        const costosa16Div = document.getElementById('costosa16');
+
+        if (this.value === 'faldaa2') {
+            costosa16Div.classList.remove('oculto');
+        }if(this.value === 'shorta7'){
+            costosa16Div.classList.remove('oculto');
+        }if(this.value === 'pantalona2'){
+            costosa16Div.classList.remove('oculto');
+        }if(this.value === 'otrosa16'){
+            costosa16Div.classList.remove('oculto'); 
+        }else {
+            costosa16Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('categoriaa20').addEventListener('change', function() {
     const shorta8Div = document.querySelector('.shorta8');
@@ -1079,6 +1337,28 @@ document.getElementById('categoriaa20').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa20').addEventListener('change', function() {
+        const costosa17Div = document.getElementById('costosa17');
+
+        if (this.value === 'shorta8') {
+            costosa17Div.classList.remove('oculto');
+        }if(this.value === 'topa2'){
+            costosa17Div.classList.remove('oculto');
+        }if(this.value === 'leggina2'){
+            costosa17Div.classList.remove('oculto');
+        }if(this.value === 'blusaa4'){
+            costosa17Div.classList.remove('oculto');
+        }if(this.value === 'pantalonerasa2'){
+            costosa17Div.classList.remove('oculto');
+        }if(this.value === 'conjuntosa6'){
+            costosa17Div.classList.remove('oculto');
+        }if(this.value === 'otrosa17'){
+            costosa17Div.classList.remove('oculto'); 
+        }else {
+            costosa17Div.classList.add('oculto');
+        }
+    });
+
 document.getElementById('categoriaa21').addEventListener('change', function() {
     const interiora2Div = document.querySelector('.interiora2');
     const calcetinesa2Div= document.querySelector('.calcetinesa2');
@@ -1105,6 +1385,20 @@ document.getElementById('categoriaa21').addEventListener('change', function() {
         otrosa18Div.style.display = 'none'; 
     }
 });
+
+    document.getElementById('categoriaa21').addEventListener('change', function() {
+        const costosa18Div = document.getElementById('costosa18');
+
+        if (this.value === 'interiora2') {
+            costosa18Div.classList.remove('oculto');
+        }if(this.value === 'calcetinesa2'){
+            costosa18Div.classList.remove('oculto');
+        }if(this.value === 'otrosa18'){
+            costosa18Div.classList.remove('oculto'); 
+        }else {
+            costosa18Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('categoriaa22').addEventListener('change', function() {
     const botasa2Div = document.querySelector('.botasa2');
@@ -1208,6 +1502,30 @@ document.getElementById('categoriaa22').addEventListener('change', function() {
         otrosa19Div.style.display = 'none'; 
     }
 });
+
+    document.getElementById('categoriaa22').addEventListener('change', function() {
+        const costosa19Div = document.getElementById('costosa19');
+
+        if (this.value === 'botasa2') {
+            costosa19Div.classList.remove('oculto');
+        }if(this.value === 'zapatillaa1'){
+            costosa19Div.classList.remove('oculto');
+        }if(this.value === 'plataformaa1'){
+            costosa19Div.classList.remove('oculto');
+        }if(this.value === 'sandaliasa2'){
+            costosa19Div.classList.remove('oculto');
+        }if(this.value === 'pantunflasa1'){
+            costosa19Div.classList.remove('oculto');
+        }if(this.value === 'botina2'){
+            costosa19Div.classList.remove('oculto');
+        }if(this.value === 'tenisa2'){
+            costosa19Div.classList.remove('oculto');
+        }if(this.value === 'otrosa19'){
+            costosa19Div.classList.remove('oculto'); 
+        }else {
+            costosa19Div.classList.add('oculto');
+        }
+    });
 
 document.getElementById('categoriaa23').addEventListener('change', function() {
     const joyeriaa1Div = document.querySelector('.joyeriaa1');
@@ -1364,4 +1682,20 @@ ocument.getElementById('categoriaa24').addEventListener('change', function() {
     }
 });
 
+    document.getElementById('categoriaa24').addEventListener('change', function() {
+        const costosa20Div = document.getElementById('costosa20');
 
+        if (this.value === 'pulcerasa1') {
+            costosa20Div.classList.remove('oculto');
+        }if(this.value === 'zaretesa1'){
+            costosa20Div.classList.remove('oculto');
+        }if(this.value === 'collaresa1'){
+            costosa20Div.classList.remove('oculto');
+        }if(this.value === 'anillosa1'){
+            costosa20Div.classList.remove('oculto');
+        }if(this.value === 'otrosa21'){
+            costosa20Div.classList.remove('oculto'); 
+        }else {
+            costosa20Div.classList.add('oculto');
+        }
+    });
