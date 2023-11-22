@@ -2587,6 +2587,456 @@ document.getElementById('peinados').addEventListener('change', function() {
         }
     });
 
+    document.getElementById('redes').addEventListener('change', function() {
+        const costosb115Div = document.getElementById('costosb115');
+        const tiempob115Div = document.getElementById('tiempob115');
+
+        if (this.value === 'si') {
+            costosb115Div.classList.remove('oculto');
+            tiempob115Div.classList.remove('oculto');
+        } else {
+            costosb115Div.classList.add('oculto');
+            tiempob115Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('gorroster').addEventListener('change', function() {
+        const costosb116Div = document.getElementById('costosb116');
+        const tiempob116Div = document.getElementById('tiempob116');
+
+        if (this.value === 'si') {
+            costosb116Div.classList.remove('oculto');
+            tiempob116Div.classList.remove('oculto');
+        } else {
+            costosb116Div.classList.add('oculto');
+            tiempob116Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('tijeraspel').addEventListener('change', function() {
+        const costosb118Div = document.getElementById('costosb118');
+        const tiempob118Div = document.getElementById('tiempob118');
+
+        if (this.value === 'si') {
+            costosb118Div.classList.remove('oculto');
+            tiempob118Div.classList.remove('oculto');
+        } else {
+            costosb118Div.classList.add('oculto');
+            tiempob118Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('navaja').addEventListener('change', function() {
+        const costosb119Div = document.getElementById('costosb119');
+        const tiempob119Div = document.getElementById('tiempob119');
+
+        if (this.value === 'si') {
+            costosb119Div.classList.remove('oculto');
+            tiempob119Div.classList.remove('oculto');
+        } else {
+            costosb119Div.classList.add('oculto');
+            tiempob119Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('gelcab').addEventListener('change', function() {
+        const costosb120Div = document.getElementById('costosb120');
+        const tiempob120Div = document.getElementById('tiempob120');
+
+        if (this.value === 'si') {
+            costosb120Div.classList.remove('oculto');
+            tiempob120Div.classList.remove('oculto');
+        } else {
+            costosb120Div.classList.add('oculto');
+            tiempob120Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('decorativos').addEventListener('change', function() {
+        const costosb121Div = document.getElementById('costosb121');
+        const tiempob121Div = document.getElementById('tiempob121');
+
+        if (this.value === 'si') {
+            costosb121Div.classList.remove('oculto');
+            tiempob121Div.classList.remove('oculto');
+        } else {
+            costosb121Div.classList.add('oculto');
+            tiempob121Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('pasadores2').addEventListener('change', function() {
+        const costosb122Div = document.getElementById('costosb122');
+        const tiempob122Div = document.getElementById('tiempob122');
+
+        if (this.value === 'si') {
+            costosb122Div.classList.remove('oculto');
+            tiempob122Div.classList.remove('oculto');
+        } else {
+            costosb122Div.classList.add('oculto');
+            tiempob122Div.classList.add('oculto');
+        }
+    });
+
+    //Hombre y mujer   
+
+document.getElementById('hom7').addEventListener('change', function() {
+    const hom7Div = document.querySelector('.hombre7');
+
+    if (this.value === 'hombre7') {
+        hom7Div.style.display = 'block';
+    } 
+    else {
+        hom7Div.style.display = 'none';  // Asegúrate de ocultar la otra sección
+    }
+});
+
+document.getElementById('hombre8').addEventListener('change', function() {
+    const criterioh7Div = document.getElementById('criterioh7');
+    const rangoh7Div = document.getElementById('rangoh7');
+    const costoh7Div = document.getElementById('costoh7');
+
+    if (this.value === 'si') {
+        criterioh7Div.classList.remove('oculto');
+        rangoh7Div.classList.remove('oculto');
+        costoh7Div.classList.add('oculto');
+    } else if (this.value === 'no') {
+        criterioh7Div.classList.add('oculto');
+        rangoh7Div.classList.add('oculto');
+        costoh7Div.classList.remove('oculto');
+    } else {
+        criterioh7Div.classList.add('oculto');
+        rangoh7Div.classList.add('oculto');
+        costoh7Div.classList.add('oculto');
+    }
+});
+
+document.getElementById('hom7').addEventListener('change', function() {
+    const hom7Div = document.querySelector('.mujer7');
+
+    if (this.value === 'mujer7') {
+        hom7Div.style.display = 'block';
+    } 
+    else {
+        hom7Div.style.display = 'none';  // Asegúrate de ocultar la otra sección
+    }
+});
+
+document.getElementById('mujer8').addEventListener('change', function() {
+    const criteriom7Div = document.getElementById('criteriom7');
+    const rangom7Div = document.getElementById('rangom7');
+    const costom7Div = document.getElementById('costom7');
+
+    if (this.value === 'si') {
+        criteriom7Div.classList.remove('oculto');
+        rangom7Div.classList.remove('oculto');
+        costom7Div.classList.add('oculto');
+    } else if (this.value === 'no') {
+        criteriom7Div.classList.add('oculto');
+        rangom7Div.classList.add('oculto');
+        costom7Div.classList.remove('oculto');
+    } else {
+        criteriom7Div.classList.add('oculto');
+        rangom7Div.classList.add('oculto');
+        costom7Div.classList.add('oculto');
+    }
+});
+
+document.getElementById('hom7').addEventListener('change', function() {
+    const hom7Div = document.querySelectorAll('.hombre7, .mujer7');
+
+    if (this.value === 'ambos') {
+        hom7Div.forEach(element => {
+            element.style.display = 'block';
+        });
+    }
+});
+
+// ----- Datos Generales ----- //
+
+document.getElementById('datosgenerales').addEventListener('change', function() {
+    const datosgeneralesDiv = document.querySelector('.datosgenerales');
+
+    if (this.value === 'si') {
+        datosgeneralesDiv.style.display = 'block';
+    } 
+    else {
+        datosgeneralesDiv.style.display = 'none';  // Asegúrate de ocultar la otra sección
+    }
+});
+
+
+    document.getElementById('espejo1').addEventListener('change', function() {
+        const costosb123Div = document.getElementById('costosb123');
+        const tiempob123Div = document.getElementById('tiempob123');
+
+        if (this.value === 'si') {
+            costosb123Div.classList.remove('oculto');
+            tiempob123Div.classList.remove('oculto');
+        } else {
+            costosb123Div.classList.add('oculto');
+            tiempob123Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('silla').addEventListener('change', function() {
+        const costosb124Div = document.getElementById('costosb124');
+        const tiempob124Div = document.getElementById('tiempob124');
+
+        if (this.value === 'si') {
+            costosb124Div.classList.remove('oculto');
+            tiempob124Div.classList.remove('oculto');
+        } else {
+            costosb124Div.classList.add('oculto');
+            tiempob124Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('camilla').addEventListener('change', function() {
+        const costosb125Div = document.getElementById('costosb125');
+        const tiempob125Div = document.getElementById('tiempob125');
+
+        if (this.value === 'si') {
+            costosb125Div.classList.remove('oculto');
+            tiempob125Div.classList.remove('oculto');
+        } else {
+            costosb125Div.classList.add('oculto');
+            tiempob125Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('sillon').addEventListener('change', function() {
+        const costosb126Div = document.getElementById('costosb126');
+        const tiempob126Div = document.getElementById('tiempob126');
+
+        if (this.value === 'si') {
+            costosb126Div.classList.remove('oculto');
+            tiempob126Div.classList.remove('oculto');
+        } else {
+            costosb126Div.classList.add('oculto');
+            tiempob126Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('desinfectante').addEventListener('change', function() {
+        const costosb127Div = document.getElementById('costosb127');
+        const tiempob127Div = document.getElementById('tiempob127');
+
+        if (this.value === 'si') {
+            costosb127Div.classList.remove('oculto');
+            tiempob127Div.classList.remove('oculto');
+        } else {
+            costosb127Div.classList.add('oculto');
+            tiempob127Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('jabon').addEventListener('change', function() {
+        const costosb128Div = document.getElementById('costosb128');
+        const tiempob128Div = document.getElementById('tiempob128');
+
+        if (this.value === 'si') {
+            costosb128Div.classList.remove('oculto');
+            tiempob128Div.classList.remove('oculto');
+        } else {
+            costosb128Div.classList.add('oculto');
+            tiempob128Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('toallitasdef').addEventListener('change', function() {
+        const costosb129Div = document.getElementById('costosb129');
+        const tiempob129Div = document.getElementById('tiempob129');
+
+        if (this.value === 'si') {
+            costosb129Div.classList.remove('oculto');
+            tiempob129Div.classList.remove('oculto');
+        } else {
+            costosb129Div.classList.add('oculto');
+            tiempob129Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('basura').addEventListener('change', function() {
+        const costosb130Div = document.getElementById('costosb130');
+        const tiempob130Div = document.getElementById('tiempob130');
+
+        if (this.value === 'si') {
+            costosb130Div.classList.remove('oculto');
+            tiempob130Div.classList.remove('oculto');
+        } else {
+            costosb130Div.classList.add('oculto');
+            tiempob130Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('bolsasbas').addEventListener('change', function() {
+        const costosb131Div = document.getElementById('costosb131');
+        const tiempob131Div = document.getElementById('tiempob131');
+
+        if (this.value === 'si') {
+            costosb131Div.classList.remove('oculto');
+            tiempob131Div.classList.remove('oculto');
+        } else {
+            costosb131Div.classList.add('oculto');
+            tiempob131Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('escoba').addEventListener('change', function() {
+        const costosb132Div = document.getElementById('costosb132');
+        const tiempob132Div = document.getElementById('tiempob132');
+
+        if (this.value === 'si') {
+            costosb132Div.classList.remove('oculto');
+            tiempob132Div.classList.remove('oculto');
+        } else {
+            costosb132Div.classList.add('oculto');
+            tiempob132Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('recogedor').addEventListener('change', function() {
+        const costosb133Div = document.getElementById('costosb133');
+        const tiempob133Div = document.getElementById('tiempob133');
+
+        if (this.value === 'si') {
+            costosb133Div.classList.remove('oculto');
+            tiempob133Div.classList.remove('oculto');
+        } else {
+            costosb133Div.classList.add('oculto');
+            tiempob133Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('trapeador').addEventListener('change', function() {
+        const costosb134Div = document.getElementById('costosb134');
+        const tiempob134Div = document.getElementById('tiempob134');
+
+        if (this.value === 'si') {
+            costosb134Div.classList.remove('oculto');
+            tiempob134Div.classList.remove('oculto');
+        } else {
+            costosb134Div.classList.add('oculto');
+            tiempob134Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('cubeta').addEventListener('change', function() {
+        const costosb135Div = document.getElementById('costosb135');
+        const tiempob135Div = document.getElementById('tiempob135');
+
+        if (this.value === 'si') {
+            costosb135Div.classList.remove('oculto');
+            tiempob135Div.classList.remove('oculto');
+        } else {
+            costosb135Div.classList.add('oculto');
+            tiempob135Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('guantes').addEventListener('change', function() {
+        const costosb136Div = document.getElementById('costosb136');
+        const tiempob136Div = document.getElementById('tiempob136');
+
+        if (this.value === 'si') {
+            costosb136Div.classList.remove('oculto');
+            tiempob136Div.classList.remove('oculto');
+        } else {
+            costosb136Div.classList.add('oculto');
+            tiempob136Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('capa1').addEventListener('change', function() {
+        const costosb137Div = document.getElementById('costosb137');
+        const tiempob137Div = document.getElementById('tiempob137');
+
+        if (this.value === 'si') {
+            costosb137Div.classList.remove('oculto');
+            tiempob137Div.classList.remove('oculto');
+        } else {
+            costosb137Div.classList.add('oculto');
+            tiempob137Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('carrito').addEventListener('change', function() {
+        const costosb138Div = document.getElementById('costosb138');
+        const tiempob138Div = document.getElementById('tiempob138');
+
+        if (this.value === 'si') {
+            costosb138Div.classList.remove('oculto');
+            tiempob138Div.classList.remove('oculto');
+        } else {
+            costosb138Div.classList.add('oculto');
+            tiempob138Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('banco').addEventListener('change', function() {
+        const costosb139Div = document.getElementById('costosb139');
+        const tiempob139Div = document.getElementById('tiempob139');
+
+        if (this.value === 'si') {
+            costosb139Div.classList.remove('oculto');
+            tiempob139Div.classList.remove('oculto');
+        } else {
+            costosb139Div.classList.add('oculto');
+            tiempob139Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('agua').addEventListener('change', function() {
+        const costosb140Div = document.getElementById('costosb140');       
+
+        if (this.value === 'si') {
+            costosb140Div.classList.remove('oculto');
+        } else {
+            costosb140Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('luz1').addEventListener('change', function() {
+        const costosb141Div = document.getElementById('costosb141');       
+
+        if (this.value === 'si') {
+            costosb141Div.classList.remove('oculto');
+        } else {
+            costosb141Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('gas').addEventListener('change', function() {
+        const costosb142Div = document.getElementById('costosb142');       
+
+        if (this.value === 'si') {
+            costosb142Div.classList.remove('oculto');
+        } else {
+            costosb142Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('gasolina').addEventListener('change', function() {
+        const costosb143Div = document.getElementById('costosb143');       
+
+        if (this.value === 'si') {
+            costosb143Div.classList.remove('oculto');
+        } else {
+            costosb143Div.classList.add('oculto');
+        }
+    });
+
+    document.getElementById('renta').addEventListener('change', function() {
+        const costosb144Div = document.getElementById('costosb144');       
+
+        if (this.value === 'si') {
+            costosb144Div.classList.remove('oculto');
+        } else {
+            costosb144Div.classList.add('oculto');
+        }
+    });
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.addEventListener('DOMContentLoaded', function() {
