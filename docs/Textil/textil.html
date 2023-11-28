@@ -4,92 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="textil.css">
 </head>
 <body>
-    <h1>Análisis de Costos para Microempresas</h1>    
-    <form id="encuestaForm">
-
-        <h2>Aviso de Privacidad</h2>
-        <div class="justificarTexto">
-            <p>Hola somos estudiantes de último semestre de Ingeniería en Matemáticas en la Universidad Autónoma de Chihuahua, motivadas en hacer crecer las pequeñas empresas, actualmente nos encontramos desarrollando una herramienta con el objetivo de apoyarles en la toma de decisiones financieras informadas.
-                Debido a que creemos en el potencial de su empresa queremos invitarle a formar parte de nuestra muestra de estudio, destacando que sus datos serán tratados de forma totalmente confidencial y bajo el compromiso de ser eliminados por completo al concluir el análisis.
-                Como beneficio usted obtendrá los resultados del estudio, así como una capacitación del total de las recomendaciones estudiadas al rededor de estos.
-                Le recordamos que su participación no solo beneficiará su empresa, sino también contribuirá al crecimiento de otras microempresas en situaciones similares. Agradecemos su consideración y esperamos la posibilidad de colaborar juntos en este emocionante proyecto.
-                        </p>
-        </div>
-
-        <fieldset>
-            <legend><h3>Información de Contacto</h3></legend>
-        
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" name="edad" required>
-
-            <label for="correo">Correo Electrónico:</label>
-            <input type="text" id="correo" name="correo" required>
-
-            <label for="telefono">Teléfono:</label>
-            <input type="number" id="telefono" name="telefono" required>
-
-            <label for="resultados">¿Desea usted recibir los resultados del estudio?</label>
-            <select id="resultados" name="resultados">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="si">Sí</option>
-                <option value="no">No</option>
-            </select>
-
-            <label for="recomendaciones">¿Desea usted recibir recomendaciones para su empresa en base a los resultados de este estudio?</label>
-            <select id="recomendaciones" name="recomendaciones">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="si">Sí</option>
-                <option value="no">No</option>
-            </select>
-        </fieldset>
-
-        <fieldset>
-            <legend><h3>Información General del Establecimiento</h3></legend>
-
-            <label for="nombre_empresa">Nombre de la Empresa:</label>
-            <input type="text" id="nombre_empresa" name="nombre_empresa" required>
-            
-            <label for="estado">Estado:</label>
-            <input type="text" id="estado" name="estado" required>
-
-            <label for="ciudad">Ciudad:</label>
-            <input type="text" id="ciudad" name="ciudad" required>
-
-            <label for="colonia">Colonia:</label>
-            <input type="text" id="colonia" name="colonia" required>
-        
-            <label for="rubro">Rubro:</label>
-            <select id="rubro" name="rubro">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="belleza">Salud, Belleza y Bienestar</option>
-                <option value="textil">Téxtil (Ropa, Zapatos y Accesorios)</option>
-            </select>
-        </fieldset>
-        
-        <fieldset class="salud-belleza-bienestar seccion">
-            <legend><h3>Sección Salud, Belleza y Bienestar</h3></legend>
-            
-            <label for="servicios">Mayormente los servicios que comercializa su empresa son para el cuidado de:</label>
-            <select id="servicios" name="servicios">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="belleza1">Belleza</option>
-                <option value="salud1">Salud</option>
-                <option value="bienestar1">Bienestar</option>
-            </select>
-            
-        </fieldset>
-
+    <form id="miFormulario2">
         <!-- Andy -->
-
-        <fieldset class="ropa-zapatos-accesorios seccion">
-            <legend><h3>Téxtil (Ropa, Zapatos y Accesorios)</h3></legend>
-
+        <h1>Téxtil (Ropa, Zapatos y Accesorios)</h3></legend>
             <label for="genero">Los productos que comercializa su empresa son para:</label>
             <select id="genero" name="genero">
                 <option value="elegir">Elija una respuesta</option>
@@ -242,7 +162,6 @@
                                 <label for="costosa7">¿Qué costo tiene en promedio este artículo?</label>
                                 <input type="text" id="costosa7" name="costosa7">
                             </div>
-                </fieldset>
                     </fieldset>
                 </fieldset>
 
@@ -513,10 +432,7 @@
                         </fieldset>
                     </fieldset>
                 </fieldset> 
-         </fieldset> 
-
-    <fieldset><input type="submit" value="Enviar"></fieldset>
-    
+        <input type="submit" value="Enviar"></fieldset>
     </form>
     
     <script src="textil.js"></script>
